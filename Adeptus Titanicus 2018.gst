@@ -1,20 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="975a-00f4-df37-b565" name="Adeptus Titanicus 2018" revision="16" battleScribeVersion="2.03" authorName="https://github.com/BSData/adeptus-titanicus/graphs/contributors" authorContact="https://gitter.im/BSData/adeptus-titanicus" authorUrl="https://gitter.im/BSData/adeptus-titanicus" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="975a-00f4-df37-b565" name="泰坦修会 2018" revision="1" battleScribeVersion="2.03" authorName="BSData-CHN" authorContact="https://github.com/BSData-CHN/Adeptus-Titanicus-Chinese-Localization" authorUrl="https://github.com/BSData-CHN/Adeptus-Titanicus-Chinese-Localization" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <comment>Adeptus Titanicus 2018</comment>
   <publications>
-    <publication id="975a-00f4-pubN65537" name="Adeptus Titanicus 2018"/>
-    <publication id="975a-00f4-pubN87630" name="Titandeath"/>
-    <publication id="975a-00f4-pubN89033" name="White Dwarf: Feb 2019"/>
+    <publication id="975a-00f4-pubN65537" name="泰坦修会 2018">
+      <comment>Adeptus Titanicus 2018</comment>
+    </publication>
+    <publication id="975a-00f4-pubN87630" name="泰坦之死">
+      <comment>Titandeath</comment>
+    </publication>
+    <publication id="975a-00f4-pubN89033" name="白矮人: 2019年2月">
+      <comment>White Dwarf: Feb 2019</comment>
+    </publication>
     <publication id="975a-00f4-pubN89746" name="Doom Of Molech"/>
-    <publication id="7236-e1d8-c886-f5fd" name="Adeptus Titanicus 2018 Errata v1.0"/>
-    <publication id="25e8-c9ce-9330-c53b" name="Adeptus Titanicus 2018 Errata v1.1"/>
+    <publication id="7236-e1d8-c886-f5fd" name="泰坦修会 2018 勘误 v1.0">
+      <comment>Adeptus Titanicus 2018 Errata v1.0</comment>
+    </publication>
+    <publication id="25e8-c9ce-9330-c53b" name="泰坦修会 2018 勘误 v1.1">
+      <comment>Adeptus Titanicus 2018 Errata v1.1</comment>
+    </publication>
     <publication id="3265-f408-cc9b-bfa3" name="Shadow and Iron"/>
   </publications>
   <costTypes>
-    <costType id="a731-e220-2d8a-41bf" name=" Points" defaultCostLimit="-1.0"/>
-    <costType id="efbf-52f7-fd08-f329" name=" Stratagem Points" defaultCostLimit="-1.0"/>
+    <costType id="a731-e220-2d8a-41bf" name=" 点数" defaultCostLimit="-1.0">
+      <comment>Points</comment>
+    </costType>
+    <costType id="efbf-52f7-fd08-f329" name=" 战略点数" defaultCostLimit="-1.0">
+      <comment> Stratagem Points</comment>
+    </costType>
   </costTypes>
   <profileTypes>
-    <profileType id="f6b0-d09f-1acc-9f3e" name="Engine">
+    <profileType id="f6b0-d09f-1acc-9f3e" name="引擎">
+      <comment>Engine</comment>
       <characteristicTypes>
         <characteristicType id="0ef3-ea55-7cd1-d007" name="Speed"/>
         <characteristicType id="e94d-33bd-da82-fd4d" name="Command"/>
@@ -25,7 +41,8 @@
         <characteristicType id="5359-4d2b-082b-546a" name="Scale"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="b054-6896-e395-0e91" name="Weapon">
+    <profileType id="b054-6896-e395-0e91" name="武器">
+      <comment>Weapon</comment>
       <characteristicTypes>
         <characteristicType id="fff8-b599-3d0a-2555" name="Dice"/>
         <characteristicType id="2761-1395-aa4e-73bd" name="Strength"/>
@@ -40,7 +57,8 @@
         <characteristicType id="2a6c-74d9-5a61-04bf" name="Critically Disabled Roll"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="e539-8a16-c912-c6c5" name="Structure Points">
+    <profileType id="e539-8a16-c912-c6c5" name="结构点数">
+      <comment>Structure Points</comment>
       <characteristicTypes>
         <characteristicType id="1e91-6224-ebeb-fec2" name="Modifer"/>
       </characteristicTypes>
@@ -52,7 +70,8 @@
         <characteristicType id="d300-246c-10d9-f5b2" name="Critical"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="fcf7-bbb7-c944-2eb2" name="Ion Shields">
+    <profileType id="fcf7-bbb7-c944-2eb2" name="离子盾">
+      <comment>Ion Shields</comment>
       <characteristicTypes>
         <characteristicType id="4788-fa46-8c0e-2db8" name="Knights in Banner"/>
         <characteristicType id="da0b-4753-babc-ff5c" name="Attack Strength 1-6"/>
@@ -188,8 +207,12 @@ If the target location is a weapon, on a 1-3 the weapon is disabled. If the weap
     <categoryEntry id="6bfc-b62c-823a-5a29" name="Arc: Front" hidden="false"/>
     <categoryEntry id="8e5a-4544-df39-4e4c" name="Arc: Corridor" hidden="false"/>
     <categoryEntry id="ed82-caea-5092-bf7e" name="Arc: 360 Degree" hidden="false"/>
-    <categoryEntry id="184a-ded9-ae1a-e357" name="Knight" hidden="false"/>
-    <categoryEntry id="3f71-3a59-3b75-4ecf" name="Titan" hidden="false"/>
+    <categoryEntry id="184a-ded9-ae1a-e357" name="骑士" hidden="false">
+      <comment>Knight</comment>
+    </categoryEntry>
+    <categoryEntry id="3f71-3a59-3b75-4ecf" name="泰坦" hidden="false">
+      <comment>Titan</comment>
+    </categoryEntry>
     <categoryEntry id="8fed-c116-efe0-e973" name="Firestorm" hidden="false">
       <rules>
         <rule id="c7a1-ea93-5049-17dc" name="Firestorm" publicationId="975a-00f4-pubN65537" hidden="false">
@@ -271,7 +294,8 @@ After resolving the attack, leave the Vortex template where it is. In the End ph
         </rule>
       </rules>
     </categoryEntry>
-    <categoryEntry id="8faf-9e14-9676-2327" name="Weapon" hidden="false">
+    <categoryEntry id="8faf-9e14-9676-2327" name="武器" hidden="false">
+      <comment>Weapon</comment>
       <infoLinks>
         <infoLink id="bd3b-f56e-1b14-06cc" name="Dice" hidden="false" targetId="b7c8-dd3a-9b0d-730c" type="rule"/>
         <infoLink id="9db1-0abc-cb8a-a76a" name="Firing Arc" hidden="false" targetId="099f-b1dd-9513-5d1d" type="rule"/>
@@ -280,17 +304,23 @@ After resolving the attack, leave the Vortex template where it is. In the End ph
         <infoLink id="bebb-1dfd-dc9d-6250" name="Weapon Characteristics" hidden="false" targetId="c491-319b-b9b1-adac" type="rule"/>
       </infoLinks>
     </categoryEntry>
-    <categoryEntry id="e580-b213-3f86-c2fc" name="Agile" hidden="false">
+    <categoryEntry id="e580-b213-3f86-c2fc" name="灵活" hidden="false">
+      <comment>Agile</comment>
       <rules>
-        <rule id="e1ee-cf92-788d-7083" name="Agile" hidden="false">
-          <description>Not effected by Difficult or Dangerous Terrain</description>
+        <rule id="e1ee-cf92-788d-7083" name="灵活" hidden="false">
+          <comment>Agile
+Not effected by Difficult or Dangerous Terrain</comment>
+          <description>不受困难和危险地形效果的影响.</description>
         </rule>
       </rules>
     </categoryEntry>
-    <categoryEntry id="9b05-f144-0ae5-5d6b" name="Knight Weapon" hidden="false">
+    <categoryEntry id="9b05-f144-0ae5-5d6b" name="骑士武器" hidden="false">
+      <comment>Knight Weapon</comment>
       <rules>
-        <rule id="35b6-29c1-0436-e595" name="Firing Arc" hidden="false">
-          <description>Knights have a 360 Degree Front Fire Arc</description>
+        <rule id="35b6-29c1-0436-e595" name="射击弧" hidden="false">
+          <comment>Firing Arc
+Knights have a 360 Degree Front Fire Arc</comment>
+          <description>骑士拥有360度的前射弧.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -299,11 +329,14 @@ After resolving the attack, leave the Vortex template where it is. In the End ph
         <infoLink id="8f10-d9c5-e4ac-9aed" name="Strength (STR)" hidden="false" targetId="26e1-ebdc-e470-dd28" type="rule"/>
       </infoLinks>
     </categoryEntry>
-    <categoryEntry id="d204-9898-0ffb-02f4" name="Titan Legion" hidden="false"/>
+    <categoryEntry id="d204-9898-0ffb-02f4" name="泰坦军团" hidden="false">
+      <comment>Titan Legion</comment>
+    </categoryEntry>
     <categoryEntry id="15bd-0b4b-5cac-dc48" name="LegioTempestus" hidden="false"/>
     <categoryEntry id="0796-178c-50ce-2d1f" name="LegioGryphonicus" hidden="false"/>
     <categoryEntry id="06c2-f93e-7bf5-9fd5" name="LegioAstorum" hidden="false"/>
-    <categoryEntry id="b539-a35c-fe3f-9c34" name="Stratagem" hidden="false">
+    <categoryEntry id="b539-a35c-fe3f-9c34" name="战略" hidden="false">
+      <comment>Stratagem</comment>
       <modifiers>
         <modifier type="increment" field="916e-a7f5-ea1f-c24e" value="2.0">
           <conditionGroups>
@@ -353,9 +386,15 @@ After resolving the attack, leave the Vortex template where it is. In the End ph
     <categoryEntry id="8129-9843-a287-cd8e" name="LegioFortidus" hidden="false"/>
     <categoryEntry id="f0a4-f7dc-25cf-21c8" name="LegioInterfector" hidden="false"/>
     <categoryEntry id="9ae1-d839-f9ca-7ef5" name="Gryphonicus-Reaver-Replace-Warhound" hidden="false"/>
-    <categoryEntry id="d36f-5e44-2150-3428" name="ReaverTitan" hidden="false"/>
-    <categoryEntry id="223f-6e71-9e4f-939e" name="WarhoundTitan" hidden="false"/>
-    <categoryEntry id="7103-9316-d4a5-8caa" name="WarlordTitan" hidden="false"/>
+    <categoryEntry id="d36f-5e44-2150-3428" name="掠夺者泰坦" hidden="false">
+      <comment>ReaverTitan</comment>
+    </categoryEntry>
+    <categoryEntry id="223f-6e71-9e4f-939e" name="战犬泰坦" hidden="false">
+      <comment>WarhoundTitan</comment>
+    </categoryEntry>
+    <categoryEntry id="7103-9316-d4a5-8caa" name="战将泰坦" hidden="false">
+      <comment>WarlordTitan</comment>
+    </categoryEntry>
     <categoryEntry id="dd70-1324-743e-7dfe" name="Gryphonicus-Reaver-Replace-Warlord" hidden="false"/>
     <categoryEntry id="2841-67b5-15d0-8908" name="Allegiance" hidden="false"/>
     <categoryEntry id="0b8b-755a-cabc-6d70" name="Battlefield Assets" publicationId="975a-00f4-pubN65537" page="65" hidden="false">
@@ -382,8 +421,12 @@ a Titan&apos;s base crosses a Battlefield Asset as it moves, there is a chance i
     <categoryEntry id="99b7-5e2f-9ea4-bbdf" name="LegioInfernus" hidden="false"/>
     <categoryEntry id="9d14-f4fb-5868-1b62" name="LegioMordaxis" hidden="false"/>
     <categoryEntry id="4f76-34ac-3cf7-34c6" name="LegioAudax" hidden="false"/>
-    <categoryEntry id="fb16-4d89-30b7-fbb8" name="Squadron" hidden="false"/>
-    <categoryEntry id="c37f-5ca9-9d98-5cf0" name="WarbringerNemesisTitan" hidden="false"/>
+    <categoryEntry id="fb16-4d89-30b7-fbb8" name="中队" hidden="false">
+      <comment>Squadron</comment>
+    </categoryEntry>
+    <categoryEntry id="c37f-5ca9-9d98-5cf0" name="战神天罚泰坦" hidden="false">
+      <comment>WarbringerNemesisTitan</comment>
+    </categoryEntry>
     <categoryEntry id="91bd-c88a-f6bb-bb3d" name="LegioSpecificWargear" hidden="false"/>
     <categoryEntry id="06ab-258d-46aa-3b1f" name="Qualifier-SpecialMissiles" hidden="false"/>
     <categoryEntry id="f7cb-94c3-1bc4-1d94" name="Qualifier-BolterWeapons" hidden="false"/>
@@ -449,9 +492,14 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         </rule>
       </rules>
     </categoryEntry>
-    <categoryEntry id="f54f-c26d-3d2a-2749" name="WarlordSinisterPsiTitan" hidden="false"/>
-    <categoryEntry id="eb21-0dae-9a3d-863a" name="Legio Specific Stratagem" hidden="false"/>
-    <categoryEntry id="1c43-76ab-b5e5-6baf" name="Structure" hidden="false">
+    <categoryEntry id="f54f-c26d-3d2a-2749" name="恶将灵能泰坦" hidden="false">
+      <comment>WarlordSinisterPsiTitan</comment>
+    </categoryEntry>
+    <categoryEntry id="eb21-0dae-9a3d-863a" name="军团特殊战略" hidden="false">
+      <comment>Legio Specific Stratagem</comment>
+    </categoryEntry>
+    <categoryEntry id="1c43-76ab-b5e5-6baf" name="结构" hidden="false">
+      <comment>Structure</comment>
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -481,7 +529,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
     </categoryEntry>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="d377-9ed7-0d3e-7f70" name="Battlegroup" hidden="false">
+    <forceEntry id="d377-9ed7-0d3e-7f70" name="战斗群" hidden="false">
+      <comment>Battlegroup</comment>
       <categoryLinks>
         <categoryLink id="09c3-4572-186e-436f" name="Maniple" hidden="false" targetId="6982-2d18-55cb-61e5" primary="false"/>
         <categoryLink id="7a3b-42f9-f60d-696a" name="Titan" hidden="false" targetId="3f71-3a59-3b75-4ecf" primary="false"/>
@@ -499,7 +548,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="fadd-b45a-3473-bb9a" name="Warhound Squadron" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="fadd-b45a-3473-bb9a" name="战犬中队" hidden="false" collective="false" import="true" type="unit">
+      <comment>Warhound Squadron</comment>
       <categoryLinks>
         <categoryLink id="faa0-2f96-a453-ca5e" name="New CategoryLink" hidden="false" targetId="fb16-4d89-30b7-fbb8" primary="true"/>
       </categoryLinks>
@@ -512,8 +562,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1b82-8c99-c3c3-ad32" name="Show Structure" hidden="false" collective="false" import="true" type="upgrade">
@@ -522,8 +572,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="904c-abe6-7912-58c5" type="min"/>
       </constraints>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -736,7 +786,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
   <sharedSelectionEntries>
     <selectionEntry id="9ff1-81bc-203d-620c" name="Reaver Titan" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="7ff1-9cf5-3d51-6ff7" name="Reaver Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+        <profile id="7ff1-9cf5-3d51-6ff7" name="Reaver Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
           <characteristics>
             <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">6&quot;/9&quot;</characteristic>
             <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">4+</characteristic>
@@ -795,15 +845,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eba-bec1-76c7-0f0e" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="1041-dd3b-abc9-9e4b" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="1041-dd3b-abc9-9e4b" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="7749-9b6d-8c4c-d222" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -811,15 +861,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0759-55e5-ff3e-929e" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="98a7-e609-3450-5ee4" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="98a7-e609-3450-5ee4" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="c720-58f0-4061-0eb5" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -827,15 +877,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cc1-8506-73d1-4945" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="137c-544a-675a-5ab8" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="137c-544a-675a-5ab8" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="f943-ce91-2546-4cb3" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -843,15 +893,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd27-e04a-117b-d842" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="4fd8-76b6-0f25-fa9d" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="4fd8-76b6-0f25-fa9d" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5969-86c7-1d37-18aa" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -859,15 +909,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e39c-a832-2f52-c15c" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="dfe7-16b6-4dc6-3afe" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="dfe7-16b6-4dc6-3afe" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="2cba-a8c1-20e3-35b4" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -875,15 +925,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ae8-e055-8892-bbfc" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="e432-f209-04e3-eb40" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="e432-f209-04e3-eb40" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="cbdf-0200-b5a8-2881" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" collective="false" import="true" type="upgrade">
@@ -891,15 +941,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b37-f85f-01f9-927a" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="a31c-0232-6bc0-f135" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="a31c-0232-6bc0-f135" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -909,8 +959,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 <entryLink id="42b2-f10a-4222-852e" name="Body Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="1d49-39ff-979b-f7f0" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8ef8-4f5d-57a9-f47a" name="Head" hidden="false" collective="false" import="true" type="upgrade">
@@ -939,15 +989,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="448a-280d-f308-f352" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="d093-d005-924b-f755" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="d093-d005-924b-f755" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="8a8a-9f35-f410-eeb9" name="⦿⦿⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -955,15 +1005,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d37-cb42-6143-6bbd" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="2d1b-a369-3f14-4eee" name="⦿⦿⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="2d1b-a369-3f14-4eee" name="⦿⦿⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="e2b1-41cb-6b96-a022" name="⦿⦿⦿⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -971,15 +1021,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d642-fed2-8f14-97d0" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="3e0d-dda6-66c7-8a46" name="⦿⦿⦿⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="3e0d-dda6-66c7-8a46" name="⦿⦿⦿⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="b273-f29b-48e9-7293" name="⦿⦿⦿⦿⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -987,15 +1037,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0f3-d8dd-af34-9f92" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="eb06-4ff1-e3c0-6074" name="⦿⦿⦿⦿⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="eb06-4ff1-e3c0-6074" name="⦿⦿⦿⦿⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="02e6-b3c4-1f8f-01aa" name="⦿⦿⦿⦿⦿⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1003,15 +1053,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7328-1f84-999d-5d8b" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="77b9-1c7d-7bad-3fc0" name="⦿⦿⦿⦿⦿⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="77b9-1c7d-7bad-3fc0" name="⦿⦿⦿⦿⦿⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="0530-f70a-2f6a-cd62" name="⦿⦿⦿⦿⦿⦿(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1019,15 +1069,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fef8-6c48-6ce1-a065" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="339e-d87a-4b5b-c175" name="⦿⦿⦿⦿⦿⦿(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="339e-d87a-4b5b-c175" name="⦿⦿⦿⦿⦿⦿(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1037,8 +1087,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 <entryLink id="38fd-5f77-e951-c211" name="Head Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="9ba2-12fa-8d22-c505" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="de3a-7adc-1fb8-e7ba" name="Legs" hidden="false" collective="false" import="true" type="upgrade">
@@ -1067,15 +1117,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b82-cac6-0d30-789f" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="8cae-74a0-a943-9d79" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="8cae-74a0-a943-9d79" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="6f4a-fc4f-429c-9038" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1083,15 +1133,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b69-4bfc-4cc7-463f" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="8cf5-dde3-75d5-cfe1" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="8cf5-dde3-75d5-cfe1" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="cb1b-30ca-181c-cb2f" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1099,15 +1149,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8c4-fab1-e4bf-d652" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="9942-2e4d-c22c-4d09" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="9942-2e4d-c22c-4d09" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="3f6d-e866-4a4b-a41f" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1115,15 +1165,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="474d-67cd-e778-3bb4" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="e813-9981-3cab-4bf8" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="e813-9981-3cab-4bf8" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="86e0-52f3-77ac-89f3" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1131,15 +1181,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77d9-a27d-0305-9964" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="dbb2-4250-1c45-47b4" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="dbb2-4250-1c45-47b4" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="a959-1081-6073-b8db" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1147,15 +1197,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eed7-d7d3-e898-1c34" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="f776-d48a-0164-8a9b" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="f776-d48a-0164-8a9b" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="f0a1-5f54-86f2-5b42" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1163,15 +1213,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5037-7245-0f97-6fac" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="2f61-4176-21b8-bb51" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="2f61-4176-21b8-bb51" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1181,8 +1231,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 <entryLink id="e1b7-9601-f048-0edb" name="Legs Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="50af-0bab-a322-f02c" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="baac-b77a-7ab2-043a" name="Plasma Reactor" hidden="false" collective="false" import="true" type="upgrade">
@@ -1202,8 +1252,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c35c-f3b0-33e5-f725" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="0931-df64-4c5a-266a" name="⦿⦿⦾⦾⦾⦾ Green(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1211,8 +1261,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d52-4443-cb4b-2e8d" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="2692-3ce5-8f16-d604" name="⦿⦿⦿⦾⦾⦾ Yellow(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1220,8 +1270,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47c3-783e-b2c0-e523" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="8461-a1d2-f546-dc46" name="⦿⦿⦿⦿⦾⦾ Yellow(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1229,8 +1279,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffdc-5417-8015-1225" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="8edc-2087-9a1a-97a7" name="⦿⦿⦿⦿⦿⦾ Orange(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1238,8 +1288,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5ad-2cbd-5572-4a31" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="9c87-2325-bc84-deda" name="⦿⦿⦿⦿⦿⦿ Red(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1247,16 +1297,16 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ebe-fde4-9694-9e30" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="be56-42b4-e79b-5ba5" name="Void Shields" hidden="false" collective="false" import="true" type="upgrade">
@@ -1300,14 +1350,14 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1415,13 +1465,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="8d8c-9755-8e12-171b" name="Wargear" hidden="false" collective="false" import="true" targetId="187f-a18f-cafe-4ae6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="250.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="250.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5122-cb02-8703-ce88" name="Warlord Titan" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="f4bc-0277-b973-df55" name="Warlord Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+        <profile id="f4bc-0277-b973-df55" name="Warlord Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
           <characteristics>
             <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">4&quot;/6&quot;</characteristic>
             <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">3+</characteristic>
@@ -1480,15 +1530,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bc2-645f-04a2-de65" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="e111-3e7a-a1e1-1f20" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="e111-3e7a-a1e1-1f20" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="adf4-7b44-6143-223b" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1496,15 +1546,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="163b-a8b5-f84a-7962" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="7bec-c45b-c892-aef0" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="7bec-c45b-c892-aef0" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="9524-d74b-89e6-8124" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1512,15 +1562,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa6a-e738-77a4-3487" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="3bdd-3191-cc42-8ffe" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="3bdd-3191-cc42-8ffe" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="8120-d8ca-e063-fc69" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1528,15 +1578,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8ff-9024-dffd-0608" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="f3ef-b84f-61bd-896c" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="f3ef-b84f-61bd-896c" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="fd39-dad3-6381-f681" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1544,15 +1594,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72a7-9bc7-14c1-bcc9" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="3f8f-6d74-34eb-7a4e" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="3f8f-6d74-34eb-7a4e" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="f712-6fc1-9af7-654c" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1560,15 +1610,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fd9-9294-2c31-7d8b" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="fa6f-f698-3dc1-e001" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="fa6f-f698-3dc1-e001" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="8835-8f2d-2dc5-83a3" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1576,15 +1626,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84b7-a36b-3987-3c16" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="8b5e-2ee0-f549-0bc9" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="8b5e-2ee0-f549-0bc9" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="393c-855d-c302-25c1" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1592,15 +1642,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4334-7c5f-9f17-f5c2" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="0d8e-b803-2feb-b65d" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="0d8e-b803-2feb-b65d" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1610,8 +1660,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 <entryLink id="dfd9-55f4-46af-8544" name="Body Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="1d49-39ff-979b-f7f0" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="58ab-d5f7-afcb-2a19" name="Head" hidden="false" collective="false" import="true" type="upgrade">
@@ -1640,15 +1690,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6119-8d60-0b89-40f2" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="ad41-d91d-67ae-97a6" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="ad41-d91d-67ae-97a6" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1180-0fb8-9f78-871c" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1656,15 +1706,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb99-f348-a4ad-2601" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="715d-70c9-337f-1fdf" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="715d-70c9-337f-1fdf" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1936-a16e-1410-426d" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1672,15 +1722,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a4a-624b-cdaf-ed9a" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="cfa5-0605-11a6-58cb" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="cfa5-0605-11a6-58cb" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="e5a3-fbec-38de-7fc7" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1688,15 +1738,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="787c-98ad-7ece-4e87" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="178c-4723-58ab-373e" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="178c-4723-58ab-373e" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="67fa-e013-00d7-0f21" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1704,15 +1754,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5412-55a2-5eff-cfa1" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="e7fe-1fd2-2525-809d" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="e7fe-1fd2-2525-809d" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="6a3c-4a4a-c37a-170b" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1720,15 +1770,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2db-cd50-a831-d930" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="e22d-24a3-c07a-df6a" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="e22d-24a3-c07a-df6a" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="92ba-4ad0-f3a8-7592" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1736,15 +1786,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04aa-4f36-249e-7f28" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="e78f-5c14-6742-fdd0" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="e78f-5c14-6742-fdd0" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1754,8 +1804,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 <entryLink id="c3a4-e953-7af0-88fe" name="Head Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="9ba2-12fa-8d22-c505" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5acc-0459-2703-dc89" name="Legs" hidden="false" collective="false" import="true" type="upgrade">
@@ -1784,15 +1834,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9be1-a7aa-eba8-8559" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="4543-4432-5cbd-074b" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="4543-4432-5cbd-074b" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5729-ab82-dcd7-517c" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1800,15 +1850,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27f0-7f4c-a3af-3b34" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="df50-618e-50cd-30d0" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="df50-618e-50cd-30d0" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="8051-ffba-8f45-82b4" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1816,15 +1866,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1479-1a74-938d-0b81" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="c00f-d942-4c28-897b" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="c00f-d942-4c28-897b" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1594-eb53-d37e-6e88" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1832,15 +1882,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="150e-10cb-feb4-d768" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="cf7e-2f15-9aa4-8cb8" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="cf7e-2f15-9aa4-8cb8" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="2913-8ee0-87cf-c8b4" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1848,15 +1898,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02f2-1fc3-e7ec-420a" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="9893-ec59-9eba-187d" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="9893-ec59-9eba-187d" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="d235-5e5b-a325-8206" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1864,15 +1914,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0735-a4dc-d8fa-f09c" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="4cc8-dbbf-2d63-302a" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="4cc8-dbbf-2d63-302a" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="31ee-5ae5-74db-2bd9" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1880,15 +1930,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c8d-79c9-7edc-7faa" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="bfc1-c186-1e1b-39f8" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="bfc1-c186-1e1b-39f8" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="ad21-e7a4-9a86-9e04" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1896,15 +1946,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db90-7021-6fbe-df20" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="4366-b0e8-1f06-9a27" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="4366-b0e8-1f06-9a27" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -1914,8 +1964,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 <entryLink id="d286-5cab-a926-da9c" name="Legs Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="50af-0bab-a322-f02c" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8069-3325-63b2-3029" name="Plasma Reactor" hidden="false" collective="false" import="true" type="upgrade">
@@ -1935,8 +1985,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30f4-cc6a-c757-c39d" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="8de5-3d7c-764f-948e" name="⦿⦿⦾⦾⦾⦾⦾ Green(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1944,8 +1994,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37bc-1b00-d218-a7c9" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="11b6-6636-0e86-ce0b" name="⦿⦿⦿⦾⦾⦾⦾ Yellow(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1953,8 +2003,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f558-4aff-27d1-2b76" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="d8f9-32a3-89cc-5b55" name="⦿⦿⦿⦿⦾⦾⦾ Yellow(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1962,8 +2012,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5c5-828e-f59a-1ceb" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="287a-397a-875e-97db" name="⦿⦿⦿⦿⦿⦾⦾ Orange(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1971,8 +2021,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e18-abb6-2053-5ad3" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="9aa4-9d6b-41ae-7eba" name="⦿⦿⦿⦿⦿⦿⦾ Orange(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1980,8 +2030,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4ea-289d-6cf7-aeaf" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="ec82-402a-b5ee-775c" name="⦿⦿⦿⦿⦿⦿⦿ Red(7)" hidden="false" collective="false" import="true" type="upgrade">
@@ -1989,16 +2039,16 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4829-41c4-5ca0-1126" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4713-328f-fa65-9e84" name="Void Shields" hidden="false" collective="false" import="true" type="upgrade">
@@ -2047,14 +2097,14 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2147,13 +2197,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="4994-4e39-e7fe-57d5" name="Wargear" hidden="false" collective="false" import="true" targetId="187f-a18f-cafe-4ae6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="385.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="385.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3ad7-cd10-8d6e-8c2e" name="Warhound Titan" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="6a50-23dd-224f-f8c3" name="Warhound Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+        <profile id="6a50-23dd-224f-f8c3" name="Warhound Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
           <characteristics>
             <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">8&quot;/12&quot;</characteristic>
             <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">5+</characteristic>
@@ -2212,15 +2262,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03f8-b95e-e462-11a6" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="26cd-5b7a-1830-1fd4" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="26cd-5b7a-1830-1fd4" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="b151-03fa-8b96-0fce" name="⦿⦿⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2228,15 +2278,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="308b-e45d-c609-6971" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="f41f-5717-8476-559c" name="⦿⦿⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="f41f-5717-8476-559c" name="⦿⦿⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="40a2-ed6a-d613-452e" name="⦿⦿⦿⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2244,15 +2294,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7522-3d26-e3ef-b351" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="061a-fe71-faab-75b4" name="⦿⦿⦿⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="061a-fe71-faab-75b4" name="⦿⦿⦿⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="7f2f-cebc-2271-d6b3" name="⦿⦿⦿⦿⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2260,15 +2310,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2864-047c-f83b-7bc9" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="db85-b702-3f52-482f" name="⦿⦿⦿⦿⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="db85-b702-3f52-482f" name="⦿⦿⦿⦿⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="c937-8b88-e260-ce58" name="⦿⦿⦿⦿⦿⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2276,15 +2326,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b321-1432-aba0-ed7b" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="9fab-f394-a2ce-40da" name="⦿⦿⦿⦿⦿⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="9fab-f394-a2ce-40da" name="⦿⦿⦿⦿⦿⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="7cd8-67e7-b8af-86e2" name="⦿⦿⦿⦿⦿⦿(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2292,15 +2342,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1806-001a-a2e6-fd42" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="616f-b35d-aa26-5e9d" name="⦿⦿⦿⦿⦿⦿(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="616f-b35d-aa26-5e9d" name="⦿⦿⦿⦿⦿⦿(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2310,8 +2360,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 <entryLink id="1901-4d08-c84c-1d02" name="Body Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="1d49-39ff-979b-f7f0" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c7e9-8beb-166b-2bd2" name="Head" hidden="false" collective="false" import="true" type="upgrade">
@@ -2340,15 +2390,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ec9-8a16-b052-c6a2" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="93e2-0dee-abbe-7569" name="⦿⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="93e2-0dee-abbe-7569" name="⦿⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="2008-7140-9f77-0522" name="⦿⦿⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2356,15 +2406,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="189e-9eea-6cd2-1bde" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="30c8-28e3-4fce-e536" name="⦿⦿⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="30c8-28e3-4fce-e536" name="⦿⦿⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="ae51-9c44-5dab-2f9c" name="⦿⦿⦿⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2372,15 +2422,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc0a-934e-bf86-1758" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="682e-6771-0271-26cd" name="⦿⦿⦿⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="682e-6771-0271-26cd" name="⦿⦿⦿⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="be7b-6c49-a68f-4f8f" name="⦿⦿⦿⦿⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2388,15 +2438,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ef2-efe5-40e9-5705" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="a563-535e-bbbf-162c" name="⦿⦿⦿⦿⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="a563-535e-bbbf-162c" name="⦿⦿⦿⦿⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="0f9b-2649-2e13-f4ef" name="⦿⦿⦿⦿⦿(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2404,15 +2454,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea12-8754-4049-3053" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="1207-28da-7074-fe20" name="⦿⦿⦿⦿⦿(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="1207-28da-7074-fe20" name="⦿⦿⦿⦿⦿(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2422,8 +2472,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 <entryLink id="b204-41f0-c812-6299" name="Head Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="9ba2-12fa-8d22-c505" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="973c-b73d-ae62-5394" name="Legs" hidden="false" collective="false" import="true" type="upgrade">
@@ -2452,15 +2502,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2341-1e59-6625-0690" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="2e6c-6961-c6a3-62ef" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="2e6c-6961-c6a3-62ef" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="9841-2754-3e13-2ece" name="⦿⦿⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2468,15 +2518,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa9a-4a83-802d-a8bb" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="01a7-c382-dad6-bfb8" name="⦿⦿⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="01a7-c382-dad6-bfb8" name="⦿⦿⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="3f1e-254c-0f7c-30ed" name="⦿⦿⦿⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2484,15 +2534,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4dc-d3ca-cfb6-ae05" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="637d-64d3-7fcf-82f6" name="⦿⦿⦿⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="637d-64d3-7fcf-82f6" name="⦿⦿⦿⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="2a71-b4d3-b478-5933" name="⦿⦿⦿⦿⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2500,15 +2550,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8e7-1703-0c7f-9056" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="4f5b-d157-6bbc-c01a" name="⦿⦿⦿⦿⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="4f5b-d157-6bbc-c01a" name="⦿⦿⦿⦿⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="c15c-96d4-cc29-869c" name="⦿⦿⦿⦿⦿⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2516,15 +2566,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abd9-0b99-5cf7-df08" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="c719-2d13-3899-1a42" name="⦿⦿⦿⦿⦿⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="c719-2d13-3899-1a42" name="⦿⦿⦿⦿⦿⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="8989-22df-c910-d28f" name="⦿⦿⦿⦿⦿⦿(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2532,15 +2582,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb5b-e9bb-e119-17c3" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="3755-262c-77fc-c0a5" name="⦿⦿⦿⦿⦿⦿(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="3755-262c-77fc-c0a5" name="⦿⦿⦿⦿⦿⦿(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2550,8 +2600,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 <entryLink id="3ce0-684a-e00e-9282" name="Legs Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="50af-0bab-a322-f02c" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6749-39a0-bccd-77be" name="Plasma Reactor" hidden="false" collective="false" import="true" type="upgrade">
@@ -2571,8 +2621,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aada-0398-afc7-b7c3" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="cbbf-4912-ef26-b2c8" name="⦿⦿⦾⦾⦾ Green(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2580,8 +2630,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8528-7979-02ad-92db" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="6303-e42d-0e7b-5504" name="⦿⦿⦿⦾⦾ Yellow(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2589,8 +2639,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b27a-351a-a367-aa4c" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5d9a-6b84-0e38-888b" name="⦿⦿⦿⦿⦾ Orange(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2598,8 +2648,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="594b-eb53-0b0f-328a" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="7ef3-7259-62da-5ca5" name="⦿⦿⦿⦿⦿ Red(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2607,16 +2657,16 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dfe-1122-d038-5bb8" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="10c3-14a9-774c-5c18" name="Void Shields" hidden="false" collective="false" import="true" type="upgrade">
@@ -2655,14 +2705,14 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2750,8 +2800,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="fcd2-9d09-2af7-36de" name="Wargear" hidden="false" collective="false" import="true" targetId="187f-a18f-cafe-4ae6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="180.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="180.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bc4c-36af-c4cd-4594" name="Rapid-Fire Battlecannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2759,7 +2809,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b56-743a-f0dc-899e" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5e1f-99ec-d35a-31d4" name="Rapid-Fire Battlecannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="5e1f-99ec-d35a-31d4" name="Rapid-Fire Battlecannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">5</characteristic>
@@ -2783,8 +2833,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <categoryLink id="48f0-6716-fe35-50f9" name="Knight Weapon" hidden="false" targetId="9b05-f144-0ae5-5d6b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="10.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="10.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="02f3-29a7-d9a3-54ba" name="Avenger Gatling Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2792,7 +2842,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5199-0c9c-66ff-7376" type="max"/>
       </constraints>
       <profiles>
-        <profile id="1a29-07b2-853f-94e3" name="Avenger Gatling Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="1a29-07b2-853f-94e3" name="Avenger Gatling Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">8</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">3</characteristic>
@@ -2816,8 +2866,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <categoryLink id="69a7-7f26-63b7-ae16" name="Arc: 360 Degree" hidden="false" targetId="ed82-caea-5092-bf7e" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="5.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="5.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="908e-f9af-f0d1-a124" name="Thermal Cannon" hidden="false" collective="false" import="true" type="model">
@@ -2825,7 +2875,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c302-c3f5-b5ce-c362" type="max"/>
       </constraints>
       <profiles>
-        <profile id="9428-6182-19bb-9286" name="Thermal Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="9428-6182-19bb-9286" name="Thermal Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -2849,8 +2899,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <categoryLink id="70c4-e4d1-ac10-6a2d" name="Knight Weapon" hidden="false" targetId="9b05-f144-0ae5-5d6b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="10.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="10.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5be0-b49f-fc95-f499" name="Questoris Melee Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2858,7 +2908,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ea0-e862-70ac-4bf1" type="max"/>
       </constraints>
       <profiles>
-        <profile id="348c-89b0-51aa-a7e8" name="Questoris Melee Weapon" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="348c-89b0-51aa-a7e8" name="Questoris Melee Weapon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">7</characteristic>
@@ -2882,8 +2932,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <categoryLink id="854c-5aef-6533-6561" name="Knight Weapon" hidden="false" targetId="9b05-f144-0ae5-5d6b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="5.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="5.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fcfd-d034-1395-9eea" name="Venator Light Maniple" publicationId="975a-00f4-pubN65537" page="61" hidden="false" collective="false" import="true" type="unit">
@@ -2953,8 +3003,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="740e-52e8-27ed-bf22" name="Myrmidon Battleline Maniple" publicationId="975a-00f4-pubN65537" page="59" hidden="false" collective="false" import="true" type="unit">
@@ -3064,8 +3114,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3ca3-42a8-26bb-5676" name="Axiom Battleline Maniple" publicationId="975a-00f4-pubN65537" page="57" hidden="false" collective="false" import="true" type="unit">
@@ -3174,8 +3224,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c197-9e7c-0bb5-0889" name="Lord Scion" hidden="false" collective="false" import="true" type="model">
@@ -3189,14 +3239,14 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         </rule>
       </rules>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5cc8-bdd5-8c3f-5bc3" name="Scion Martial" hidden="false" collective="false" import="true" type="model">
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="82d5-4e74-6258-8be8" name="Stormspear Rocket Pod" hidden="false" collective="false" import="true" type="upgrade">
@@ -3204,7 +3254,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="022c-10c6-d8d2-6a7e" type="max"/>
       </constraints>
       <profiles>
-        <profile id="f3fa-201d-26ce-15d3" name="Stormspear Rocket Pod" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="f3fa-201d-26ce-15d3" name="Stormspear Rocket Pod" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">3</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">5</characteristic>
@@ -3226,8 +3276,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <categoryLink id="8af2-de87-eba2-6fd3" name="Knight Weapon" hidden="false" targetId="9b05-f144-0ae5-5d6b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="15.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="15.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5fef-e84f-c8eb-791b" name="Meltagun" hidden="false" collective="false" import="true" type="upgrade">
@@ -3243,8 +3293,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <categoryLink id="f5ba-4fe1-240d-446f" name="Weapon" hidden="false" targetId="8faf-9e14-9676-2327" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="15.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="15.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4e23-1ac3-bb9b-14b5" name="Arioch Titan Power Claw" hidden="false" collective="false" import="true" type="upgrade">
@@ -3256,7 +3306,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="92de-72a0-ca66-d332" name="Arioch Titan Power Claw" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="92de-72a0-ca66-d332" name="Arioch Titan Power Claw" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">3</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">12</characteristic>
@@ -3283,13 +3333,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="9fdf-0495-68b4-07cb" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="25.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="25.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e89d-64cd-eb26-e165" name="Reaver Titan Power Fist" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="6ce8-b18f-1346-3973" name="Reaver Titan Power Fist" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="6ce8-b18f-1346-3973" name="Reaver Titan Power Fist" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">9</characteristic>
@@ -3315,13 +3365,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="6167-9d9f-9f79-3867" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="20.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="20.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fee8-4996-06cd-64bc" name="Bellicosa Volcano Cannon [WLD]" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="a82d-e28b-fcfa-38c1" name="Bellicosa Volcano Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="a82d-e28b-fcfa-38c1" name="Bellicosa Volcano Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">12</characteristic>
@@ -3348,13 +3398,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="5e93-1c88-a70c-fc1b" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="55.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="55.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="375a-7b78-8edd-71d5" name="Laser Blaster" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="b62c-bcc4-d519-bc32" name="Laser Blaster" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="b62c-bcc4-d519-bc32" name="Laser Blaster" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">3</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -3381,13 +3431,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="f188-d23d-d7e1-1c3f" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="25.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="25.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bfdb-4953-f838-7d21" name="Paired Gatling Blasters" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="0510-f2fd-9e12-db18" name="Paired Gatling Blasters" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="0510-f2fd-9e12-db18" name="Paired Gatling Blasters" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">12</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">5</characteristic>
@@ -3414,13 +3464,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="b5df-841b-210b-a0a4" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="30.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="30.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0b27-6d01-57d3-0e9d" name="Turbo Laser Destructor [RVR]" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="d790-65c0-7f6c-708f" name="Turbo Laser Destructor" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="d790-65c0-7f6c-708f" name="Turbo Laser Destructor" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -3447,13 +3497,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="5d09-d8ed-7360-0d4a" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="20.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="20.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5960-ee8c-3107-46c4" name="Sunfury Plasma Annihilator" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="349e-1d9b-a206-18f5" name="Sunfury Plasma Annihilator" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="349e-1d9b-a206-18f5" name="Sunfury Plasma Annihilator" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">4</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -3479,13 +3529,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="57a3-180b-0f7d-7ffd" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="45.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="45.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="47c9-43b5-8afc-b64f" name="Vulcan Megabolter [RVR]" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="b627-6f89-9463-8a14" name="Vulcan Megabolter (Reaver)" publicationId="7236-e1d8-c886-f5fd" page="38" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="b627-6f89-9463-8a14" name="Vulcan Megabolter (Reaver)" publicationId="7236-e1d8-c886-f5fd" page="38" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">6</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">4</characteristic>
@@ -3512,13 +3562,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="558c-ae48-6cc0-ebf6" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="10.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="10.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2165-2206-85af-b273" name="Turbo Laser Destructor [WHD]" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="46f4-f06b-9149-ebca" name="Turbo Laser Destructor" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="46f4-f06b-9149-ebca" name="Turbo Laser Destructor" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -3544,13 +3594,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="ef15-4c97-4ef7-9c43" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="20.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="20.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2cea-d272-fa57-5553" name="Macro Gatling Blaster" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="b708-2870-24cd-7be2" name="Macro Gatling Blaster" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="b708-2870-24cd-7be2" name="Macro Gatling Blaster" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">6</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">7</characteristic>
@@ -3575,13 +3625,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="f73b-291c-5e1a-f3ad" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="30.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="30.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="73bc-c1cd-03b3-bedf" name="Reaver Titan Chainfist" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="9fa2-abe8-fb2e-709e" name="Reaver Titan Chainfist" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="9fa2-abe8-fb2e-709e" name="Reaver Titan Chainfist" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">3</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -3608,13 +3658,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="2623-4f1a-6a29-25af" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="20.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="20.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bd33-0564-6277-6dc1" name="Apocalypse Missile Launchers" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="700d-80b3-00d0-091b" name="Apocalypse Missile Launchers" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="700d-80b3-00d0-091b" name="Apocalypse Missile Launchers" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">10</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">4</characteristic>
@@ -3642,13 +3692,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="6303-cfd0-6a1a-c9ee" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="15.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="15.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8bd4-e1ff-d447-389e" name="Volcano Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="ace0-55a3-8828-3d1a" name="Volcano Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="ace0-55a3-8828-3d1a" name="Volcano Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">10</characteristic>
@@ -3674,13 +3724,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="3b7a-76d2-d1eb-7257" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="25.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="25.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1904-506f-6b2d-0843" name="Mori Quake Cannon [WLD]" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="9b69-ddb5-1640-7409" name="Mori Quake Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="9b69-ddb5-1640-7409" name="Mori Quake Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">9</characteristic>
@@ -3707,13 +3757,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="b747-4979-9ec0-5205" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="20.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="20.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bd35-3f71-8bea-7e42" name="Plasma Blast Gun" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="f969-ff69-e466-aa5f" name="Plasma Blast Gun" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="f969-ff69-e466-aa5f" name="Plasma Blast Gun" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -3740,13 +3790,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="1da7-b1ca-378b-6d13" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="30.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="30.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="be6b-8894-c7d1-bdba" name="Warp Missile Support Rack" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="daea-6b05-7a54-7156" name="Warp Missile Support Rack" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="daea-6b05-7a54-7156" name="Warp Missile Support Rack" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">X</characteristic>
@@ -3773,13 +3823,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="38ed-3d00-a5ec-8a60" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="10.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="10.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5fc7-120d-623b-8b5a" name="Paired Laser Blaster" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="2c94-2b36-0482-f108" name="Paired Laser Blaster" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="2c94-2b36-0482-f108" name="Paired Laser Blaster" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">6</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -3807,13 +3857,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="3ce4-21dc-baa0-9567" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="50.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="50.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="54d9-e1d5-30b0-c357" name="Apocalypse Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="531c-4242-6420-d01e" name="Apocalypse Missile Launcher" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="531c-4242-6420-d01e" name="Apocalypse Missile Launcher" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">5</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">4</characteristic>
@@ -3842,13 +3892,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="5fa1-9b8c-18ec-c87c" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="10.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="10.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="087a-abff-3ffe-f488" name="Melta Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="d10f-9630-c104-eb62" name="Melta Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="d10f-9630-c104-eb62" name="Melta Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">11</characteristic>
@@ -3875,13 +3925,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="3142-627e-de68-5a41" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="35.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="35.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bfee-3947-a004-3a4e" name="Paired Turbo Laser Destructor" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="08bc-a277-c2bc-9973" name="Paired Turbo Laser Destructor" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="08bc-a277-c2bc-9973" name="Paired Turbo Laser Destructor" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">4</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -3909,13 +3959,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="e993-7231-9458-b05d" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="35.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="35.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c7aa-80e5-43d2-0cfd" name="Inferno Gun" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="9501-9bd3-1519-158a" name="Inferno Gun" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="9501-9bd3-1519-158a" name="Inferno Gun" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">3</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">7</characteristic>
@@ -3941,13 +3991,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="cd2f-c7a0-0f89-8198" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="20.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="20.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aa7a-74f4-180e-3b5e" name="Gatling Blaster" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="7296-c9a2-e9db-34b5" name="Gatling Blasters" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="7296-c9a2-e9db-34b5" name="Gatling Blasters" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">6</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">5</characteristic>
@@ -3973,13 +4023,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="0487-6aac-5294-3b10" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="15.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="15.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f2ae-e883-28c4-dbcc" name="Vulcan Megabolter Array" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="a5ef-5826-f9cf-6c41" name="Vulcan Megabolter Array" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="a5ef-5826-f9cf-6c41" name="Vulcan Megabolter Array" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">12</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">4</characteristic>
@@ -4007,13 +4057,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="9ec9-aebc-d6ca-d60d" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="20.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="20.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="edcd-f43d-10ba-7f60" name="Vulcan Megabolter [WHD]" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="9e0d-d5fd-c251-904b" name="Vulcan Megabolter (Warhound)" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="9e0d-d5fd-c251-904b" name="Vulcan Megabolter (Warhound)" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">6</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">4</characteristic>
@@ -4039,8 +4089,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="b36b-f4ee-e2a9-f796" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="10.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="10.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e7f3-4f09-8dc2-5b18" name="Void Shield (3+)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4048,8 +4098,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d84-966a-65f5-984f" type="max"/>
       </constraints>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c621-87a7-709b-daa0" name="Void Shield (4+)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4057,8 +4107,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e66e-039a-2576-1143" type="max"/>
       </constraints>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fb11-17c8-3ecb-3006" name="Void Shield (X)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4066,8 +4116,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b40-26e6-b877-dca2" type="max"/>
       </constraints>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ae30-2066-1d64-6559" name="Plasma Reactor" hidden="false" collective="false" import="true" type="upgrade">
@@ -4081,14 +4131,14 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b582-0e19-a858-a4f1" type="max"/>
           </constraints>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ebc6-2029-ceb3-f43b" name="Ardex Defensor Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -4102,8 +4152,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         </rule>
       </rules>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bad0-317f-20ed-813e" name="Weapon Destroyed" hidden="false" collective="false" import="true" type="upgrade">
@@ -4111,8 +4161,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7459-5184-5cda-9065" type="max"/>
       </constraints>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="15dc-a57d-f1f3-41a6" name="Manifold Critical Damage" hidden="false" collective="false" import="true" type="upgrade">
@@ -4124,8 +4174,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <entryLink id="68db-6514-a4ed-8e2d" name=" Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="50af-0bab-a322-f02c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cecc-5283-0f3c-0325" name="Void Shield (3+) 2" hidden="false" collective="false" import="true" type="upgrade">
@@ -4133,8 +4183,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3610-61ec-5651-6633" type="max"/>
       </constraints>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9219-813c-9bc8-e118" name="Void Shield (4+) 2" hidden="false" collective="false" import="true" type="upgrade">
@@ -4142,8 +4192,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a882-71b1-8bfe-18ce" type="max"/>
       </constraints>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="787b-c4a3-7cbf-d79a" name="Void Shield (4+) 3" hidden="false" collective="false" import="true" type="upgrade">
@@ -4151,8 +4201,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bea-4192-ed04-c2e6" type="max"/>
       </constraints>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dbfc-74f9-0c2f-9ff0" name="Void Shield (3+) 3" hidden="false" collective="false" import="true" type="upgrade">
@@ -4160,8 +4210,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fac-2295-e545-0c9b" type="max"/>
       </constraints>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5ecc-ff8d-2dcc-d06c" name="Cerastus Knight Lancer" hidden="false" collective="false" import="true" type="upgrade">
@@ -4184,8 +4234,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="20.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="20.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="71a1-ef51-b47e-2983" name="Cerastus Knight" hidden="false" collective="false" import="true" type="upgrade">
@@ -4203,8 +4253,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6d84-11a3-b6c4-29ac" name="Cerastus Knight Acheron" hidden="false" collective="false" import="true" type="upgrade">
@@ -4227,8 +4277,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="25.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="25.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7c6c-6bc6-32eb-e84a" name="Cerastus Knight Castigator" hidden="false" collective="false" import="true" type="upgrade">
@@ -4251,13 +4301,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="20.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="20.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c0ea-1d01-3f46-f5e2" name="Cerastus Shock Lance" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="4dd4-10f7-c093-e3fd" name="Cerastus Shock Lance" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="4dd4-10f7-c093-e3fd" name="Cerastus Shock Lance" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -4281,13 +4331,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <categoryLink id="e16a-b151-5af7-0f01" name="Melee" hidden="false" targetId="4739-6f52-a293-aa06" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d8a7-9b41-99fc-155f" name="Ion Gauntlet Shield Shock Blast" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="58db-d2c3-4ba4-0043" name="Ion Gauntlet Shield Shock Blast" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="58db-d2c3-4ba4-0043" name="Ion Gauntlet Shield Shock Blast" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">6</characteristic>
@@ -4311,13 +4361,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <categoryLink id="92d2-9be5-44e0-b915" name="Knight Weapon" hidden="false" targetId="9b05-f144-0ae5-5d6b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7093-6aaa-14f1-bf95" name="Castigator Pattern Bolt Cannon" page="" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="5233-9f4d-96c6-16ad" name="Castigator Pattern Bolt Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="5233-9f4d-96c6-16ad" name="Castigator Pattern Bolt Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">7</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">3</characteristic>
@@ -4341,13 +4391,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <categoryLink id="a5c8-2687-83b3-01ff" name="Knight Weapon" hidden="false" targetId="9b05-f144-0ae5-5d6b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ec48-48df-5e6e-dc8e" name="Castigator Warblade" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="e1a2-6208-0baf-c2b3" name="Castigator Warblade" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="e1a2-6208-0baf-c2b3" name="Castigator Warblade" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">7</characteristic>
@@ -4372,13 +4422,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <categoryLink id="62fe-7a64-421a-1d44" name="Knight Weapon" hidden="false" targetId="9b05-f144-0ae5-5d6b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eae0-b30e-6e52-d2e1" name="Acheron Chainfist" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="da51-e3a6-bb09-786a" name="Acheron Chainfist" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="da51-e3a6-bb09-786a" name="Acheron Chainfist" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">7</characteristic>
@@ -4402,13 +4452,13 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <categoryLink id="9887-7952-aabf-6230" name="Arc: 360 Degree" hidden="false" targetId="ed82-caea-5092-bf7e" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5531-995f-5196-d469" name="Acheron Pattern Flame Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="193e-e62d-9813-2218" name="Acheron Pattern Flame Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="193e-e62d-9813-2218" name="Acheron Pattern Flame Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">7</characteristic>
@@ -4432,8 +4482,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <categoryLink id="971f-2aab-2a5a-e0a1" name="Knight Weapon" hidden="false" targetId="9b05-f144-0ae5-5d6b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="241d-3394-9612-08c7" name="Corsair Battleline Maniple" publicationId="975a-00f4-pubN87630" page="60" hidden="false" collective="false" import="true" type="unit">
@@ -4460,8 +4510,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="56b0-f155-3635-45da" name="Janissary Batteline Maniple" publicationId="975a-00f4-pubN87630" page="62" hidden="false" collective="false" import="true" type="unit">
@@ -4531,8 +4581,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="51b7-df68-7254-8f21" name="Regia Battleline Maniple" publicationId="975a-00f4-pubN87630" page="64" hidden="false" collective="false" import="true" type="unit">
@@ -4632,8 +4682,8 @@ The Warhounds are the Courtiers, whose role it is to shield the King and Queen. 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="26ca-c6f5-04b3-10c1" name="Lupercal Light Maniple" publicationId="975a-00f4-pubN87630" page="66" hidden="false" collective="false" import="true" type="unit">
@@ -4697,8 +4747,8 @@ The Warhounds are the Courtiers, whose role it is to shield the King and Queen. 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="22ac-d1cf-8596-c057" name="Dominus Battleforce Maniple" publicationId="975a-00f4-pubN89033" page="131" hidden="false" collective="false" import="true" type="unit">
@@ -4818,8 +4868,8 @@ The Warhounds are the Courtiers, whose role it is to shield the King and Queen. 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2004-6a18-7dac-156c" name="Fortis Battle Maniple" publicationId="975a-00f4-pubN89746" page="30" hidden="false" collective="false" import="true" type="unit">
@@ -4890,8 +4940,8 @@ The Warhounds are the Courtiers, whose role it is to shield the King and Queen. 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="365e-d892-5c42-f7a3" name="Ferrox Light Maniple" publicationId="975a-00f4-pubN89746" page="31" hidden="false" collective="false" import="true" type="upgrade">
@@ -4961,8 +5011,8 @@ The Warhounds are the Courtiers, whose role it is to shield the King and Queen. 
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cbc6-216c-8a22-c1b4" name="Legio Tempestus (Storm Lords)" publicationId="975a-00f4-pubN65537" page="92" hidden="false" collective="false" import="true" type="upgrade">
@@ -4980,8 +5030,8 @@ The Warhounds are the Courtiers, whose role it is to shield the King and Queen. 
         <categoryLink id="e403-67b1-34ab-dca2" name="LegioTempestus" hidden="false" targetId="15bd-0b4b-5cac-dc48" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0986-9b84-b734-e9c8" name="Legio Gryphonicus (War Griffons)" publicationId="975a-00f4-pubN65537" page="89" hidden="false" collective="false" import="true" type="upgrade">
@@ -5001,8 +5051,8 @@ If a Titan attacks its intended target, the controlling player can re-roll Hit r
         <categoryLink id="8b3a-f8f9-2dbf-7085" name="LegioGryphonicus" hidden="false" targetId="0796-178c-50ce-2d1f" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dbd6-65fd-6354-a154" name="Legio Astorum (Warp Runners)" publicationId="975a-00f4-pubN87630" page="19" hidden="false" collective="false" import="true" type="upgrade">
@@ -5020,8 +5070,8 @@ If a Titan attacks its intended target, the controlling player can re-roll Hit r
         <categoryLink id="a151-7c48-9bed-fe65" name="LegioAstorum" hidden="false" targetId="06c2-f93e-7bf5-9fd5" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="63e1-fca8-5023-12d6" name="Legio Defensor (Nova Guard)" publicationId="975a-00f4-pubN87630" page="23" hidden="false" collective="false" import="true" type="upgrade">
@@ -5038,8 +5088,8 @@ If a Titan attacks its intended target, the controlling player can re-roll Hit r
         <categoryLink id="0dc0-120b-db35-d5bc" name="LegioDefensor" hidden="false" targetId="7b17-f14f-4709-e96c" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bf14-af1e-5d72-7c8b" name="Legio Atatus (Firebrands)" publicationId="975a-00f4-pubN87630" page="28" hidden="false" collective="false" import="true" type="upgrade">
@@ -5054,8 +5104,8 @@ If a Titan attacks its intended target, the controlling player can re-roll Hit r
         <categoryLink id="64a6-c5e9-4695-1e8c" name="LegioAtarus" hidden="false" targetId="cfcc-e5c0-bb0b-db6f" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1b13-8735-b4bf-0caf" name="Legio Mortis (Death&apos;s Heads)" publicationId="975a-00f4-pubN87630" page="39" hidden="false" collective="false" import="true" type="upgrade">
@@ -5072,8 +5122,8 @@ If a Titan attacks its intended target, the controlling player can re-roll Hit r
         <categoryLink id="2599-f121-6c40-28f9" name="LegioMortis" hidden="false" targetId="f88f-e42d-38f7-bfa7" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bffc-4266-a83d-cae6" name="Legio Krytos (God Breakers)" publicationId="975a-00f4-pubN87630" page="44" hidden="false" collective="false" import="true" type="upgrade">
@@ -5087,8 +5137,8 @@ If a Titan attacks its intended target, the controlling player can re-roll Hit r
         <categoryLink id="f02c-03f6-a7e9-caf6" name="LegioKrytos" hidden="false" targetId="95e8-3d8e-a0ad-4ad3" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1a92-f760-bf0e-ce26" name="Legio Fureans (Tiger Eyes)" publicationId="975a-00f4-pubN87630" page="49" hidden="false" collective="false" import="true" type="upgrade">
@@ -5105,8 +5155,8 @@ If a Titan attacks its intended target, the controlling player can re-roll Hit r
         <categoryLink id="2c6f-f845-d96b-1c92" name="LegioFureans" hidden="false" targetId="72ba-4008-bf4b-fe3b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7093-f8b3-b5f9-d38d" name="Legio Vulpa (Death Stalkers)" publicationId="975a-00f4-pubN87630" page="54" hidden="false" collective="false" import="true" type="upgrade">
@@ -5120,21 +5170,23 @@ If a Titan attacks its intended target, the controlling player can re-roll Hit r
         <categoryLink id="e1d6-7a2f-19c9-9627" name="LegioVulpa" hidden="false" targetId="561a-cb05-d4b5-94fd" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6202-19dc-f26f-9b64" name="Titan Legion" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6202-19dc-f26f-9b64" name="泰坦军团" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Titan Legion</comment>
       <categoryLinks>
         <categoryLink id="5473-e38d-bf74-96eb" name="New CategoryLink" hidden="false" targetId="d204-9898-0ffb-02f4" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="45f2-b1ee-23d5-1d11" name="Titan Legions" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="45f2-b1ee-23d5-1d11" name="泰坦军团" hidden="false" collective="false" import="true">
+          <comment>Titan Legions</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4d00-c954-d909-610e" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="c040-29dd-6042-3b8d" name="Legio Astorum" hidden="false" collective="false" import="true" targetId="dbd6-65fd-6354-a154" type="selectionEntry">
+            <entryLink id="c040-29dd-6042-3b8d" name="Legio Astorum (Warp Runners)" hidden="false" collective="false" import="true" targetId="dbd6-65fd-6354-a154" type="selectionEntry">
               <categoryLinks>
                 <categoryLink id="9ab2-6533-23c4-dde6" name="LegioAstorum" hidden="false" targetId="06c2-f93e-7bf5-9fd5" primary="false"/>
               </categoryLinks>
@@ -5230,13 +5282,13 @@ If a Titan attacks its intended target, the controlling player can re-roll Hit r
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="08c7-5efe-0712-c420" name="=Tempestus= Chasmata Turbo Laser Destructor [RVR]" hidden="true" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="dd46-08dc-7ea5-12b3" name="Chasmata Turbo Laser Destructor" publicationId="975a-00f4-pubN65537" page="92" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="dd46-08dc-7ea5-12b3" name="Chasmata Turbo Laser Destructor" publicationId="975a-00f4-pubN65537" page="92" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -5265,8 +5317,8 @@ If a Titan attacks its intended target, the controlling player can re-roll Hit r
         <entryLink id="c6df-3abd-589f-c90e" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="30.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="30.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="375f-b70b-7462-5d29" name="Legio Specific Strategems" hidden="false" collective="false" import="true" type="upgrade">
@@ -5294,8 +5346,8 @@ Play this stratagem at the beginning of the Damage Control phase of any round.  
             </rule>
           </rules>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e466-20df-b265-7ad2" name="Machine Defiance" page="" hidden="true" collective="false" import="true" type="upgrade">
@@ -5317,8 +5369,8 @@ Play this Stratagem when a Titan&apos;s void shields collapse.  Immediatly roll 
             </rule>
           </rules>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="120b-ea0c-47a7-3132" name="Combat Drop" page="" hidden="true" collective="false" import="true" type="upgrade">
@@ -5345,8 +5397,8 @@ A Titan that arrives from orbit cannot be activated in any of the phases of the 
             </rule>
           </rules>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="3.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cdfa-6187-38dc-0319" name="Blessing of the Emperor" page="" hidden="true" collective="false" import="true" type="upgrade">
@@ -5368,8 +5420,8 @@ Reveal this Stratagem when a hit would result in one of your Titans rolling on t
             </rule>
           </rules>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="3.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6a90-5f45-4eef-04ff" name="A Day of Retribution" hidden="true" collective="false" import="true" type="upgrade">
@@ -5393,8 +5445,8 @@ Note that this does not increase the weapons Short Range.  THen advance your tit
             </rule>
           </rules>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8495-ff67-56d5-e918" name="Impetuous Machine Spirit" hidden="true" collective="false" import="true" type="upgrade">
@@ -5416,8 +5468,8 @@ Reveal this Stratagem when a Firebrands Titan would be required to make a roll o
             </rule>
           </rules>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="4.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="82be-13d1-5446-584a" name="Maniple of One" page="" hidden="true" collective="false" import="true" type="upgrade">
@@ -5439,8 +5491,8 @@ The Firebrands player may reveal this stratagem at the beginnin of any round.  F
             </rule>
           </rules>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0642-68ed-dde8-57e1" name="Fog of War" publicationId="975a-00f4-pubN87630" page="35" hidden="true" collective="false" import="true" type="upgrade">
@@ -5463,8 +5515,8 @@ The Imperial Hunters player may redeploy a Warhound Titan for every Titan with a
             </rule>
           </rules>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4239-0c38-823a-ae67" name="March of the Dead" page="" hidden="true" collective="false" import="true" type="upgrade">
@@ -5487,8 +5539,8 @@ Play this Stratagem in the Strategy phase of the first round.  The Legio Mortis 
             </rule>
           </rules>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="3.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c610-8076-2dd0-8ced" name="Scorched Earth" hidden="true" collective="false" import="true" type="upgrade">
@@ -5513,8 +5565,8 @@ For the duration of that round, when targeting terrain, Titans of the Legio Kryt
             </rule>
           </rules>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="293d-f089-accb-a4aa" name="Iron Endures" hidden="true" collective="false" import="true" type="upgrade">
@@ -5540,8 +5592,8 @@ For the duration of that round, all God Breakers TItans reduce the Strength of h
             </rule>
           </rules>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="81d8-5420-7921-d127" name="Offensive Surge" hidden="true" collective="false" import="true" type="upgrade">
@@ -5566,8 +5618,8 @@ The Tiger Eyes player cay choose one of their deployed Tiger Eyes maniples for t
             </rule>
           </rules>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="3.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cbdb-8c65-9d07-03b1" name="No Pity for the Vanquished" hidden="true" collective="false" import="true" type="upgrade">
@@ -5589,8 +5641,8 @@ Play this Stratagem when an enemy Titan is destroyed (i.e. makes a roll on the C
             </rule>
           </rules>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9409-e584-f50c-3b9c" name="Portents of Doom" publicationId="975a-00f4-pubN89746" page="26" hidden="true" collective="false" import="true" type="upgrade">
@@ -5611,8 +5663,8 @@ Play this Stratagem when an enemy Titan is destroyed (i.e. makes a roll on the C
             </rule>
           </rules>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e313-da99-15ee-1305" name="Tormented Machine Spirit" publicationId="975a-00f4-pubN89746" page="26" hidden="true" collective="false" import="true" type="upgrade">
@@ -5634,8 +5686,8 @@ Reveal this Stratagem when a Legion Interfector Titan would roll on the Awaken M
             </rule>
           </rules>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="93ab-95c9-2957-dea3" name="Symbiotic Command" publicationId="975a-00f4-pubN89746" page="23" hidden="true" collective="false" import="true" type="upgrade">
@@ -5657,8 +5709,8 @@ Play this Stratagem in the Strategy phase  after successfully issuing an Order t
             </rule>
           </rules>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="38d4-3483-c105-d1ef" name="For the Red Planet" publicationId="975a-00f4-pubN89746" page="20" hidden="true" collective="false" import="true" type="upgrade">
@@ -5680,8 +5732,8 @@ The Dauntless player may reveal this Stratagem when activating a Titan.  Until t
             </rule>
           </rules>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="68bd-d77e-acbe-4bd0" name="Red Skies" publicationId="975a-00f4-pubN89746" page="20" hidden="true" collective="false" import="true" type="upgrade">
@@ -5703,14 +5755,14 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
             </rule>
           </rules>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6646-91ea-1418-5c89" name="=Gryphonicus= Gravatus Plating" publicationId="975a-00f4-pubN65537" page="89" hidden="true" collective="false" import="true" type="upgrade">
@@ -5724,8 +5776,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="9bc4-7de3-71dd-d729" name="LegioGryphonicus" hidden="false" targetId="0796-178c-50ce-2d1f" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="20.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="20.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="46c7-de03-c901-4ecc" name="=Gryphonicus= Enhanced Auspex Relay" hidden="true" collective="false" import="true" type="upgrade">
@@ -5739,8 +5791,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="7918-0b4b-7fe0-f5be" name="LegioGryphonicus" hidden="false" targetId="0796-178c-50ce-2d1f" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="10.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="10.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b486-104f-536e-87f6" name="=Gryphonicus= Motive Sub-reactor" publicationId="975a-00f4-pubN65537" page="91" hidden="true" collective="false" import="true" type="upgrade">
@@ -5754,8 +5806,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="ae61-527b-5b0e-b4c5" name="LegioGryphonicus" hidden="false" targetId="0796-178c-50ce-2d1f" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="25.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="25.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="14a9-163a-83aa-7520" name="Legio Solaria (Imperial Hunters)" publicationId="975a-00f4-pubN87630" page="34" hidden="false" collective="false" import="true" type="upgrade">
@@ -5769,8 +5821,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="5c09-2ba3-adc5-7c13" name="LegioSolaria" hidden="false" targetId="56c0-1162-173d-b052" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="da6d-e379-1848-8c31" name="Legio Crucius (Warmongers)" publicationId="975a-00f4-pubN89746" page="17" hidden="false" collective="false" import="true" type="upgrade">
@@ -5787,8 +5839,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="bd98-23b3-c98d-7e68" name="New CategoryLink" hidden="false" targetId="d204-9898-0ffb-02f4" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1d02-6c17-cd84-a92f" name="Legio Vulcanum (Dark Fire/Lords of Ruin)" publicationId="975a-00f4-pubN89746" page="23" hidden="false" collective="false" import="true" type="upgrade">
@@ -5805,8 +5857,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="6381-1cc4-2707-b448" name="New CategoryLink" hidden="false" targetId="d204-9898-0ffb-02f4" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="02ce-a62d-4e4b-d7cc" name="Legio Fortidus (Daultless)" publicationId="975a-00f4-pubN89746" page="20" hidden="false" collective="false" import="true" type="upgrade">
@@ -5823,8 +5875,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="f558-263a-d300-82d7" name="New CategoryLink" hidden="false" targetId="d204-9898-0ffb-02f4" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f3d0-92f8-3bf7-4799" name="Legio Interfector (Murder Lords)" publicationId="975a-00f4-pubN89746" page="26" hidden="false" collective="false" import="true" type="upgrade">
@@ -5843,13 +5895,13 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="fcda-0afe-29e5-3ee8" name="Titan Legion" hidden="false" targetId="d204-9898-0ffb-02f4" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8fee-61b8-1c39-b9ee" name="=Tempestus= Chasmata Turbo Laser Destructor [WHD]" hidden="true" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="7838-8984-7946-069e" name="Chasmata Turbo Laser Destructor" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="7838-8984-7946-069e" name="Chasmata Turbo Laser Destructor" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -5877,13 +5929,13 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <entryLink id="b522-48c9-380c-21bf" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="30.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="30.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2699-bb53-cff4-a864" name="=Tempestus= Paired Chasmata Turbo Laser Destructors" hidden="true" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="1253-3d06-27b8-28e7" name="Paired Chasmata Pattern Turbo Laser Destructor" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="1253-3d06-27b8-28e7" name="Paired Chasmata Pattern Turbo Laser Destructor" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">4</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -5913,13 +5965,13 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <entryLink id="84e0-fcbd-06f5-a4b4" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="55.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="55.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fe03-8e18-b108-5853" name="=Tempestus= Paired Chasmata Laser Blaster" hidden="true" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="67bd-692f-8028-ccd6" name="Paired Chasmata Pattern Laser Blasters" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="67bd-692f-8028-ccd6" name="Paired Chasmata Pattern Laser Blasters" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">6</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -5949,13 +6001,13 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <entryLink id="f24c-29c1-442a-c465" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="80.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="80.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="01e4-e3f5-4396-d5c4" name="=Tempestus= Chasmata Laser Blaster" hidden="true" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="769f-b83a-baec-2e03" name="Chasmata Laser Blaster" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="769f-b83a-baec-2e03" name="Chasmata Laser Blaster" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">3</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -5984,13 +6036,13 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <entryLink id="b4c1-3e8f-38df-6400" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="40.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="40.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c07c-f050-45e2-1376" name="=Gryphonicus= Warhound replacement Reaver" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="fd15-1beb-af88-6378" name="Reaver Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+        <profile id="fd15-1beb-af88-6378" name="Reaver Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
           <characteristics>
             <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">6&quot;/9&quot;</characteristic>
             <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">4+</characteristic>
@@ -6030,15 +6082,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2230-05dc-9e1b-d40b" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="15b6-7a4a-f9d0-2d8d" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="15b6-7a4a-f9d0-2d8d" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="170d-6ebf-be21-a92f" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6046,15 +6098,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec5c-1b74-aa8c-5dc8" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="e471-7e3f-fdac-f0ef" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="e471-7e3f-fdac-f0ef" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="e53c-5baa-ca96-abf6" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6062,15 +6114,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6184-c306-40e0-450c" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="5b0d-e9e1-12db-34eb" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="5b0d-e9e1-12db-34eb" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="d1ed-0daf-37ff-6f6c" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6078,15 +6130,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baa6-45f3-f972-513a" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="e441-772c-65e9-2cf7" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="e441-772c-65e9-2cf7" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="5b59-d7ae-daea-4673" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6094,15 +6146,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a66-f66d-e703-973b" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="c56d-b950-8d2e-4756" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="c56d-b950-8d2e-4756" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="f8cc-bbe5-2d1d-e348" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6110,15 +6162,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdd9-8f25-f10c-4acc" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="f379-664c-82ae-d0fe" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="f379-664c-82ae-d0fe" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="b043-7ada-badd-5191" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6126,15 +6178,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="603e-2dd8-9630-18e5" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="a753-54e6-1c6c-258a" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="a753-54e6-1c6c-258a" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -6144,8 +6196,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
             <entryLink id="8071-8056-ff80-a61b" name="Body Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="1d49-39ff-979b-f7f0" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="22be-c4e5-c2ee-ba8a" name="Head" hidden="false" collective="false" import="true" type="upgrade">
@@ -6170,15 +6222,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5b1-ba89-6c4d-f2fb" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="25bf-faf2-6eec-29ba" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="25bf-faf2-6eec-29ba" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="db0c-8d34-5696-21a8" name="⦿⦿⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6186,15 +6238,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59dd-06ca-41f2-a65d" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="ee3c-9932-d9ee-9bdf" name="⦿⦿⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="ee3c-9932-d9ee-9bdf" name="⦿⦿⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="c5be-327a-d3e0-1529" name="⦿⦿⦿⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6202,15 +6254,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a45c-8bf9-0c22-5599" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="d85b-556e-8923-c4c6" name="⦿⦿⦿⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="d85b-556e-8923-c4c6" name="⦿⦿⦿⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="1ab7-9726-329d-447d" name="⦿⦿⦿⦿⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6218,15 +6270,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7233-f708-e663-3c2a" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="3ecf-2b43-5459-3852" name="⦿⦿⦿⦿⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="3ecf-2b43-5459-3852" name="⦿⦿⦿⦿⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="df99-c6d1-538a-5bcf" name="⦿⦿⦿⦿⦿⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6234,15 +6286,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c73c-7381-60a5-427a" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="133c-8a63-8596-e3d0" name="⦿⦿⦿⦿⦿⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="133c-8a63-8596-e3d0" name="⦿⦿⦿⦿⦿⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="1801-950d-3f80-0b4d" name="⦿⦿⦿⦿⦿⦿(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6250,15 +6302,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f1f-f8ca-318a-5a98" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="dcf8-270a-7c47-f5d5" name="⦿⦿⦿⦿⦿⦿(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="dcf8-270a-7c47-f5d5" name="⦿⦿⦿⦿⦿⦿(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -6268,8 +6320,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
             <entryLink id="a7cb-5909-9c38-e05f" name="Head Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="9ba2-12fa-8d22-c505" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8855-5912-1bd4-e880" name="Legs" hidden="false" collective="false" import="true" type="upgrade">
@@ -6294,15 +6346,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0900-cc6d-2b19-00ad" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="71f1-199d-746d-4c1f" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="71f1-199d-746d-4c1f" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="86f6-cb80-7f75-cbfd" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6310,15 +6362,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0299-a063-a2b8-4eb3" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="180c-442b-e288-b4e9" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="180c-442b-e288-b4e9" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="c4a6-8a81-480d-c391" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6326,15 +6378,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb06-6ad5-f941-2fa4" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="095c-8d01-c6b4-ee10" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="095c-8d01-c6b4-ee10" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="280a-80fd-b32d-dd97" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6342,15 +6394,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b21c-ff7a-d3ce-77e3" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="3a2e-c3df-5aa0-a27e" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="3a2e-c3df-5aa0-a27e" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="2bb2-c21a-9fa7-7de6" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6358,15 +6410,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="410f-4d94-1429-5136" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="fc47-f356-27ec-03e3" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="fc47-f356-27ec-03e3" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="53a5-54c2-399a-df50" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6374,15 +6426,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c09-7324-8c88-5ac6" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="9b20-a26b-d424-a98d" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="9b20-a26b-d424-a98d" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="ce74-dc8e-b7b1-8836" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6390,15 +6442,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed7c-f8a9-98d7-45a5" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="7270-5b96-d159-db69" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="7270-5b96-d159-db69" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -6408,8 +6460,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
             <entryLink id="2aa1-e161-4e5b-c510" name="Legs Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="50af-0bab-a322-f02c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="915c-f54f-b791-a7ca" name="Void Shields" hidden="false" collective="false" import="true" type="upgrade">
@@ -6449,8 +6501,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="79bd-0517-6ee5-357f" name="Plasma Reactor" hidden="false" collective="false" import="true" type="upgrade">
@@ -6470,8 +6522,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3ef-0425-835f-ee99" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="a50f-880e-9a58-bea8" name="⦿⦿⦾⦾⦾⦾ Green(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6479,8 +6531,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf76-d77f-d780-89f5" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="5dd0-a842-5e5d-9a13" name="⦿⦿⦿⦾⦾⦾ Yellow(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6488,8 +6540,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6326-8bf0-863c-85ea" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="b313-668f-af80-2aea" name="⦿⦿⦿⦿⦾⦾ Yellow(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6497,8 +6549,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="063d-a093-edec-6daa" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="abac-9573-2847-47d4" name="⦿⦿⦿⦿⦿⦾ Orange(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6506,8 +6558,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df89-0acf-c1a3-470a" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="5e92-e066-632c-36f6" name="⦿⦿⦿⦿⦿⦿ Red(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6515,16 +6567,16 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab1f-4a10-1059-b4e2" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -6600,13 +6652,13 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <entryLink id="11e8-a64a-ce3a-37d8" name="Wargear" hidden="false" collective="false" import="true" targetId="187f-a18f-cafe-4ae6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="250.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="250.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2c74-3aeb-1a28-d45e" name="=Gryphonicus= Warlord replacement Reaver" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="2a72-55d8-fc95-9058" name="Reaver Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+        <profile id="2a72-55d8-fc95-9058" name="Reaver Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
           <characteristics>
             <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">6&quot;/9&quot;</characteristic>
             <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">4+</characteristic>
@@ -6646,15 +6698,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="394f-a002-2944-5ae6" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="28e9-7b09-afef-01b7" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="28e9-7b09-afef-01b7" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="2b54-b1cf-7122-447f" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6662,15 +6714,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="591b-b097-c13b-b4c8" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="c65f-81b5-aa11-ee43" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="c65f-81b5-aa11-ee43" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="452d-5fb3-1728-094e" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6678,15 +6730,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2840-6742-f7a0-1208" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="cd09-f502-0b6a-ca4f" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="cd09-f502-0b6a-ca4f" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="92af-ae70-2071-9420" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6694,15 +6746,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0350-e811-9ce1-ff00" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="ae89-ce77-0e00-b7ba" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="ae89-ce77-0e00-b7ba" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="e1fd-d09d-f535-034a" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6710,15 +6762,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5996-5c61-0ddc-c82f" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="63a3-ba61-bb7a-4d93" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="63a3-ba61-bb7a-4d93" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="c72b-0902-ce26-10c5" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6726,15 +6778,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fe3-373a-b433-7643" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="2b88-0e50-eb71-e328" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="2b88-0e50-eb71-e328" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="929d-0b90-113a-6f19" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6742,15 +6794,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6806-31dd-36fb-fbc4" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="1b7f-8a87-08ce-f20f" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="1b7f-8a87-08ce-f20f" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -6760,8 +6812,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
             <entryLink id="f18b-a806-70e9-1f74" name="Body Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="1d49-39ff-979b-f7f0" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b91f-db36-7dc9-dd3c" name="Head" hidden="false" collective="false" import="true" type="upgrade">
@@ -6786,15 +6838,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="101c-61ae-ab40-0686" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="7d87-e581-462f-4cde" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="7d87-e581-462f-4cde" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="f975-347d-1639-fa9e" name="⦿⦿⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6802,15 +6854,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42ac-071b-75ec-d59f" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="da99-9c17-2228-eede" name="⦿⦿⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="da99-9c17-2228-eede" name="⦿⦿⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="9ad6-d9e5-0953-ebfd" name="⦿⦿⦿⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6818,15 +6870,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbf1-8bd7-8117-fd8d" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="4e7d-75b2-a12d-44b2" name="⦿⦿⦿⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="4e7d-75b2-a12d-44b2" name="⦿⦿⦿⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="b465-d0d7-b183-4374" name="⦿⦿⦿⦿⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6834,15 +6886,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fa7-2ce1-6d5c-86ae" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="a151-8ec5-b7da-9739" name="⦿⦿⦿⦿⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="a151-8ec5-b7da-9739" name="⦿⦿⦿⦿⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="507e-a157-b3cb-c164" name="⦿⦿⦿⦿⦿⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6850,15 +6902,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1970-849e-25bf-aad7" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="a1b7-9a89-158e-49e9" name="⦿⦿⦿⦿⦿⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="a1b7-9a89-158e-49e9" name="⦿⦿⦿⦿⦿⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="535b-ff77-73e5-e5ab" name="⦿⦿⦿⦿⦿⦿(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6866,15 +6918,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30e5-42c9-35de-10fa" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="a985-cdf7-a322-178f" name="⦿⦿⦿⦿⦿⦿(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="a985-cdf7-a322-178f" name="⦿⦿⦿⦿⦿⦿(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -6884,8 +6936,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
             <entryLink id="1772-05f9-b122-cfde" name="Head Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="9ba2-12fa-8d22-c505" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c3ec-2b04-2ed1-9c20" name="Legs" hidden="false" collective="false" import="true" type="upgrade">
@@ -6910,15 +6962,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9ba-c233-6908-572c" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="b82b-ed34-c5b1-9563" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="b82b-ed34-c5b1-9563" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="8e61-4220-fb3c-672c" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6926,15 +6978,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a662-e3df-ace0-b645" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="26c1-808b-0ea1-7112" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="26c1-808b-0ea1-7112" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="1218-689d-e653-91fb" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6942,15 +6994,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02e8-cb1e-0005-ee4e" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="bf3b-13f7-0183-dca0" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="bf3b-13f7-0183-dca0" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="27bb-9348-a145-6612" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6958,15 +7010,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ccd-919c-78d8-5fb8" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="81f6-dc90-7473-c7ce" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="81f6-dc90-7473-c7ce" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="691f-3383-93d1-0834" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6974,15 +7026,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="076c-19dd-8d64-fbbe" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="bd2c-def9-1d79-8013" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="bd2c-def9-1d79-8013" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="ab7d-30a5-0744-be33" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -6990,15 +7042,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5ff-ecdd-000f-91bb" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="50d5-86b4-1102-7ed3" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="50d5-86b4-1102-7ed3" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="632b-0b5d-d7b1-88ed" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" collective="false" import="true" type="upgrade">
@@ -7006,15 +7058,15 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3b0-dbc4-b4d6-3e68" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="8164-79a4-150a-e082" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="8164-79a4-150a-e082" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -7024,8 +7076,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
             <entryLink id="2292-7c49-11c4-921d" name="Legs Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="50af-0bab-a322-f02c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4604-8f3c-441a-4747" name="Void Shields" hidden="false" collective="false" import="true" type="upgrade">
@@ -7065,8 +7117,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ae9b-67a9-e2d1-aa22" name="Plasma Reactor" hidden="false" collective="false" import="true" type="upgrade">
@@ -7086,8 +7138,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39b5-5f69-561d-dd43" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="135a-95f3-1d18-c8ec" name="⦿⦿⦾⦾⦾⦾ Green(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -7095,8 +7147,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e649-b9a3-3b83-eb92" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="6270-2655-5a8c-66b4" name="⦿⦿⦿⦾⦾⦾ Yellow(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -7104,8 +7156,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf5d-ac30-9e8d-6f1f" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="05f1-c9a8-6cce-0627" name="⦿⦿⦿⦿⦾⦾ Yellow(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -7113,8 +7165,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b092-0dbe-6276-eaf8" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="5db6-e0d4-4484-473f" name="⦿⦿⦿⦿⦿⦾ Orange(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -7122,8 +7174,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c41-9c78-648d-ac38" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="bb6b-026c-1e6f-d24e" name="⦿⦿⦿⦿⦿⦿ Red(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -7131,16 +7183,16 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4cc-f8be-4dd4-171a" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7216,13 +7268,13 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <entryLink id="f4fa-d534-2066-eeaa" name="Wargear" hidden="false" collective="false" import="true" targetId="187f-a18f-cafe-4ae6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="250.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="250.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c23d-64c5-b376-ad80" name="Porphyrion Twin Magna Lascannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="c070-66c3-9137-f40f" name="Porphyrion Twin Magna Lascannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="c070-66c3-9137-f40f" name="Porphyrion Twin Magna Lascannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">4</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -7247,13 +7299,13 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="f403-9cc3-0d70-bc32" name="Knight Weapon" hidden="false" targetId="9b05-f144-0ae5-5d6b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1d36-f2f4-4f29-5864" name="Porphyrion Ironstorm Missile Pod" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="fdab-ab17-99be-7e1e" name="Porphyrion Ironstorm Missile Pod" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="fdab-ab17-99be-7e1e" name="Porphyrion Ironstorm Missile Pod" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">6</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">4</characteristic>
@@ -7277,8 +7329,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="4f82-1c9f-ca79-fea3" name="Rapid" hidden="false" targetId="a421-ff94-44cf-2eb8" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="76aa-5e9a-0d62-87c1" name="Acastus Knight Porphyrion" hidden="false" collective="false" import="true" type="upgrade">
@@ -7302,8 +7354,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <entryLink id="fd47-c688-fe2d-3467" name="Acastus Hull Weapon" hidden="false" collective="false" import="true" targetId="e060-52c1-1d31-a331" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="35.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="35.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="69b3-e7ac-9cec-ad72" name="Acastus Knight Scion Martial" hidden="false" collective="false" import="true" type="upgrade">
@@ -7320,8 +7372,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="130.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="130.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a2a3-d4b5-189a-5f63" name="Acastus Twin Lascannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -7329,7 +7381,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca46-ab9b-6551-5fe6" type="max"/>
       </constraints>
       <profiles>
-        <profile id="bc38-ad23-543a-7903" name="Acastus Twin Lascannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="bc38-ad23-543a-7903" name="Acastus Twin Lascannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">6</characteristic>
@@ -7351,8 +7403,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="b0b0-a8e7-b97d-9c28" name="Knight Weapon" hidden="false" targetId="9b05-f144-0ae5-5d6b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="10.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="10.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="abac-6fdb-0228-d12a" name="Acastus Twin Autocannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -7368,13 +7420,13 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="2e65-e207-2ae4-43c2" name="Weapon" hidden="false" targetId="8faf-9e14-9676-2327" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="93c8-d5c9-575d-d1ac" name="Asterius Twin Conversion Beam Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="f7f4-7de3-b45c-21f7" name="Asterius Twin Conversion Beam Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="f7f4-7de3-b45c-21f7" name="Asterius Twin Conversion Beam Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">4</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">9</characteristic>
@@ -7399,13 +7451,13 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="6785-be3c-a55a-f205" name="Knight Weapon" hidden="false" targetId="9b05-f144-0ae5-5d6b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5893-d4c8-461e-ea79" name="Asterius Karacnos Mortar Battery" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="8abb-9507-2164-dcff" name="Asterius Karacnos Mortar Battery" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="8abb-9507-2164-dcff" name="Asterius Karacnos Mortar Battery" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">6</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">4</characteristic>
@@ -7429,8 +7481,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="0699-b532-2eba-4bbc" name="Rending" hidden="false" targetId="511f-4690-c2b7-9996" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2dee-7316-3a42-5507" name="Acastus Knight Asterius" hidden="false" collective="false" import="true" type="upgrade">
@@ -7454,8 +7506,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <entryLink id="7bc2-34b3-b54b-e8c0" name="Acastus Hull Weapon" hidden="false" collective="false" import="true" targetId="e060-52c1-1d31-a331" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="50.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="50.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="92b5-e290-3859-ee00" name="Auspex Bafflers" publicationId="975a-00f4-pubN89746" hidden="false" collective="false" import="true" type="unit">
@@ -7471,8 +7523,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="fe05-2ae0-6d29-56e8" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1911-abf3-ac1a-dc24" name="Ablative Armour" hidden="false" collective="false" import="true" type="unit">
@@ -7488,8 +7540,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="f6e5-39f6-fcfb-d2d7" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d57-58b8-78e2-ef41" name="Bloodthirst" publicationId="975a-00f4-pubN89746" hidden="true" collective="false" import="true" type="unit">
@@ -7509,8 +7561,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="6c7b-33e6-e037-f88c" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1de7-d898-28ca-df04" name="Cursed Earth" publicationId="975a-00f4-pubN89746" hidden="false" collective="false" import="true" type="unit">
@@ -7526,8 +7578,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="ee24-d8e3-b68e-d64f" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="25d9-b5e3-6243-ba14" name="Dawn Attack" publicationId="975a-00f4-pubN89746" hidden="false" collective="false" import="true" type="unit">
@@ -7543,8 +7595,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="2fdb-45f6-8f5e-be64" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="3.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="3.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d4f-7971-bacc-d50e" name="Endurance of Terra" publicationId="975a-00f4-pubN89746" hidden="true" collective="false" import="true" type="unit">
@@ -7567,8 +7619,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="2d14-fe00-fbcf-d121" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cb69-65f4-f95f-62d3" name="Experimental Weapon" publicationId="975a-00f4-pubN89746" hidden="false" collective="false" import="true" type="unit">
@@ -7581,8 +7633,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="2d07-dca9-7891-14c7" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9ed4-ecf1-c67b-b64e" name="Gifts of the Dark Mechanicum" publicationId="975a-00f4-pubN89746" hidden="true" collective="false" import="true" type="unit">
@@ -7605,8 +7657,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="f2bb-75b2-ac63-ed25" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="3.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="3.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b8c9-6ea9-db00-80ad" name="Great Crusade Titans" publicationId="975a-00f4-pubN89746" hidden="true" collective="false" import="true" type="unit">
@@ -7629,8 +7681,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="8165-a347-ab06-4f1f" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="63e5-c3bf-0f5b-a8ae" name="Living Armour" publicationId="975a-00f4-pubN89746" hidden="true" collective="false" import="true" type="unit">
@@ -7653,8 +7705,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="74ad-b7d8-e91e-f9ec" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="3.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="3.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9c4a-cc01-9454-b339" name="Martian Servitor Clades" publicationId="975a-00f4-pubN89746" hidden="true" collective="false" import="true" type="unit">
@@ -7677,8 +7729,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="214a-d9c4-724c-1943" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="3.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="3.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2f53-6658-d606-ad5c" name="Overcharged Cannon" publicationId="975a-00f4-pubN89746" hidden="false" collective="false" import="true" type="unit">
@@ -7691,8 +7743,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="6d30-67eb-dcbd-bae7" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c88b-b85f-1703-59c7" name="Sabotage" publicationId="975a-00f4-pubN65537" hidden="false" collective="false" import="true" type="unit">
@@ -7708,8 +7760,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="a5d0-0356-0cd7-ba2e" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="82dc-135c-6241-dcca" name="Secutarii Battalion" publicationId="975a-00f4-pubN89746" hidden="true" collective="false" import="true" type="unit">
@@ -7732,8 +7784,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="a6e9-5337-2ec8-f9a8" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="3.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="3.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="68a2-d06c-8ad8-9ea0" name="The Long Retreat" publicationId="975a-00f4-pubN89746" hidden="true" collective="false" import="true" type="unit">
@@ -7753,8 +7805,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         </rule>
       </rules>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3195-2ce6-0ecc-7d2e" name="Thermal Mines" publicationId="975a-00f4-pubN65537" hidden="false" collective="false" import="true" type="unit">
@@ -7767,8 +7819,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         </rule>
       </rules>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b9c7-8740-586c-af80" name="Voidbreaker Field" publicationId="975a-00f4-pubN65537" hidden="false" collective="false" import="true" type="unit">
@@ -7781,8 +7833,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         </rule>
       </rules>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="211c-5c02-080a-eeb4" name="Vox Blackout" publicationId="975a-00f4-pubN89746" hidden="false" collective="false" import="true" type="unit">
@@ -7795,8 +7847,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         </rule>
       </rules>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3ef1-098e-a603-9111" name="Wages of Betrayal" publicationId="975a-00f4-pubN89746" hidden="true" collective="false" import="true" type="unit">
@@ -7819,8 +7871,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="c803-e008-a3f9-dc88" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="19e6-b0cc-5b61-4583" name="War Lust" publicationId="975a-00f4-pubN89746" hidden="true" collective="false" import="true" type="unit">
@@ -7840,8 +7892,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         </rule>
       </rules>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5fff-7fff-159a-06b8" name="War of Fates" publicationId="975a-00f4-pubN89746" hidden="true" collective="false" import="true" type="unit">
@@ -7861,8 +7913,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         </rule>
       </rules>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f84-544d-c82b-ae95" name="Warmaster&apos;s Petition" publicationId="975a-00f4-pubN89746" hidden="true" collective="false" import="true" type="unit">
@@ -7882,8 +7934,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         </rule>
       </rules>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="43fb-83e1-2c6b-100c" name="Loyalist" hidden="false" collective="false" import="true" type="unit">
@@ -7894,8 +7946,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="f5a6-21b4-9932-495c" name="Allegiance" hidden="false" targetId="2841-67b5-15d0-8908" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d634-d27a-fd9c-3f8f" name="Traitor" hidden="false" collective="false" import="true" type="unit">
@@ -7906,8 +7958,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="dcbc-8b47-27e8-eaff" name="Allegiance" hidden="false" targetId="2841-67b5-15d0-8908" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b450-3a86-ecdf-39fc" name="Noble Sacrifice" publicationId="975a-00f4-pubN65537" page="64" hidden="false" collective="false" import="true" type="unit">
@@ -7923,8 +7975,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <categoryLink id="225f-44de-db0f-58bd" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8d52-2df6-feda-18f8" name="Outflank" publicationId="975a-00f4-pubN65537" page="64" hidden="false" collective="false" import="true" type="unit">
@@ -8021,8 +8073,8 @@ If a player&apos;s battlegroup contains any Squadrons (see page 45), they can ch
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a0b2-b8fc-58d2-90f3" name="Artillery Bombardment" publicationId="975a-00f4-pubN65537" page="64" hidden="false" collective="false" import="true" type="unit">
@@ -8038,8 +8090,8 @@ If a player&apos;s battlegroup contains any Squadrons (see page 45), they can ch
         <categoryLink id="9281-1e2a-9d46-9b5c" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4537-cab6-8147-aebe" name="Orbital Lance Strike" publicationId="975a-00f4-pubN65537" page="64" hidden="false" collective="false" import="true" type="unit">
@@ -8055,8 +8107,8 @@ If a player&apos;s battlegroup contains any Squadrons (see page 45), they can ch
         <categoryLink id="34db-650d-be3b-6981" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1fc1-6634-8b70-9b23" name="Blind Barage" publicationId="975a-00f4-pubN65537" page="64" hidden="false" collective="false" import="true" type="unit">
@@ -8072,8 +8124,8 @@ If a player&apos;s battlegroup contains any Squadrons (see page 45), they can ch
         <categoryLink id="634e-325b-b8ab-a59b" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2536-756b-a090-24dd" name="Cripple the Foe" publicationId="975a-00f4-pubN65537" page="64" hidden="false" collective="false" import="true" type="unit">
@@ -8089,8 +8141,8 @@ If a player&apos;s battlegroup contains any Squadrons (see page 45), they can ch
         <categoryLink id="250a-c923-df82-0701" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f752-af34-e90c-eb00" name="Decapitating Strike" publicationId="975a-00f4-pubN65537" page="64" hidden="false" collective="false" import="true" type="unit">
@@ -8106,8 +8158,8 @@ If a player&apos;s battlegroup contains any Squadrons (see page 45), they can ch
         <categoryLink id="0796-92e4-538b-f148" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="45d2-33d8-2a8c-321a" name="Break Through" publicationId="975a-00f4-pubN65537" page="64" hidden="false" collective="false" import="true" type="unit">
@@ -8123,8 +8175,8 @@ If a player&apos;s battlegroup contains any Squadrons (see page 45), they can ch
         <categoryLink id="d56f-7018-2baf-bfb3" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1505-ad33-6414-78ff" name="A Score to Settle" publicationId="975a-00f4-pubN65537" page="64" hidden="false" collective="false" import="true" type="unit">
@@ -8140,8 +8192,8 @@ If a player&apos;s battlegroup contains any Squadrons (see page 45), they can ch
         <categoryLink id="74cd-7809-7c02-0211" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6d49-58e1-e625-0ceb" name="Command Bastion" publicationId="975a-00f4-pubN65537" page="64" hidden="false" collective="false" import="true" type="unit">
@@ -8158,8 +8210,8 @@ If a player&apos;s battlegroup contains any Squadrons (see page 45), they can ch
         <categoryLink id="b2ca-d9cb-fe9e-3b61" name="Battlefield Assets" hidden="false" targetId="0b8b-755a-cabc-6d70" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2aaf-da08-f744-14f6" name="Apocalypse Missile Strongpoint" publicationId="975a-00f4-pubN65537" page="64" hidden="false" collective="false" import="true" type="unit">
@@ -8167,7 +8219,7 @@ If a player&apos;s battlegroup contains any Squadrons (see page 45), they can ch
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42ee-dd35-881e-2b1f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="8b1e-3ae0-9913-720d" name="Apocalypse Missile Strongpoint" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="8b1e-3ae0-9913-720d" name="Apocalypse Missile Strongpoint" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">5</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">4</characteristic>
@@ -8182,7 +8234,7 @@ If a player&apos;s battlegroup contains any Squadrons (see page 45), they can ch
             <characteristic name="Critically Disabled Roll" typeId="2a6c-74d9-5a61-04bf"/>
           </characteristics>
         </profile>
-        <profile id="7efe-9340-fe59-9462" name="Apocalypse Missile Strongpoint" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+        <profile id="7efe-9340-fe59-9462" name="Apocalypse Missile Strongpoint" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
           <characteristics>
             <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007"/>
             <characteristic name="Command" typeId="e94d-33bd-da82-fd4d"/>
@@ -8207,8 +8259,8 @@ If a player&apos;s battlegroup contains any Squadrons (see page 45), they can ch
         <categoryLink id="566c-1953-0d59-d04b" name="Battlefield Assets" hidden="false" targetId="0b8b-755a-cabc-6d70" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2ce9-9861-420c-d8e8" name="Communications Relay" publicationId="975a-00f4-pubN65537" page="65" hidden="false" collective="false" import="true" type="unit">
@@ -8225,8 +8277,8 @@ If a player&apos;s battlegroup contains any Squadrons (see page 45), they can ch
         <categoryLink id="807c-9f65-846d-e358" name="Battlefield Assets" hidden="false" targetId="0b8b-755a-cabc-6d70" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0e1f-c7a0-8a50-0e5e" name="Macro Cannon Battery" publicationId="975a-00f4-pubN65537" page="64" hidden="false" collective="false" import="true" type="unit">
@@ -8234,7 +8286,7 @@ If a player&apos;s battlegroup contains any Squadrons (see page 45), they can ch
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e68-aa1b-6b3c-c622" type="max"/>
       </constraints>
       <profiles>
-        <profile id="4345-5ac7-9cc6-1311" name="Macro Cannon Battery" publicationId="975a-00f4-pubN65537" page="65" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="4345-5ac7-9cc6-1311" name="Macro Cannon Battery" publicationId="975a-00f4-pubN65537" page="65" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">10</characteristic>
@@ -8249,7 +8301,7 @@ If a player&apos;s battlegroup contains any Squadrons (see page 45), they can ch
             <characteristic name="Critically Disabled Roll" typeId="2a6c-74d9-5a61-04bf"/>
           </characteristics>
         </profile>
-        <profile id="b0b5-6887-7d40-3259" name="Macro Cannon Battery" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+        <profile id="b0b5-6887-7d40-3259" name="Macro Cannon Battery" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
           <characteristics>
             <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007"/>
             <characteristic name="Command" typeId="e94d-33bd-da82-fd4d"/>
@@ -8274,8 +8326,8 @@ If a player&apos;s battlegroup contains any Squadrons (see page 45), they can ch
         <categoryLink id="ae91-23e0-18a8-f20d" name="Battlefield Assets" hidden="false" targetId="0b8b-755a-cabc-6d70" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2cb4-be64-ab48-66fb" name="Void Shield Relay" publicationId="975a-00f4-pubN65537" page="65" hidden="false" collective="false" import="true" type="unit">
@@ -8292,8 +8344,8 @@ If a player&apos;s battlegroup contains any Squadrons (see page 45), they can ch
         <categoryLink id="3f9a-6ae0-1d05-8a8a" name="Battlefield Assets" hidden="false" targetId="0b8b-755a-cabc-6d70" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="43a6-b634-7e41-d6c9" name="Plasma Generator" publicationId="975a-00f4-pubN65537" page="65" hidden="false" collective="false" import="true" type="unit">
@@ -8312,8 +8364,8 @@ is reduced by D3.</description>
         <categoryLink id="83a5-fc27-68ea-a748" name="Battlefield Assets" hidden="false" targetId="0b8b-755a-cabc-6d70" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e6da-1530-1bdd-276a" name="Legio Praesagius (True Messengers)" publicationId="3265-f408-cc9b-bfa3" page="21" hidden="false" collective="false" import="true" type="upgrade">
@@ -8333,8 +8385,8 @@ is reduced by D3.</description>
         <categoryLink id="8cf6-9728-725b-ef35" name="New CategoryLink" hidden="false" targetId="d204-9898-0ffb-02f4" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dee5-885d-fc38-08ce" name="Legio Oberon (Death Bolts II)" publicationId="3265-f408-cc9b-bfa3" page="25" hidden="false" collective="false" import="true" type="upgrade">
@@ -8351,8 +8403,8 @@ is reduced by D3.</description>
         <categoryLink id="4803-993f-9586-20e7" name="New CategoryLink" hidden="false" targetId="d204-9898-0ffb-02f4" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f808-ec75-4a31-8a29" name="Legio Lysanda (Sentinels of the Edge)" publicationId="3265-f408-cc9b-bfa3" page="28" hidden="false" collective="false" import="true" type="upgrade">
@@ -8369,8 +8421,8 @@ is reduced by D3.</description>
         <categoryLink id="cb49-a814-6ba0-4306" name="New CategoryLink" hidden="false" targetId="d204-9898-0ffb-02f4" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bd79-8c5d-3949-d89d" name="Legio Infernus (Fire Masters)" publicationId="3265-f408-cc9b-bfa3" page="31" hidden="false" collective="false" import="true" type="upgrade">
@@ -8384,8 +8436,8 @@ is reduced by D3.</description>
         <categoryLink id="804b-e033-649d-24b3" name="New CategoryLink" hidden="false" targetId="d204-9898-0ffb-02f4" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4e6f-c618-89f4-d690" name="Legio Mordaxis (Deathdealers)" publicationId="3265-f408-cc9b-bfa3" page="34" hidden="false" collective="false" import="true" type="upgrade">
@@ -8402,8 +8454,8 @@ is reduced by D3.</description>
         <categoryLink id="5085-792a-ed73-349d" name="New CategoryLink" hidden="false" targetId="d204-9898-0ffb-02f4" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e9a0-229e-7cfb-4def" name="Legio Audax (Ember Wolves)" publicationId="3265-f408-cc9b-bfa3" page="37" hidden="false" collective="false" import="true" type="upgrade">
@@ -8420,13 +8472,13 @@ is reduced by D3.</description>
         <categoryLink id="663f-274b-b9cc-2ce7" name="New CategoryLink" hidden="false" targetId="d204-9898-0ffb-02f4" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d2b6-f342-ccdb-b9cc" name="Warbringer Nemesis Titan" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="c503-4384-cbe7-b407" name="Warbringer Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+        <profile id="c503-4384-cbe7-b407" name="Warbringer Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
           <characteristics>
             <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">5&quot;/7&quot;</characteristic>
             <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">4+</characteristic>
@@ -8485,15 +8537,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="507f-55c1-f09b-1c91" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="8f0d-9d50-1e3f-f31a" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="8f0d-9d50-1e3f-f31a" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="d828-8fa7-d6ec-d064" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8501,15 +8553,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22dd-382d-20d6-1ccb" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="9318-bf70-c4cc-f7dc" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="9318-bf70-c4cc-f7dc" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="e73a-b84f-145f-c9c0" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8517,15 +8569,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e51b-3421-9969-90dc" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="1f28-087a-4f31-64d9" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="1f28-087a-4f31-64d9" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="6e84-54ec-4429-0158" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8533,15 +8585,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d18b-9613-f646-da7d" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="8759-5dc3-2e02-4eb6" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="8759-5dc3-2e02-4eb6" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1e97-d271-ccba-697f" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8549,15 +8601,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3139-1a2f-e532-6d18" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="f4c0-cc3f-707f-f335" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="f4c0-cc3f-707f-f335" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="f8db-ef18-20ca-00b2" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8565,15 +8617,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11b5-2cd9-c655-650e" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="c149-0ca7-b4c6-4d94" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="c149-0ca7-b4c6-4d94" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="910d-b1e5-ce42-1c19" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8581,15 +8633,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc23-f18e-ba78-7c91" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="07ac-4f8e-3931-f153" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="07ac-4f8e-3931-f153" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="2395-8143-0494-ce0a" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8597,15 +8649,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5016-8412-df5e-f3ad" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="03c2-cf08-f131-cddf" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="03c2-cf08-f131-cddf" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -8615,8 +8667,8 @@ is reduced by D3.</description>
                 <entryLink id="b929-09a8-a6b6-b314" name="Body Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="1d49-39ff-979b-f7f0" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="82dc-67ca-cf74-1dd3" name="Head" hidden="false" collective="false" import="true" type="upgrade">
@@ -8645,15 +8697,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71c7-30c0-cbab-9f4f" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="60db-c357-90a4-dfbd" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="60db-c357-90a4-dfbd" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="d5e6-25ac-3f9a-48bc" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8661,15 +8713,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="788d-29f1-6ead-2cea" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="5548-94a3-5f5c-0a6f" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="5548-94a3-5f5c-0a6f" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="deda-d105-68fa-c38e" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8677,15 +8729,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5eb9-5912-a538-1c3e" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="1ddd-3e42-5dfc-e9fd" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="1ddd-3e42-5dfc-e9fd" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="ba67-48dd-c545-f495" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8693,15 +8745,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f55-8ed4-e535-7737" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="334a-a25d-c30d-0a9b" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="334a-a25d-c30d-0a9b" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="0fa9-bf22-22cf-7223" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8709,15 +8761,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5af3-e3ac-a632-e064" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="3e0f-07c4-8f0e-4221" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="3e0f-07c4-8f0e-4221" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="b491-a013-d78d-935a" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8725,15 +8777,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a5b-1f8f-a7a2-2f36" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="954c-f0b1-3369-1327" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="954c-f0b1-3369-1327" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="0622-7f00-7827-b650" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8741,15 +8793,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f154-ed9d-08c1-09e5" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="ec31-5566-8650-846a" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="ec31-5566-8650-846a" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -8759,8 +8811,8 @@ is reduced by D3.</description>
                 <entryLink id="1e36-3527-90b8-7259" name="Head Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="9ba2-12fa-8d22-c505" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b696-bc87-f5a1-c18d" name="Legs" hidden="false" collective="false" import="true" type="upgrade">
@@ -8789,15 +8841,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="906e-a62d-6e8f-cd43" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="11bb-9be0-fefd-fa7d" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="11bb-9be0-fefd-fa7d" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="b97d-dc6e-e9fd-fcbf" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8805,15 +8857,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca23-f6c2-86df-a1bd" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="21dc-3f9d-7cb8-20b7" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="21dc-3f9d-7cb8-20b7" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="3332-c264-7941-e154" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8821,15 +8873,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6fb-3da8-68f5-52d1" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="9029-429a-9646-0563" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="9029-429a-9646-0563" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="8179-32e8-5940-e283" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8837,15 +8889,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f685-ef87-9edd-2c14" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="0a9f-b88e-7661-337f" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="0a9f-b88e-7661-337f" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="494a-2b20-a732-8438" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8853,15 +8905,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="936e-e22e-a96c-6dd5" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="aab4-f28d-0296-7c38" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="aab4-f28d-0296-7c38" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5f37-fdf7-3d71-ed8a" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8869,15 +8921,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebe2-a3f6-6b12-a92f" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="d8f9-a72f-3bb2-959e" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="d8f9-a72f-3bb2-959e" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1b6a-b196-6219-885a" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8885,15 +8937,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c804-7efb-ac4e-e8d6" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="d4d2-a31a-4ae6-9f2d" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="d4d2-a31a-4ae6-9f2d" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1d8f-ab92-5cb9-10b8" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8901,15 +8953,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c68-16ad-6a91-e8cd" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="8247-525e-ec90-c985" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="8247-525e-ec90-c985" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -8919,8 +8971,8 @@ is reduced by D3.</description>
                 <entryLink id="e3f7-8b35-ccee-f1af" name="Legs Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="50af-0bab-a322-f02c" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f00d-9db0-a884-8037" name="Plasma Reactor" hidden="false" collective="false" import="true" type="upgrade">
@@ -8940,8 +8992,8 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9f5-4c0b-53a7-887f" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="5f24-6841-f1fd-7886" name="⦿⦿⦾⦾⦾⦾⦾ Green(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8949,8 +9001,8 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d3f-9918-0e65-eca3" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="64c7-2968-16e9-cfd7" name="⦿⦿⦿⦾⦾⦾⦾ Yellow(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8958,8 +9010,8 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b57-8602-7b90-5f4c" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="9a8e-9326-be35-9136" name="⦿⦿⦿⦿⦾⦾⦾ Yellow(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8967,8 +9019,8 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d3c-d90d-2189-1eda" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="23a4-6d5e-dd6b-6091" name="⦿⦿⦿⦿⦿⦾⦾ Orange(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8976,8 +9028,8 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4c0-55e1-4e26-c82c" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="787c-d1d6-2a19-919c" name="⦿⦿⦿⦿⦿⦿⦾ Orange(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8985,8 +9037,8 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bebf-62a2-6195-b51e" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="eea5-36d3-569c-204d" name="⦿⦿⦿⦿⦿⦿⦿ Red(7)" hidden="false" collective="false" import="true" type="upgrade">
@@ -8994,16 +9046,16 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3115-6bb1-b876-3dd8" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a7c7-5df8-99a0-4540" name="Void Shields" hidden="false" collective="false" import="true" type="upgrade">
@@ -9052,14 +9104,14 @@ is reduced by D3.</description>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -9157,13 +9209,13 @@ is reduced by D3.</description>
         <entryLink id="fc7a-b856-2fe3-566f" name="Wargear" hidden="false" collective="false" import="true" targetId="187f-a18f-cafe-4ae6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="325.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="325.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="02fe-12bb-3cc6-2dcf" name="Bellicosa Volcano Cannon [WBG]" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="98aa-359a-a806-1c29" name="Bellicosa Volcano Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="98aa-359a-a806-1c29" name="Bellicosa Volcano Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">12</characteristic>
@@ -9190,13 +9242,13 @@ is reduced by D3.</description>
         <entryLink id="3b7f-aa92-4cd2-e209" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="55.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="55.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="304a-a91b-5b0f-116e" name="Mori Quake Cannon [WBG]" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="a6bd-b87c-7168-6a4f" name="Mori Quake Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="a6bd-b87c-7168-6a4f" name="Mori Quake Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">9</characteristic>
@@ -9223,8 +9275,8 @@ is reduced by D3.</description>
         <entryLink id="b44a-29bc-48ed-5ba3" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="20.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="20.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9570-2851-584c-62e9" name="Questoris Knight Lord Scion" hidden="false" collective="false" import="true" type="model">
@@ -9260,8 +9312,8 @@ is reduced by D3.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="50.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="50.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="73a9-ef96-145a-a25e" name="Questoris Knight" hidden="false" collective="false" import="true" type="model">
@@ -9297,8 +9349,8 @@ is reduced by D3.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2f87-1543-1c08-5dcf" name="Questoris Knight Scion Martial" hidden="false" collective="false" import="true" type="model">
@@ -9334,13 +9386,13 @@ is reduced by D3.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="35.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="812b-786b-9435-cd20" name="Questoris Knight Banner" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="cd29-3032-7b80-a74d" name="Questoris Knight" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+        <profile id="cd29-3032-7b80-a74d" name="Questoris Knight" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
           <characteristics>
             <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">10&quot;</characteristic>
             <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">6 (4 with Lord Scion)</characteristic>
@@ -9351,7 +9403,7 @@ is reduced by D3.</description>
             <characteristic name="Scale" typeId="5359-4d2b-082b-546a">3 (Grandis)</characteristic>
           </characteristics>
         </profile>
-        <profile id="6ab4-7179-abb3-348c" name="1 Questoris Support Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="Ion Shields">
+        <profile id="6ab4-7179-abb3-348c" name="1 Questoris Support Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
           <characteristics>
             <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">1</characteristic>
             <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">5+</characteristic>
@@ -9361,7 +9413,7 @@ is reduced by D3.</description>
             <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
           </characteristics>
         </profile>
-        <profile id="ccef-22b6-9408-67e9" name="2-3 Questoris Support Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="Ion Shields">
+        <profile id="ccef-22b6-9408-67e9" name="2-3 Questoris Support Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
           <characteristics>
             <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">2</characteristic>
             <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">4+</characteristic>
@@ -9371,7 +9423,7 @@ is reduced by D3.</description>
             <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
           </characteristics>
         </profile>
-        <profile id="bc98-ffb7-65c1-a975" name="4+ Questoris Support Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="Ion Shields">
+        <profile id="bc98-ffb7-65c1-a975" name="4+ Questoris Support Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
           <characteristics>
             <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">4+</characteristic>
             <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">3+</characteristic>
@@ -9419,34 +9471,34 @@ is reduced by D3.</description>
               <selectionEntries>
                 <selectionEntry id="c946-0901-871d-7b2d" name="⦿⦾⦾⦾(1)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="0e15-65f6-ae22-6839" name="⦿⦿⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="5d51-c870-db7d-fe19" name="⦿⦿⦿⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="0bfe-4537-48d8-081c" name="⦿⦿⦿⦿(4)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -9465,13 +9517,13 @@ is reduced by D3.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3900-cfb6-52f2-c83c" name="Cerastus Knight Banner" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="c8ca-e8a8-d4c8-eea0" name="Cerastus Knight" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+        <profile id="c8ca-e8a8-d4c8-eea0" name="Cerastus Knight" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
           <characteristics>
             <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">12&quot;</characteristic>
             <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">5 (3 with Lord Scion)</characteristic>
@@ -9482,7 +9534,7 @@ is reduced by D3.</description>
             <characteristic name="Scale" typeId="5359-4d2b-082b-546a">4 (Grandis)</characteristic>
           </characteristics>
         </profile>
-        <profile id="c7df-476b-a3d8-04d6" name="1 Cerastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="Ion Shields">
+        <profile id="c7df-476b-a3d8-04d6" name="1 Cerastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
           <characteristics>
             <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">1</characteristic>
             <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">5+</characteristic>
@@ -9492,7 +9544,7 @@ is reduced by D3.</description>
             <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
           </characteristics>
         </profile>
-        <profile id="93dc-58d1-9e8d-16e9" name="2 Cerastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="Ion Shields">
+        <profile id="93dc-58d1-9e8d-16e9" name="2 Cerastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
           <characteristics>
             <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">2</characteristic>
             <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">4+</characteristic>
@@ -9502,7 +9554,7 @@ is reduced by D3.</description>
             <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
           </characteristics>
         </profile>
-        <profile id="1761-df48-4769-c8a1" name="3+ Cerastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="Ion Shields">
+        <profile id="1761-df48-4769-c8a1" name="3+ Cerastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
           <characteristics>
             <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">3+</characteristic>
             <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">3+</characteristic>
@@ -9555,40 +9607,40 @@ is reduced by D3.</description>
               <selectionEntries>
                 <selectionEntry id="5acb-caad-2f9a-3c77" name="⦿⦾⦾⦾⦾(1)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="96c7-b751-b050-4cfd" name="⦿⦿⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="2d2a-b467-87a3-9a53" name="⦿⦿⦿⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="f996-a21f-7b86-1923" name="⦿⦿⦿⦿⦿(5)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="d1aa-3cb1-69ae-d22b" name="⦿⦿⦿⦿⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -9607,8 +9659,8 @@ is reduced by D3.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d97-998e-da08-a298" name="Cerastus Knight Lord Scion" hidden="false" collective="false" import="true" type="upgrade">
@@ -9626,8 +9678,8 @@ is reduced by D3.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="70.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="70.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8f63-919a-9591-ecd2" name="Cerastus Knight Scion Martial" hidden="false" collective="false" import="true" type="upgrade">
@@ -9645,8 +9697,8 @@ is reduced by D3.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="60.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="60.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7448-fdbe-6fda-c7f6" name="Acastus Knight Lord Scion" hidden="false" collective="false" import="true" type="upgrade">
@@ -9663,8 +9715,8 @@ is reduced by D3.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="150.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="150.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="67a4-f743-3594-f541" name="Acastus Knight" hidden="false" collective="false" import="true" type="upgrade">
@@ -9681,13 +9733,13 @@ is reduced by D3.</description>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3b77-15d2-9ca8-5cf7" name="Acastus Knight Banner" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="0842-8600-a01c-ad38" name="Acastus Knight" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+        <profile id="0842-8600-a01c-ad38" name="Acastus Knight" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
           <characteristics>
             <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">7&quot;</characteristic>
             <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">5 (3 with Lord Scion)</characteristic>
@@ -9698,7 +9750,7 @@ is reduced by D3.</description>
             <characteristic name="Scale" typeId="5359-4d2b-082b-546a">5 (Grandis)</characteristic>
           </characteristics>
         </profile>
-        <profile id="62f0-ae02-aff9-8c0d" name="1 Acastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="Ion Shields">
+        <profile id="62f0-ae02-aff9-8c0d" name="1 Acastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
           <characteristics>
             <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">1</characteristic>
             <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">5+</characteristic>
@@ -9708,7 +9760,7 @@ is reduced by D3.</description>
             <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
           </characteristics>
         </profile>
-        <profile id="d39b-b1d9-2b45-1910" name="2-3 Acastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="Ion Shields">
+        <profile id="d39b-b1d9-2b45-1910" name="2-3 Acastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
           <characteristics>
             <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">2-3</characteristic>
             <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">4+</characteristic>
@@ -9718,7 +9770,7 @@ is reduced by D3.</description>
             <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
           </characteristics>
         </profile>
-        <profile id="faef-c4b7-b375-4a09" name="4+ Acastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="Ion Shields">
+        <profile id="faef-c4b7-b375-4a09" name="4+ Acastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
           <characteristics>
             <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">4+</characteristic>
             <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">3+</characteristic>
@@ -9774,52 +9826,52 @@ is reduced by D3.</description>
               <selectionEntries>
                 <selectionEntry id="9694-ce3c-bb4d-6635" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="066e-da4b-c22e-a925" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="1306-90aa-8af3-b340" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="4d1f-0c21-a08d-9aa0" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="ac77-05f8-0156-123d" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="643f-aec0-635e-54d3" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="d159-7a24-1886-b37b" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" collective="false" import="true" type="upgrade">
                   <costs>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -9838,8 +9890,8 @@ is reduced by D3.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9646-5ac3-8725-8523" name="=Defensor= Devotional War Sirens" hidden="true" collective="false" import="true" type="upgrade">
@@ -9853,8 +9905,8 @@ is reduced by D3.</description>
         <categoryLink id="9f3f-86e6-94cc-8a35" name="LegioDefensor" hidden="false" targetId="7b17-f14f-4709-e96c" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="20.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="20.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1c7b-4247-5715-1d18" name="=Crucius= Bi-folded Power Containment" hidden="true" collective="false" import="true" type="upgrade">
@@ -9868,8 +9920,8 @@ is reduced by D3.</description>
         <categoryLink id="d4bd-bfa2-ae62-76ba" name="LegioSpecificWargear" hidden="false" targetId="91bd-c88a-f6bb-bb3d" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="30.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="30.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d169-c82c-a137-bb35" name="=Crucius= Terminus Override Mechanisms" hidden="true" collective="false" import="true" type="upgrade">
@@ -9883,8 +9935,8 @@ is reduced by D3.</description>
         <categoryLink id="f532-8a26-84f6-67bb" name="LegioSpecificWargear" hidden="false" targetId="91bd-c88a-f6bb-bb3d" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="30.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f9a9-0ee9-960e-960b" name="=Vulcanum= Twinned Machine Spirits" hidden="true" collective="false" import="true" type="upgrade">
@@ -9898,8 +9950,8 @@ is reduced by D3.</description>
         <categoryLink id="d4f6-9f62-d526-2dc4" name="LegioVulcanum" hidden="false" targetId="4225-27f8-9c8b-e56e" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="20.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="20.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3dfc-85e0-9496-60ec" name="=Vulcanum= Janus Missiles" hidden="true" collective="false" import="true" type="upgrade">
@@ -9913,8 +9965,8 @@ is reduced by D3.</description>
         <categoryLink id="7ab6-d214-75ef-7623" name="LegioVulcanum" hidden="false" targetId="4225-27f8-9c8b-e56e" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="20.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="20.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="630d-8221-b41f-1255" name="=Interfector= Static Rounds" publicationId="975a-00f4-pubN89746" page="26" hidden="true" collective="false" import="true" type="upgrade">
@@ -9928,8 +9980,8 @@ is reduced by D3.</description>
         <categoryLink id="a407-4ac1-2c10-920b" name="LegioSpecificWargear" hidden="false" targetId="91bd-c88a-f6bb-bb3d" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="15.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ba6a-6565-fd40-3645" name="=Atarus= Infernus Missiles" hidden="true" collective="false" import="true" type="upgrade">
@@ -9943,8 +9995,8 @@ is reduced by D3.</description>
         <categoryLink id="0218-8358-88b5-6d5b" name="LegioSpecificWargear" hidden="false" targetId="91bd-c88a-f6bb-bb3d" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="15.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="15.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4c8f-29c9-0c8e-67b6" name="=Krytos= Earthbreaker Missiles" hidden="true" collective="false" import="true" type="upgrade">
@@ -9958,13 +10010,13 @@ is reduced by D3.</description>
         <categoryLink id="75b6-f840-d0dd-b279" name="LegioSpecificWargear" hidden="false" targetId="91bd-c88a-f6bb-bb3d" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0dd0-2ee9-4657-776f" name="=Krytos= Reaver replacement Warlord" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="78a3-c9e7-5fdb-1400" name="Warlord Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+        <profile id="78a3-c9e7-5fdb-1400" name="Warlord Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
           <characteristics>
             <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">4&quot;/6&quot;</characteristic>
             <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">3+</characteristic>
@@ -10008,15 +10060,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a62b-09be-23bb-ed5d" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="18f6-c472-397e-0854" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="18f6-c472-397e-0854" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="26c9-fc87-d101-d10b" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10024,15 +10076,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e06-56f1-8713-6a33" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="c79f-31ee-6511-cb4f" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="c79f-31ee-6511-cb4f" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="abef-9ba6-2e68-d32a" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10040,15 +10092,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c699-de33-c511-fea1" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="336b-fbf5-c386-fe60" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="336b-fbf5-c386-fe60" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="5daa-4542-28c3-d43b" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10056,15 +10108,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a520-b337-8a3e-26eb" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="1a85-6a51-cb13-3300" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="1a85-6a51-cb13-3300" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="6451-f76e-6699-a882" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10072,15 +10124,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af11-ca9c-3214-ffe9" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="e648-b137-4cc8-651d" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="e648-b137-4cc8-651d" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="7de2-ac86-3270-6e76" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10088,15 +10140,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d6e-4f5b-693b-fe54" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="7766-a4ab-a56c-1a19" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="7766-a4ab-a56c-1a19" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="f456-9ebc-0083-4786" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10104,15 +10156,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="158e-d2bd-c3da-5bc0" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="7a32-3387-762f-33f3" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="7a32-3387-762f-33f3" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="6515-0041-3bc1-d0cd" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10120,15 +10172,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d767-dcea-00cb-ea61" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="14c6-3b74-6188-9331" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="14c6-3b74-6188-9331" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -10138,8 +10190,8 @@ is reduced by D3.</description>
             <entryLink id="5e3f-d0b3-50ac-9606" name="Body Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="1d49-39ff-979b-f7f0" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7444-c0ed-50e4-3482" name="Head" hidden="false" collective="false" import="true" type="upgrade">
@@ -10168,15 +10220,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf70-98dd-4fe7-979e" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="f2fc-687d-b25c-a679" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="f2fc-687d-b25c-a679" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="0287-10f5-feb1-c1c4" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10184,15 +10236,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63f4-1fce-8731-6428" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="c1de-75fe-3e1e-3498" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="c1de-75fe-3e1e-3498" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="1d24-3fe1-0662-fec3" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10200,15 +10252,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f8e-cd29-4783-b3c2" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="8475-6878-5c64-33b1" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="8475-6878-5c64-33b1" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="8239-a0ff-9d28-675a" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10216,15 +10268,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7cb-47a2-ee36-97bf" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="c645-aca3-8456-91e5" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="c645-aca3-8456-91e5" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="9c8b-3728-ff2e-fe65" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10232,15 +10284,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7375-0554-db8d-07e0" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="2177-ee48-44ec-8026" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="2177-ee48-44ec-8026" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="be28-8f66-64c0-d380" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10248,15 +10300,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65dc-583f-d607-52c5" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="6ce9-245a-eeba-6187" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="6ce9-245a-eeba-6187" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="9e57-7c3e-2733-7c65" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10264,15 +10316,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="341f-2fdc-442d-8e50" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="9c97-87d7-b9f1-c8b9" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="9c97-87d7-b9f1-c8b9" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -10282,8 +10334,8 @@ is reduced by D3.</description>
             <entryLink id="3afa-b1c0-69fc-ec77" name="Head Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="9ba2-12fa-8d22-c505" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="54ec-78fb-b718-4deb" name="Legs" hidden="false" collective="false" import="true" type="upgrade">
@@ -10312,15 +10364,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4061-6d98-41ee-5173" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="5a32-c58a-785b-7899" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="5a32-c58a-785b-7899" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="b9f4-b9ea-8b2b-cdfd" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10328,15 +10380,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8637-7556-eb7f-d9b9" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="c2f0-0f7e-e2b0-792c" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="c2f0-0f7e-e2b0-792c" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="4071-d614-f327-d9ef" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10344,15 +10396,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06ec-04ee-7270-17c6" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="ca09-2ee3-f48a-7b8c" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="ca09-2ee3-f48a-7b8c" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="9b74-bd2b-14a9-f632" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10360,15 +10412,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2595-ea4e-2a61-40e7" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="0e55-2d09-cc12-791c" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="0e55-2d09-cc12-791c" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="2e05-def8-9277-2e0a" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10376,15 +10428,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dba-0614-4d85-9ca0" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="7b60-0882-db49-5fb9" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="7b60-0882-db49-5fb9" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="5e7d-faaf-a520-a423" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10392,15 +10444,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9782-71c7-b268-1c28" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="2a81-db9f-783b-8369" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="2a81-db9f-783b-8369" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="6e24-61b8-7f7a-ac02" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10408,15 +10460,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dee-2386-84af-57a9" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="34cd-f478-6b1c-bca5" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="34cd-f478-6b1c-bca5" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="efaf-e0ed-c53c-9da1" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10424,15 +10476,15 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="408a-2a7b-8bee-86be" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="be88-93dc-1213-afe3" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                    <profile id="be88-93dc-1213-afe3" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
                         <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -10442,8 +10494,8 @@ is reduced by D3.</description>
             <entryLink id="607e-1fc1-3792-7694" name="Legs Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="50af-0bab-a322-f02c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="219b-802c-2bde-7ef0" name="Void Shields" hidden="false" collective="false" import="true" type="upgrade">
@@ -10492,8 +10544,8 @@ is reduced by D3.</description>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3518-26b2-fd3f-73c5" name="Plasma Reactor" hidden="false" collective="false" import="true" type="upgrade">
@@ -10513,8 +10565,8 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e59-e31b-479b-a888" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="5be8-aedd-7f31-e4e3" name="⦿⦿⦾⦾⦾⦾⦾ Green(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10522,8 +10574,8 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bfd-6b90-2217-2229" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="bc95-8b0a-ef67-8f22" name="⦿⦿⦿⦾⦾⦾⦾ Yellow(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10531,8 +10583,8 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78a4-7191-0cb3-2f64" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="b62d-11c2-90c8-0266" name="⦿⦿⦿⦿⦾⦾⦾ Yellow(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10540,8 +10592,8 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1f0-645d-3a40-281a" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="b6ab-7100-c28a-8fa2" name="⦿⦿⦿⦿⦿⦾⦾ Orange(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10549,8 +10601,8 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa44-c175-9e6a-f29b" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="248e-bca8-3861-8707" name="⦿⦿⦿⦿⦿⦿⦾ Orange(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10558,8 +10610,8 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="027d-a7df-02d4-a5c1" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="4b48-d14d-d6eb-c16f" name="⦿⦿⦿⦿⦿⦿⦿ Red(7)" hidden="false" collective="false" import="true" type="upgrade">
@@ -10567,16 +10619,16 @@ is reduced by D3.</description>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2431-96a2-54c3-34ee" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                    <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                    <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                    <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10669,8 +10721,8 @@ is reduced by D3.</description>
         <entryLink id="ffde-cc56-4834-33d9" name="Wargear" hidden="false" collective="false" import="true" targetId="187f-a18f-cafe-4ae6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="385.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="385.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0d56-2ed6-8229-739e" name="=Fureans= Hunting Auspex" hidden="true" collective="false" import="true" type="upgrade">
@@ -10684,8 +10736,8 @@ is reduced by D3.</description>
         <categoryLink id="a455-b093-9f6a-15ba" name="LegioSpecificWargear" hidden="false" targetId="91bd-c88a-f6bb-bb3d" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="20.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="20.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f8aa-6108-4447-0e90" name="=Mortis= Remains of the Fallen" hidden="true" collective="false" import="true" type="upgrade">
@@ -10699,8 +10751,8 @@ is reduced by D3.</description>
         <categoryLink id="01c1-6551-d9ec-df3c" name="LegioSpecificWargear" hidden="false" targetId="91bd-c88a-f6bb-bb3d" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="20.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="20.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2f5a-dccf-63ea-17ba" name="=Mortis= The Warmaster&apos;s Beneficence" hidden="true" collective="false" import="true" type="upgrade">
@@ -10714,8 +10766,8 @@ is reduced by D3.</description>
         <categoryLink id="42a9-a6aa-5290-8b19" name="LegioSpecificWargear" hidden="false" targetId="91bd-c88a-f6bb-bb3d" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="20.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="20.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b46d-e9ec-be67-c141" name="=Vulpa= Plasma Gargoyles" hidden="true" collective="false" import="true" type="upgrade">
@@ -10729,8 +10781,8 @@ is reduced by D3.</description>
         <categoryLink id="76db-84e5-fdef-0dd6" name="LegioVulpa" hidden="false" targetId="561a-cb05-d4b5-94fd" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="15.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="15.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ac1f-504e-5a1c-6a95" name="=Vulpa= Disruption Emitters" hidden="true" collective="false" import="true" type="upgrade">
@@ -10744,8 +10796,8 @@ is reduced by D3.</description>
         <categoryLink id="dd40-0b68-2862-2a87" name="LegioVulpa" hidden="false" targetId="561a-cb05-d4b5-94fd" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="30.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="30.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1c9d-16db-f94b-c0ec" name="=Solaria= Cameleoline Shrouding" hidden="true" collective="false" import="true" type="upgrade">
@@ -10759,8 +10811,8 @@ is reduced by D3.</description>
         <categoryLink id="ce7e-5f67-f06e-07bb" name="LegioSolaria" hidden="false" targetId="56c0-1162-173d-b052" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="35.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="35.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5f0a-2b12-1f44-a4b9" name="=Lysanda= Mantel of Responsibility" hidden="true" collective="false" import="true" type="upgrade">
@@ -10774,8 +10826,8 @@ is reduced by D3.</description>
         <categoryLink id="8f2b-eefd-f593-c634" name="LegioSpecificWargear" hidden="false" targetId="91bd-c88a-f6bb-bb3d" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="15.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="15.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2133-4929-2061-f585" name="=Infernus= Clinging Phosphex" hidden="true" collective="false" import="true" type="upgrade">
@@ -10789,8 +10841,8 @@ is reduced by D3.</description>
         <categoryLink id="fa51-6f90-b122-7583" name="LegioSpecificWargear" hidden="false" targetId="91bd-c88a-f6bb-bb3d" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="20.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="20.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7689-d32b-cef1-edf0" name="=Infernus= Dark Blessing" hidden="true" collective="false" import="true" type="upgrade">
@@ -10804,13 +10856,13 @@ is reduced by D3.</description>
         <categoryLink id="dfc1-4e5f-d102-c5ac" name="LegioSpecificWargear" hidden="false" targetId="91bd-c88a-f6bb-bb3d" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="5.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="5.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d813-f8ae-081e-d421" name="=Mordaxis= Melta Cannon with Toxin Nodes" hidden="true" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="6834-8372-4330-d4fc" name="Melta Cannon with Toxin Nodes" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="6834-8372-4330-d4fc" name="Melta Cannon with Toxin Nodes" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">10</characteristic>
@@ -10839,13 +10891,13 @@ is reduced by D3.</description>
         <entryLink id="407c-0b10-4319-984d" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="55.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="55.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="81ba-0dd4-a06d-ea23" name="=Mordaxis= Plasma Blastgun with Toxin Nodes" hidden="true" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="6aff-baf0-e5fb-2080" name="Plasma Blastgun with Toxin Nodes" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="6aff-baf0-e5fb-2080" name="Plasma Blastgun with Toxin Nodes" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">7</characteristic>
@@ -10874,13 +10926,13 @@ is reduced by D3.</description>
         <entryLink id="489d-4d8a-9ab0-8ebe" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="50.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="50.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5f42-557f-65e1-68b2" name="=Mordaxis= Volcano Cannon with Toxin Nodes" hidden="true" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="617c-e843-6456-f145" name="Volcano Cannon with Toxin Nodes" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="617c-e843-6456-f145" name="Volcano Cannon with Toxin Nodes" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">9</characteristic>
@@ -10909,8 +10961,8 @@ is reduced by D3.</description>
         <entryLink id="130f-8533-e7be-2428" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="45.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="45.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2351-970d-8215-e66c" name="=Mordaxis= Toxin Nodes" hidden="true" collective="false" import="true" type="upgrade">
@@ -10924,8 +10976,8 @@ is reduced by D3.</description>
         <categoryLink id="72be-66c2-2efc-befa" name="LegioMordaxis" hidden="false" targetId="9d14-f4fb-5868-1b62" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="69f2-0efb-9085-02cb" name="=Audax= Reinforced Plating" hidden="true" collective="false" import="true" type="upgrade">
@@ -10939,13 +10991,13 @@ is reduced by D3.</description>
         <categoryLink id="94f9-8703-4100-62e8" name="LegioSpecificWargear" hidden="false" targetId="91bd-c88a-f6bb-bb3d" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="15.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="15.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="abfb-13ba-25c8-f130" name="Ursus Claw" publicationId="3265-f408-cc9b-bfa3" page="92" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="132d-d0fa-bf94-b735" name="Ursus Claw" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="132d-d0fa-bf94-b735" name="Ursus Claw" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">3</characteristic>
@@ -10971,13 +11023,13 @@ is reduced by D3.</description>
         <entryLink id="429d-427a-9e98-67c3" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="10.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="10.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="59e1-0284-05e3-4c67" name="Natrix Shock Lance" publicationId="3265-f408-cc9b-bfa3" page="92" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="81fc-8687-8042-f611" name="Natrix Shock Lance" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="81fc-8687-8042-f611" name="Natrix Shock Lance" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">4</characteristic>
@@ -11005,13 +11057,13 @@ is reduced by D3.</description>
         <entryLink id="720f-f146-07e7-bc12" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="20.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="20.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f476-3a7b-5612-d96e" name="=Audax= Ursus Claw" hidden="true" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="a029-a99d-fea2-790d" name="Ursus Claw" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="a029-a99d-fea2-790d" name="Ursus Claw" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">3</characteristic>
@@ -11039,13 +11091,13 @@ is reduced by D3.</description>
         <entryLink id="46c0-b1a7-4fc8-7f42" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="10.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="10.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dfeb-83af-7b26-622a" name="Warlord-Sinister Titan" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="df2d-8558-dfda-51eb" name="Warlord-Sinister Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+        <profile id="df2d-8558-dfda-51eb" name="Warlord-Sinister Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
           <characteristics>
             <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">4&quot;/6&quot;</characteristic>
             <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">3+</characteristic>
@@ -11105,15 +11157,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4a0-5046-bc10-af6e" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="a28f-fcaa-2ba7-b161" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="a28f-fcaa-2ba7-b161" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="3b2e-fa45-a364-8625" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11121,15 +11173,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c341-4a3e-1a5a-c6d0" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="051d-4742-4319-9003" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="051d-4742-4319-9003" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="f2bf-04cb-c4ae-6674" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11137,15 +11189,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fef-ef22-5e78-a185" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="9ff9-09b7-8055-4d03" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="9ff9-09b7-8055-4d03" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="2815-08a3-7640-d429" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11153,15 +11205,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77ba-0f5a-f04a-1642" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="53b8-b1cd-c196-b366" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="53b8-b1cd-c196-b366" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="fd63-ca7b-7189-43a9" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11169,15 +11221,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75a8-301c-2528-bf1e" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="19bd-7409-6ae8-ff72" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="19bd-7409-6ae8-ff72" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="3d9d-c074-3423-f70e" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11185,15 +11237,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ca3-1644-5c45-e398" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="9426-7f33-51e9-6cb5" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="9426-7f33-51e9-6cb5" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="4b71-fcbb-08ab-ba92" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11201,15 +11253,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21d1-c8f4-3eaf-2bb6" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="5b83-dee1-3e27-65bf" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="5b83-dee1-3e27-65bf" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="aa70-34cd-b472-22c7" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11217,15 +11269,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a528-e125-8d67-d3cb" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="4696-d127-3ce7-198e" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="4696-d127-3ce7-198e" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -11235,8 +11287,8 @@ is reduced by D3.</description>
                 <entryLink id="90da-54b7-ba57-3793" name="Body Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="1d49-39ff-979b-f7f0" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="eea1-9c78-1458-2a12" name="Void Shields" hidden="false" collective="false" import="true" type="upgrade">
@@ -11285,8 +11337,8 @@ is reduced by D3.</description>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b1b5-d079-a218-a6a1" name="Legs" hidden="false" collective="false" import="true" type="upgrade">
@@ -11315,15 +11367,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd28-5f02-316f-614b" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="4fb1-b6cb-e795-b221" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="4fb1-b6cb-e795-b221" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="1bd9-19e2-a3a2-bd01" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11331,15 +11383,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8fa-ce4c-f487-c3d3" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="ccd5-3720-241d-f815" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="ccd5-3720-241d-f815" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="b00e-907d-ec88-ecfe" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11347,15 +11399,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="532c-b213-365d-2d5c" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="ccbb-2388-3df9-afe5" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="ccbb-2388-3df9-afe5" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="b3fb-d79e-2a47-7338" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11363,15 +11415,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df67-0d5e-d6bc-31e6" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="8d05-e9c9-1842-80a1" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="8d05-e9c9-1842-80a1" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="88bc-6551-d0d3-4b14" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11379,15 +11431,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c8a-b659-a2e2-31e4" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="4421-c9f5-6333-d330" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="4421-c9f5-6333-d330" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="52db-f605-993e-39f0" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11395,15 +11447,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d47-77f5-7a9c-24f9" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="bf99-aa10-1061-4763" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="bf99-aa10-1061-4763" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="d63f-02dc-4d76-2f27" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11411,15 +11463,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdad-d65e-2d89-e6a8" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="88cd-9cec-d500-507f" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="88cd-9cec-d500-507f" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="4a59-e65c-a60b-74d8" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11427,15 +11479,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aafc-8f91-555e-aacf" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="a4fe-c33a-ed1a-8934" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="a4fe-c33a-ed1a-8934" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -11445,8 +11497,8 @@ is reduced by D3.</description>
                 <entryLink id="2427-820a-054e-8ed5" name="Legs Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="50af-0bab-a322-f02c" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ae63-2269-22cc-5562" name="Head" hidden="false" collective="false" import="true" type="upgrade">
@@ -11475,15 +11527,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17c8-2420-2e8d-8fc2" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="bea1-da46-926d-4e8c" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="bea1-da46-926d-4e8c" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="f14a-5b01-729d-2425" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11491,15 +11543,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48e2-cfa0-f3db-da95" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="8b91-d150-0743-0490" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="8b91-d150-0743-0490" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="fbda-aa32-a215-e9b5" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11507,15 +11559,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7d3-c29b-d048-7417" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="20d2-eba1-067e-68aa" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="20d2-eba1-067e-68aa" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="9561-d620-fe4a-ab6b" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11523,15 +11575,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="799e-8c37-81a6-e7ab" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="df71-7b20-1b05-cf07" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="df71-7b20-1b05-cf07" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="2cbb-104a-ddec-44bd" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11539,15 +11591,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bb2-2f5d-d3cb-613d" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="3de4-ab12-e8ee-d181" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="3de4-ab12-e8ee-d181" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="a645-494f-1144-e0e8" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11555,15 +11607,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef4d-cf8f-4b9d-9182" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="9108-bfdc-e6f5-c003" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="9108-bfdc-e6f5-c003" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="f513-3480-27f9-0c41" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11571,15 +11623,15 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed2c-11b3-081e-5f71" type="max"/>
                       </constraints>
                       <profiles>
-                        <profile id="5981-3c8f-1ab8-948b" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="Structure Points">
+                        <profile id="5981-3c8f-1ab8-948b" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
                             <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -11589,8 +11641,8 @@ is reduced by D3.</description>
                 <entryLink id="7f8e-de8e-baf8-47a8" name="Head Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="9ba2-12fa-8d22-c505" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e617-d040-2766-c00c" name="Plasma Reactor" hidden="false" collective="false" import="true" type="upgrade">
@@ -11610,8 +11662,8 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="212c-a0be-2de9-cb78" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="2714-4aac-8906-9936" name="⦿⦿⦾⦾⦾⦾⦾ Green(2)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11619,8 +11671,8 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6690-22de-bb42-1dbe" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="d8b2-6ae9-776d-2963" name="⦿⦿⦿⦾⦾⦾⦾ Yellow(3)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11628,8 +11680,8 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ecd-7c49-d9b7-eaf9" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="7cef-c83e-0042-c8ee" name="⦿⦿⦿⦿⦾⦾⦾ Yellow(4)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11637,8 +11689,8 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df3f-478a-150a-7b46" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="0a40-4904-79c5-c070" name="⦿⦿⦿⦿⦿⦾⦾ Orange(5)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11646,8 +11698,8 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb5f-b4be-64a7-d413" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="e8e1-ff6f-d95e-2b4b" name="⦿⦿⦿⦿⦿⦿⦾ Orange(6)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11655,8 +11707,8 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df82-e85d-77f3-f826" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="7624-ae68-026a-8bfe" name="⦿⦿⦿⦿⦿⦿⦿ Red(7)" hidden="false" collective="false" import="true" type="upgrade">
@@ -11664,22 +11716,22 @@ is reduced by D3.</description>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e35-2ffa-d574-f8ac" type="max"/>
                       </constraints>
                       <costs>
-                        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-                        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+                <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -11771,13 +11823,13 @@ is reduced by D3.</description>
         <entryLink id="e567-79a0-2397-8b15" name="Wargear" hidden="false" collective="false" import="true" targetId="187f-a18f-cafe-4ae6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="685.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="685.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fdb3-1081-0f93-7b0c" name="Sinistraamanus Tenebrae" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="ccf8-e211-f916-44f9" name="Sinistraamanus Tenebrae" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+        <profile id="ccf8-e211-f916-44f9" name="Sinistraamanus Tenebrae" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">3</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">10</characteristic>
@@ -11805,8 +11857,8 @@ is reduced by D3.</description>
         <entryLink id="5c3b-0ff4-ed3e-6672" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ff4b-fa85-f846-e378" name="Arcus Battleline Maniple" publicationId="3265-f408-cc9b-bfa3" page="41" hidden="false" collective="false" import="true" type="unit">
@@ -11864,8 +11916,8 @@ is reduced by D3.</description>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="719e-13a7-d3cd-19bc" name="Ruptura Battleline Maniple" publicationId="3265-f408-cc9b-bfa3" page="42" hidden="false" collective="false" import="true" type="unit">
@@ -11898,8 +11950,8 @@ A Reaver Titan cannot benefit from this ability if it is prevented from moving t
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f969-b5c4-4b5d-1723" name="Mandatum Battleline Maniple" publicationId="3265-f408-cc9b-bfa3" page="43" hidden="false" collective="false" import="true" type="unit">
@@ -11997,8 +12049,8 @@ A Reaver Titan cannot benefit from this ability if it is prevented from moving t
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3a41-59a8-581b-0498" name="=Audax= Canis Light Maniple" publicationId="3265-f408-cc9b-bfa3" page="40" hidden="false" collective="false" import="true" type="unit">
@@ -12027,8 +12079,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3426-e19b-771f-0d15" name="=Mordaxis= Unstoppable" publicationId="3265-f408-cc9b-bfa3" page="34" hidden="false" collective="false" import="true" type="unit">
@@ -12045,8 +12097,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="c1e8-1659-eb79-7b08" name="LegioMordaxis" hidden="false" targetId="9d14-f4fb-5868-1b62" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="3.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="3.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4cf8-2cc7-a7fc-085e" name="=Infernus= Burned Ones" publicationId="3265-f408-cc9b-bfa3" page="31" hidden="false" collective="false" import="true" type="unit">
@@ -12060,8 +12112,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="5769-7d67-e82f-69ce" name="LegioInfernus" hidden="false" targetId="99b7-5e2f-9ea4-bbdf" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="117e-1150-d95c-0c61" name="=Lysanda= Frontier Guard" publicationId="3265-f408-cc9b-bfa3" page="28" hidden="false" collective="false" import="true" type="unit">
@@ -12078,8 +12130,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="6b19-9892-f014-61a6" name="LegioLysanda" hidden="false" targetId="7ada-d471-345c-f8a4" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4db9-d3f5-c9e7-63b2" name="=Oberon= Decisive Action" publicationId="3265-f408-cc9b-bfa3" page="25" hidden="false" collective="false" import="true" type="unit">
@@ -12096,8 +12148,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="60f0-2c87-9186-7af5" name="LegioOberon" hidden="false" targetId="7dc9-a722-55be-5f42" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fa21-d04e-c23a-9d6a" name="=Praesagius= Precision Volley" publicationId="3265-f408-cc9b-bfa3" page="21" hidden="false" collective="false" import="true" type="unit">
@@ -12114,8 +12166,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="3b48-a06f-7463-1f7f" name="LegioPraesagius" hidden="false" targetId="4e62-72e2-a04f-9b86" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="86f7-1a40-382b-ae4b" name="=Oberon= Strategiser" publicationId="3265-f408-cc9b-bfa3" page="25" hidden="false" collective="false" import="true" type="unit">
@@ -12132,8 +12184,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="696e-4ad5-5c10-2b4c" name="LegioOberon" hidden="false" targetId="7dc9-a722-55be-5f42" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="3.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="3.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4ca2-15c0-5ded-18d4" name="Localised Warp Storm" publicationId="3265-f408-cc9b-bfa3" page="96" hidden="true" collective="false" import="true" type="unit">
@@ -12156,8 +12208,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="3f49-2b03-056a-20e1" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="3.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="3.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5ab8-ac68-cbd2-18e7" name="Aetheric Infusion" publicationId="3265-f408-cc9b-bfa3" page="96" hidden="true" collective="false" import="true" type="unit">
@@ -12180,8 +12232,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="bcfe-608f-5a1e-1a5e" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="74cc-351e-33ce-fd95" name="Profane Blessing" publicationId="3265-f408-cc9b-bfa3" page="96" hidden="true" collective="false" import="true" type="unit">
@@ -12201,8 +12253,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="2cac-822e-c470-eae2" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9aff-f954-d10d-1a6b" name="Wails of the Damned" publicationId="3265-f408-cc9b-bfa3" page="96" hidden="true" collective="false" import="true" type="unit">
@@ -12225,8 +12277,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="046f-ba13-38c7-dd1b" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="076f-49cf-0bc3-d5b0" name="Warp Displacement" publicationId="3265-f408-cc9b-bfa3" page="96" hidden="true" collective="false" import="true" type="unit">
@@ -12249,8 +12301,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="a5eb-8eb0-b90d-5577" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c00f-99e1-ceee-6ab8" name="Unhallowed Ground" publicationId="3265-f408-cc9b-bfa3" page="96" hidden="true" collective="false" import="true" type="unit">
@@ -12273,8 +12325,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="4d34-8151-9fdb-fcb7" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d225-d951-ec1f-68ed" name="Iron Resolve" publicationId="3265-f408-cc9b-bfa3" page="97" hidden="true" collective="false" import="true" type="unit">
@@ -12294,8 +12346,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="aff7-a45e-525f-71de" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e7d9-c9e1-cfaf-1c18" name="Sacraficial Lock-on" publicationId="3265-f408-cc9b-bfa3" page="97" hidden="true" collective="false" import="true" type="unit">
@@ -12318,8 +12370,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="bfa2-cbb0-bff9-e2ba" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="174d-8530-d7b6-ff8e" name="Weapons on Full" publicationId="3265-f408-cc9b-bfa3" page="97" hidden="true" collective="false" import="true" type="unit">
@@ -12342,8 +12394,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="3159-274f-44f8-18e9" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fc25-6786-d24b-0cc8" name="Even in Death" publicationId="3265-f408-cc9b-bfa3" page="97" hidden="true" collective="false" import="true" type="unit">
@@ -12366,8 +12418,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="88a5-af01-a4d6-e3f7" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e033-a991-5c12-4e9a" name="Only Forwards" publicationId="3265-f408-cc9b-bfa3" page="97" hidden="true" collective="false" import="true" type="unit">
@@ -12390,8 +12442,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="6f34-164b-c9cc-e276" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0e98-ad0d-4899-fa29" name="EMP Discharge" publicationId="3265-f408-cc9b-bfa3" page="97" hidden="true" collective="false" import="true" type="unit">
@@ -12414,8 +12466,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="6344-5a0e-8cf0-9302" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1aba-1767-f646-5ebe" name="Tracer Cloud" publicationId="3265-f408-cc9b-bfa3" page="97" hidden="false" collective="false" import="true" type="unit">
@@ -12428,8 +12480,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="88b2-4652-dd37-4c71" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dcdc-1908-1c28-7f44" name="Veteran Princeps" publicationId="3265-f408-cc9b-bfa3" page="97" hidden="false" collective="false" import="true" type="unit">
@@ -12442,8 +12494,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="57bd-4dd6-af66-ae21" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f303-73e9-fd41-6eda" name="Augmented Servitor Clades" publicationId="3265-f408-cc9b-bfa3" page="97" hidden="false" collective="false" import="true" type="unit">
@@ -12459,8 +12511,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="23eb-0af4-825e-99db" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f809-8222-f211-054d" name="MIU Link" publicationId="975a-00f4-pubN65537" page="64" hidden="false" collective="false" import="true" type="unit">
@@ -12476,8 +12528,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="7c21-1f8e-bd6b-3635" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1ad5-b9b3-0d8d-400d" name="Concealment Barrage" publicationId="3265-f408-cc9b-bfa3" page="97" hidden="false" collective="false" import="true" type="unit">
@@ -12490,8 +12542,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="123f-0073-103e-9634" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0336-bb0f-b870-de7a" name="Shock mines" publicationId="3265-f408-cc9b-bfa3" page="97" hidden="false" collective="false" import="true" type="unit">
@@ -12507,8 +12559,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="aeeb-7ffa-5aa1-cdc1" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="3.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="3.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2992-c2ab-d138-890d" name="=Astrorum= Bounty of Mars" publicationId="975a-00f4-pubN87630" page="18" hidden="false" collective="false" import="true" type="unit">
@@ -12525,8 +12577,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="56e2-c609-70c9-d842" name="LegioAstorum" hidden="false" targetId="06c2-f93e-7bf5-9fd5" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b96e-64b2-6f6c-2836" name="=Defensor= A Day of Retribution" publicationId="975a-00f4-pubN87630" page="23" hidden="false" collective="false" import="true" type="unit">
@@ -12543,8 +12595,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="51e2-ce35-7fa6-c7a4" name="LegioDefensor" hidden="false" targetId="7b17-f14f-4709-e96c" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="61a7-3fcd-5cb5-7014" name="=Defensor= Blessings of the Emperor" publicationId="975a-00f4-pubN87630" page="23" hidden="false" collective="false" import="true" type="unit">
@@ -12561,8 +12613,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="9e0e-fcb3-0305-8a62" name="LegioDefensor" hidden="false" targetId="7b17-f14f-4709-e96c" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="3.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="3.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b7bc-1a39-1fa8-bde4" name="=Atarus= Impetuous Machine Spirit" publicationId="975a-00f4-pubN87630" page="28" hidden="false" collective="false" import="true" type="unit">
@@ -12579,8 +12631,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="851d-32e4-48f2-1d7d" name="LegioAtarus" hidden="false" targetId="cfcc-e5c0-bb0b-db6f" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ffa3-89c9-f658-9a64" name="=Atarus= Maniple of One" publicationId="975a-00f4-pubN87630" page="28" hidden="false" collective="false" import="true" type="unit">
@@ -12597,8 +12649,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="cc4b-e6b8-1726-8d4f" name="LegioAtarus" hidden="false" targetId="cfcc-e5c0-bb0b-db6f" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="63d6-80e8-e266-00b0" name="=Solaria= Fog of War" publicationId="975a-00f4-pubN87630" page="34" hidden="false" collective="false" import="true" type="unit">
@@ -12615,8 +12667,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="a550-613c-b43e-b01f" name="LegioSolaria" hidden="false" targetId="56c0-1162-173d-b052" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4699-f903-0c50-1e80" name="=Mortis= March of the Dead" publicationId="975a-00f4-pubN87630" page="39" hidden="false" collective="false" import="true" type="unit">
@@ -12633,8 +12685,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="5ed2-ca28-a8c7-8bba" name="LegioMortis" hidden="false" targetId="f88f-e42d-38f7-bfa7" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="3.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="3.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d7da-8565-a7b8-e782" name="=Krytos= Scorched Earth" publicationId="975a-00f4-pubN87630" page="44" hidden="false" collective="false" import="true" type="unit">
@@ -12651,8 +12703,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="af08-53b2-7179-a064" name="LegioKrytos" hidden="false" targetId="95e8-3d8e-a0ad-4ad3" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f4e1-e803-82c2-72ee" name="=Krytos= Iron Endures" publicationId="975a-00f4-pubN87630" page="44" hidden="false" collective="false" import="true" type="unit">
@@ -12669,8 +12721,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="dd24-89be-8ff8-2eff" name="LegioKrytos" hidden="false" targetId="95e8-3d8e-a0ad-4ad3" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="79c4-5f36-3c4b-8482" name="=Fureans= Offensive Surge" publicationId="975a-00f4-pubN87630" page="49" hidden="false" collective="false" import="true" type="unit">
@@ -12687,8 +12739,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="5d5e-0a05-40eb-21a3" name="LegioFureans" hidden="false" targetId="72ba-4008-bf4b-fe3b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="3.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="3.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="12c2-179b-3e38-04d0" name="=Vulpa= No Pity for the Vanquished" publicationId="975a-00f4-pubN87630" page="45" hidden="false" collective="false" import="true" type="unit">
@@ -12705,8 +12757,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
         <categoryLink id="022a-a8a1-63eb-ef07" name="LegioFureans" hidden="false" targetId="72ba-4008-bf4b-fe3b" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a325-71b4-799f-daa1" name="=Tempestus= Combat Drop" publicationId="975a-00f4-pubN65537" page="92" hidden="false" collective="false" import="true" type="unit">
@@ -12726,8 +12778,8 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
         <categoryLink id="639f-2f93-b346-225d" name="LegioTempestus" hidden="false" targetId="15bd-0b4b-5cac-dc48" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="3.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="3.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c88c-e5de-39a8-a14c" name="=Fortidus= For the Red Planet" publicationId="975a-00f4-pubN89746" page="20" hidden="false" collective="false" import="true" type="unit">
@@ -12744,8 +12796,8 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
         <categoryLink id="8c78-f8b6-fcee-508f" name="LegioFortidus" hidden="false" targetId="8129-9843-a287-cd8e" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="2.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="2.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="77b5-8263-66f7-7c67" name="=Fortidus= Red Skies" publicationId="975a-00f4-pubN89746" page="20" hidden="false" collective="false" import="true" type="unit">
@@ -12762,8 +12814,8 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
         <categoryLink id="7d74-3e61-eb64-5915" name="LegioFortidus" hidden="false" targetId="8129-9843-a287-cd8e" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="da32-bf28-85d1-9f9d" name="=Vulcanum= Symbiotic Commands" publicationId="975a-00f4-pubN89746" page="23" hidden="false" collective="false" import="true" type="unit">
@@ -12780,8 +12832,8 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
         <categoryLink id="4bbe-ed93-db90-d937" name="LegioVulcanum" hidden="false" targetId="4225-27f8-9c8b-e56e" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8f50-2bbe-22c7-c81e" name="=Interfector= Tormented Machine Spirit" publicationId="975a-00f4-pubN89746" page="26" hidden="false" collective="false" import="true" type="unit">
@@ -12798,8 +12850,8 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
         <categoryLink id="ad36-7885-ea62-752d" name="LegioVulcanum" hidden="false" targetId="4225-27f8-9c8b-e56e" primary="false"/>
       </categoryLinks>
       <costs>
-        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="1.0"/>
-        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="1.0"/>
+        <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -12818,8 +12870,8 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
             <infoLink id="57b5-9fdd-732d-eb8f" name="Stabilizers Damaged" hidden="false" targetId="17b3-c01c-7edc-82da" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8f94-127b-43d6-ac8a" name="3 Red Manifold Critical Damage" hidden="false" collective="false" import="true" type="upgrade">
@@ -12830,8 +12882,8 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
             <infoLink id="d8a9-4440-3e2e-7e1c" name="Immobilized" hidden="false" targetId="e8db-6948-589e-2c80" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a24a-5f46-842d-37c9" name="2 Orange Manifold Critical Damage" hidden="false" collective="false" import="true" type="upgrade">
@@ -12843,8 +12895,8 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
             <infoLink id="6c0d-2733-171e-8aca" name="Locomotors Seized" hidden="false" targetId="933b-ea98-5684-890f" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -12863,8 +12915,8 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
             <infoLink id="26a5-f3b8-f951-d4a7" name="Reactor Leak (1)" hidden="false" targetId="9d86-911d-7d60-3acc" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="dbe4-d602-cd6a-ed74" name="3 Red Manifold Critical Damage" hidden="false" collective="false" import="true" type="upgrade">
@@ -12876,8 +12928,8 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
             <infoLink id="b71a-b9cd-a82f-7b71" name="VSG Burnout" hidden="false" targetId="a064-e684-d8a9-c65e" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3f8f-21b5-9196-914e" name="2 Orange Manifold Critical Damage" hidden="false" collective="false" import="true" type="upgrade">
@@ -12889,8 +12941,8 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
             <infoLink id="c6b6-f608-2a1b-da05" name="VSG Burnout" hidden="false" targetId="a064-e684-d8a9-c65e" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -12909,8 +12961,8 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
             <infoLink id="6271-0a80-471c-1553" name="MIU Feedback" hidden="false" targetId="c11a-edbe-0a11-00c8" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a8b4-d852-71dc-d2f0" name="3 Red Manifold Critical Damage" hidden="false" collective="false" import="true" type="upgrade">
@@ -12922,8 +12974,8 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
             <infoLink id="3ada-d545-d743-4de8" name="Princeps Wounded" hidden="false" targetId="f645-3cac-dca4-6c01" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="57ca-22ab-6d17-bf18" name="2 Orange Manifold Critical Damage" hidden="false" collective="false" import="true" type="upgrade">
@@ -12935,13 +12987,14 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
             <infoLink id="7c3b-7435-128d-8bec" name="Moderati Wounded" hidden="false" targetId="8ca3-6877-6b64-00ef" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
-            <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+            <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+            <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="187f-a18f-cafe-4ae6" name="Wargear" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="187f-a18f-cafe-4ae6" name="装备" hidden="false" collective="false" import="true">
+      <comment>Wargear</comment>
       <entryLinks>
         <entryLink id="cc8a-a05d-7ae9-a2b8" name="=Gryphonicus= Enhanced Auspex Relay" hidden="true" collective="false" import="true" targetId="46c7-de03-c901-4ecc" type="selectionEntry">
           <modifiers>
