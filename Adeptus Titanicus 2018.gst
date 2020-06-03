@@ -11,14 +11,18 @@
     <publication id="975a-00f4-pubN89033" name="白矮人: 2019年2月">
       <comment>White Dwarf: Feb 2019</comment>
     </publication>
-    <publication id="975a-00f4-pubN89746" name="Doom Of Molech"/>
+    <publication id="975a-00f4-pubN89746" name="莫勒奇的末日">
+      <comment>Doom Of Molech</comment>
+    </publication>
     <publication id="7236-e1d8-c886-f5fd" name="泰坦修会 2018 勘误 v1.0">
       <comment>Adeptus Titanicus 2018 Errata v1.0</comment>
     </publication>
     <publication id="25e8-c9ce-9330-c53b" name="泰坦修会 2018 勘误 v1.1">
       <comment>Adeptus Titanicus 2018 Errata v1.1</comment>
     </publication>
-    <publication id="3265-f408-cc9b-bfa3" name="Shadow and Iron"/>
+    <publication id="3265-f408-cc9b-bfa3" name="暗影和钢铁">
+      <comment>Shadow and Iron</comment>
+    </publication>
   </publications>
   <costTypes>
     <costType id="a731-e220-2d8a-41bf" name=" 点数" defaultCostLimit="-1.0">
@@ -60,14 +64,18 @@
     <profileType id="e539-8a16-c912-c6c5" name="结构点数">
       <comment>Structure Points</comment>
       <characteristicTypes>
-        <characteristicType id="1e91-6224-ebeb-fec2" name="Modifer"/>
+        <characteristicType id="1e91-6224-ebeb-fec2" name="修正"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="b72e-0b77-ebb5-507d" name="Location Table">
+    <profileType id="b72e-0b77-ebb5-507d" name="损伤表">
+      <comment>Location Table
+Direct
+Devastating
+Critical</comment>
       <characteristicTypes>
-        <characteristicType id="c665-cd89-936b-f2e5" name="Direct"/>
-        <characteristicType id="d16c-dca6-9e62-f9aa" name="Devastating"/>
-        <characteristicType id="d300-246c-10d9-f5b2" name="Critical"/>
+        <characteristicType id="c665-cd89-936b-f2e5" name="擦伤"/>
+        <characteristicType id="d16c-dca6-9e62-f9aa" name="严重损伤"/>
+        <characteristicType id="d300-246c-10d9-f5b2" name="致命损伤"/>
       </characteristicTypes>
     </profileType>
     <profileType id="fcf7-bbb7-c944-2eb2" name="离子盾">
@@ -204,9 +212,15 @@ If the target location is a weapon, on a 1-3 the weapon is disabled. If the weap
         </rule>
       </rules>
     </categoryEntry>
-    <categoryEntry id="6bfc-b62c-823a-5a29" name="Arc: Front" hidden="false"/>
-    <categoryEntry id="8e5a-4544-df39-4e4c" name="Arc: Corridor" hidden="false"/>
-    <categoryEntry id="ed82-caea-5092-bf7e" name="Arc: 360 Degree" hidden="false"/>
+    <categoryEntry id="6bfc-b62c-823a-5a29" name="射击弧: 前方" hidden="false">
+      <comment>Arc: Front</comment>
+    </categoryEntry>
+    <categoryEntry id="8e5a-4544-df39-4e4c" name="射击弧: 线性" hidden="false">
+      <comment>Arc: Corridor</comment>
+    </categoryEntry>
+    <categoryEntry id="ed82-caea-5092-bf7e" name="射击弧: 360度" hidden="false">
+      <comment>Arc: 360 Degree</comment>
+    </categoryEntry>
     <categoryEntry id="184a-ded9-ae1a-e357" name="骑士" hidden="false">
       <comment>Knight</comment>
     </categoryEntry>
@@ -222,7 +236,9 @@ Note that it is not necessary to make the Hit rolls - these hits are automatic. 
         </rule>
       </rules>
     </categoryEntry>
-    <categoryEntry id="6982-2d18-55cb-61e5" name="Maniple" hidden="false"/>
+    <categoryEntry id="6982-2d18-55cb-61e5" name="分队" hidden="false">
+      <comment>Maniple</comment>
+    </categoryEntry>
     <categoryEntry id="917a-77ef-30e4-b812" name="Banner" hidden="false">
       <rules>
         <rule id="59fb-73c8-478f-68c9" name="Banner" publicationId="975a-00f4-pubN65537" hidden="false">
@@ -270,7 +286,9 @@ When the Banner is activated in the Issue Orders step of the next Strategy phase
         </rule>
       </rules>
     </categoryEntry>
-    <categoryEntry id="44b5-8770-ea8e-2401" name="Arm" hidden="false"/>
+    <categoryEntry id="44b5-8770-ea8e-2401" name="手臂" hidden="false">
+      <comment>Arm</comment>
+    </categoryEntry>
     <categoryEntry id="a499-678c-ed35-c0e8" name="Barrage" hidden="false">
       <rules>
         <rule id="ac4a-d92e-dac5-bdc7" name="Barrage" hidden="false">
@@ -396,14 +414,16 @@ Knights have a 360 Degree Front Fire Arc</comment>
       <comment>WarlordTitan</comment>
     </categoryEntry>
     <categoryEntry id="dd70-1324-743e-7dfe" name="Gryphonicus-Reaver-Replace-Warlord" hidden="false"/>
-    <categoryEntry id="2841-67b5-15d0-8908" name="Allegiance" hidden="false"/>
+    <categoryEntry id="2841-67b5-15d0-8908" name="联军" hidden="false">
+      <comment>Allegiance</comment>
+    </categoryEntry>
     <categoryEntry id="0b8b-755a-cabc-6d70" name="Battlefield Assets" publicationId="975a-00f4-pubN65537" page="65" hidden="false">
       <profiles>
-        <profile id="2e0d-6258-e5ac-3907" name="Battlefield Assets" publicationId="975a-00f4-pubN65537" page="65" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+        <profile id="2e0d-6258-e5ac-3907" name="Battlefield Assets" publicationId="975a-00f4-pubN65537" page="65" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
           <characteristics>
-            <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">Roll a d6. On a 5 or 6, the Battlefield Asset is destroyed.</characteristic>
-            <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa"/>
-            <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">16+ Roll a d6. On a 3 or more, the Battlefield Asset is destroyed.</characteristic>
+            <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">Roll a d6. On a 5 or 6, the Battlefield Asset is destroyed.</characteristic>
+            <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa"/>
+            <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">16+ Roll a d6. On a 3 or more, the Battlefield Asset is destroyed.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -428,10 +448,16 @@ a Titan&apos;s base crosses a Battlefield Asset as it moves, there is a chance i
       <comment>WarbringerNemesisTitan</comment>
     </categoryEntry>
     <categoryEntry id="91bd-c88a-f6bb-bb3d" name="LegioSpecificWargear" hidden="false"/>
-    <categoryEntry id="06ab-258d-46aa-3b1f" name="Qualifier-SpecialMissiles" hidden="false"/>
-    <categoryEntry id="f7cb-94c3-1bc4-1d94" name="Qualifier-BolterWeapons" hidden="false"/>
+    <categoryEntry id="06ab-258d-46aa-3b1f" name="Qualifier-特殊导弹" hidden="false">
+      <comment>Qualifier-SpecialMissiles</comment>
+    </categoryEntry>
+    <categoryEntry id="f7cb-94c3-1bc4-1d94" name="Qualifier-爆弹武器" hidden="false">
+      <comment>Qualifier-BolterWeapons</comment>
+    </categoryEntry>
     <categoryEntry id="aa16-6b7c-879b-6682" name="Krytos-Warlord-Replace-Reaver" hidden="false"/>
-    <categoryEntry id="5959-24a2-6bd7-ad76" name="Qualifier-Blast3Weapons" hidden="false"/>
+    <categoryEntry id="5959-24a2-6bd7-ad76" name="Qualifier-爆炸3武器" hidden="false">
+      <comment>Qualifier-Blast3Weapons</comment>
+    </categoryEntry>
     <categoryEntry id="87f5-9eef-f2bc-d248" name="Impale" hidden="false">
       <rules>
         <rule id="c660-4152-ef3e-aeba" name="Impale" publicationId="3265-f408-cc9b-bfa3" page="95" hidden="false">
@@ -533,17 +559,17 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
       <comment>Battlegroup</comment>
       <categoryLinks>
         <categoryLink id="09c3-4572-186e-436f" name="Maniple" hidden="false" targetId="6982-2d18-55cb-61e5" primary="false"/>
-        <categoryLink id="7a3b-42f9-f60d-696a" name="Titan" hidden="false" targetId="3f71-3a59-3b75-4ecf" primary="false"/>
+        <categoryLink id="7a3b-42f9-f60d-696a" name="泰坦" hidden="false" targetId="3f71-3a59-3b75-4ecf" primary="false"/>
         <categoryLink id="0606-1d0c-defb-d6e6" name="Banner" hidden="false" targetId="917a-77ef-30e4-b812" primary="false"/>
-        <categoryLink id="4f07-d070-7d91-0291" name="Stratagem" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="false"/>
-        <categoryLink id="f372-1970-b16d-17a5" name="Allegiance" hidden="false" targetId="2841-67b5-15d0-8908" primary="false">
+        <categoryLink id="4f07-d070-7d91-0291" name="战略" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="false"/>
+        <categoryLink id="f372-1970-b16d-17a5" name="联军" hidden="false" targetId="2841-67b5-15d0-8908" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42d9-cf94-91d9-2571" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70d7-a543-a930-24fe" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="8870-d6d8-5519-9eb0" name="Squadron" hidden="false" targetId="fb16-4d89-30b7-fbb8" primary="false"/>
-        <categoryLink id="b789-e317-99d6-5b8e" name="Legio Specific Stratagem" hidden="false" targetId="eb21-0dae-9a3d-863a" primary="false"/>
+        <categoryLink id="8870-d6d8-5519-9eb0" name="中队" hidden="false" targetId="fb16-4d89-30b7-fbb8" primary="false"/>
+        <categoryLink id="b789-e317-99d6-5b8e" name="军团特殊战略" hidden="false" targetId="eb21-0dae-9a3d-863a" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -707,7 +733,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
       </categoryLinks>
     </entryLink>
     <entryLink id="a8fa-2809-75a8-6e64" name="Loyalist" hidden="false" collective="false" import="true" targetId="43fb-83e1-2c6b-100c" type="selectionEntry"/>
-    <entryLink id="7da7-ab94-74dc-4f0b" name="Traitor" hidden="false" collective="false" import="true" targetId="d634-d27a-fd9c-3f8f" type="selectionEntry"/>
+    <entryLink id="7da7-ab94-74dc-4f0b" name="反叛" hidden="false" collective="false" import="true" targetId="d634-d27a-fd9c-3f8f" type="selectionEntry"/>
     <entryLink id="a1bd-5e44-b104-e557" name="Noble Sacrifice" hidden="false" collective="false" import="true" targetId="b450-3a86-ecdf-39fc" type="selectionEntry"/>
     <entryLink id="6455-c5b2-c05a-ea5e" name="Outflank" hidden="false" collective="false" import="true" targetId="8d52-2df6-feda-18f8" type="selectionEntry"/>
     <entryLink id="c2a7-5563-41a6-3773" name="Artillery Bombardment" hidden="false" collective="false" import="true" targetId="a0b2-b8fc-58d2-90f3" type="selectionEntry"/>
@@ -784,9 +810,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
     <entryLink id="b247-402c-24c1-9186" name="=Vulcanum= Symbiotic Commands" hidden="false" collective="false" import="true" targetId="da32-bf28-85d1-9f9d" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="9ff1-81bc-203d-620c" name="Reaver Titan" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="9ff1-81bc-203d-620c" name="掠夺者泰坦" hidden="false" collective="false" import="true" type="model">
+      <comment>Reaver Titan</comment>
       <profiles>
-        <profile id="7ff1-9cf5-3d51-6ff7" name="Reaver Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
+        <profile id="7ff1-9cf5-3d51-6ff7" name="掠夺者泰坦" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
+          <comment>Reaver Titan</comment>
           <characteristics>
             <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">6&quot;/9&quot;</characteristic>
             <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">4+</characteristic>
@@ -803,7 +831,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <categoryLink id="c161-c1d8-f789-0f47" name="New CategoryLink" hidden="false" targetId="d36f-5e44-2150-3428" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="ff82-d3e7-e39f-4700" name="Structure" hidden="true" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ff82-d3e7-e39f-4700" name="结构" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>Structure</comment>
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -819,22 +848,25 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
             <categoryLink id="8f8e-0b82-adec-c7e1" name="Structure" hidden="false" targetId="1c43-76ab-b5e5-6baf" primary="false"/>
           </categoryLinks>
           <selectionEntries>
-            <selectionEntry id="ce60-5657-c368-460a" name="Body" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ce60-5657-c368-460a" name="躯干" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Body</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d4e-d754-4b94-3323" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6f9-c822-1d53-04c0" type="max"/>
               </constraints>
               <profiles>
-                <profile id="f0e4-6eea-a1a2-d04c" name="Body" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                <profile id="f0e4-6eea-a1a2-d04c" name="躯干" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
+                  <comment>Body</comment>
                   <characteristics>
-                    <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">11-13</characteristic>
-                    <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">14-16</characteristic>
-                    <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">17+</characteristic>
+                    <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">11-13</characteristic>
+                    <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">14-16</characteristic>
+                    <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">17+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="82f9-6dd7-e7d4-82cb" name="Body Structure Point Damage" hidden="false" collective="false" import="true" defaultSelectionEntryId="59c7-993b-9c03-c877">
+                <selectionEntryGroup id="82f9-6dd7-e7d4-82cb" name="躯干结构点损伤" hidden="false" collective="false" import="true" defaultSelectionEntryId="59c7-993b-9c03-c877">
+                  <comment>Body Structure Point Damage</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="738f-539a-c675-f21d" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e63b-754d-5877-c33f" type="min"/>
@@ -847,7 +879,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="1041-dd3b-abc9-9e4b" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -863,7 +895,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="98a7-e609-3450-5ee4" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -879,7 +911,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="137c-544a-675a-5ab8" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -895,7 +927,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="4fd8-76b6-0f25-fa9d" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -911,7 +943,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="dfe7-16b6-4dc6-3afe" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -927,7 +959,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="e432-f209-04e3-eb40" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -943,7 +975,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="a31c-0232-6bc0-f135" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -956,29 +988,32 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="42b2-f10a-4222-852e" name="Body Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="1d49-39ff-979b-f7f0" type="selectionEntryGroup"/>
+                <entryLink id="42b2-f10a-4222-852e" name="躯干致命损伤" hidden="false" collective="false" import="true" targetId="1d49-39ff-979b-f7f0" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                 <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8ef8-4f5d-57a9-f47a" name="Head" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8ef8-4f5d-57a9-f47a" name="头部" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Head</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30c6-c9ce-50eb-648a" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3e2-e28a-be15-31d7" type="max"/>
               </constraints>
               <profiles>
-                <profile id="d37d-2bd0-dfcc-ee2d" name="Head" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                <profile id="d37d-2bd0-dfcc-ee2d" name="头部" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
+                  <comment>Head</comment>
                   <characteristics>
-                    <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">10-12</characteristic>
-                    <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
-                    <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">15+</characteristic>
+                    <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">10-12</characteristic>
+                    <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
+                    <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">15+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="440e-2dfa-8e20-8064" name="Head Structure Point Damage" hidden="false" collective="false" import="true" defaultSelectionEntryId="8611-c4b9-610c-1333">
+                <selectionEntryGroup id="440e-2dfa-8e20-8064" name="头部结构点损伤" hidden="false" collective="false" import="true" defaultSelectionEntryId="8611-c4b9-610c-1333">
+                  <comment>Head Structure Point Damage</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8db-d429-4193-b7c4" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cac5-b52b-3a0b-1002" type="min"/>
@@ -991,7 +1026,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="d093-d005-924b-f755" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1007,7 +1042,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="2d1b-a369-3f14-4eee" name="⦿⦿⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1023,7 +1058,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="3e0d-dda6-66c7-8a46" name="⦿⦿⦿⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1039,7 +1074,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="eb06-4ff1-e3c0-6074" name="⦿⦿⦿⦿⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1055,7 +1090,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="77b9-1c7d-7bad-3fc0" name="⦿⦿⦿⦿⦿⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1071,7 +1106,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="339e-d87a-4b5b-c175" name="⦿⦿⦿⦿⦿⦿(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1091,22 +1126,25 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="de3a-7adc-1fb8-e7ba" name="Legs" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="de3a-7adc-1fb8-e7ba" name="腿部" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Legs</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fe3-b516-e2e2-42be" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="310b-28f4-2747-35ce" type="max"/>
               </constraints>
               <profiles>
-                <profile id="4ba4-3390-45ad-092d" name="Legs" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                <profile id="4ba4-3390-45ad-092d" name="腿部" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
+                  <comment>Legs</comment>
                   <characteristics>
-                    <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">11-12</characteristic>
-                    <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
-                    <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">15+</characteristic>
+                    <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">11-12</characteristic>
+                    <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
+                    <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">15+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="9027-f636-4ff9-b37a" name="Legs Structure Point Damage" hidden="false" collective="false" import="true" defaultSelectionEntryId="ac20-d5b6-5270-f35a">
+                <selectionEntryGroup id="9027-f636-4ff9-b37a" name="腿部结构点损伤" hidden="false" collective="false" import="true" defaultSelectionEntryId="ac20-d5b6-5270-f35a">
+                  <comment>Legs Structure Point Damage</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a05-27fa-a12a-bccf" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="788b-e6ac-378a-9d9a" type="max"/>
@@ -1119,7 +1157,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="8cae-74a0-a943-9d79" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1135,7 +1173,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="8cf5-dde3-75d5-cfe1" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1151,7 +1189,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="9942-2e4d-c22c-4d09" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1167,7 +1205,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="e813-9981-3cab-4bf8" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1183,7 +1221,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="dbb2-4250-1c45-47b4" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1199,7 +1237,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="f776-d48a-0164-8a9b" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1215,7 +1253,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="2f61-4176-21b8-bb51" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1235,19 +1273,21 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="baac-b77a-7ab2-043a" name="Plasma Reactor" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="baac-b77a-7ab2-043a" name="等离子反应堆" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Plasma Reactor</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="785a-7176-5752-c5a3" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83fc-a8d4-fde6-68ce" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="d2bd-434c-a954-375f" name="Plasma Reactor" hidden="false" collective="false" import="true" defaultSelectionEntryId="2b56-30e3-0921-394c">
+                <selectionEntryGroup id="d2bd-434c-a954-375f" name="等离子反应堆" hidden="false" collective="false" import="true" defaultSelectionEntryId="2b56-30e3-0921-394c">
+                  <comment>Plasma Reactor</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eec4-2391-20b6-9f8e" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a523-3994-1e1a-b325" type="min"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="2b56-30e3-0921-394c" name="⦿⦾⦾⦾⦾⦾ Green(1)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="2b56-30e3-0921-394c" name="⦿⦾⦾⦾⦾⦾ 绿色(1)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c35c-f3b0-33e5-f725" type="max"/>
                       </constraints>
@@ -1256,7 +1296,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="0931-df64-4c5a-266a" name="⦿⦿⦾⦾⦾⦾ Green(2)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="0931-df64-4c5a-266a" name="⦿⦿⦾⦾⦾⦾ 绿色(2)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d52-4443-cb4b-2e8d" type="max"/>
                       </constraints>
@@ -1265,7 +1305,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="2692-3ce5-8f16-d604" name="⦿⦿⦿⦾⦾⦾ Yellow(3)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="2692-3ce5-8f16-d604" name="⦿⦿⦿⦾⦾⦾ 黄色(3)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47c3-783e-b2c0-e523" type="max"/>
                       </constraints>
@@ -1274,7 +1314,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="8461-a1d2-f546-dc46" name="⦿⦿⦿⦿⦾⦾ Yellow(4)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="8461-a1d2-f546-dc46" name="⦿⦿⦿⦿⦾⦾ 黄色(4)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffdc-5417-8015-1225" type="max"/>
                       </constraints>
@@ -1283,7 +1323,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="8edc-2087-9a1a-97a7" name="⦿⦿⦿⦿⦿⦾ Orange(5)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="8edc-2087-9a1a-97a7" name="⦿⦿⦿⦿⦿⦾ 橙色(5)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5ad-2cbd-5572-4a31" type="max"/>
                       </constraints>
@@ -1292,7 +1332,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="9c87-2325-bc84-deda" name="⦿⦿⦿⦿⦿⦿ Red(6)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="9c87-2325-bc84-deda" name="⦿⦿⦿⦿⦿⦿ 红色(6)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ebe-fde4-9694-9e30" type="max"/>
                       </constraints>
@@ -1309,13 +1349,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="be56-42b4-e79b-5ba5" name="Void Shields" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="be56-42b4-e79b-5ba5" name="虚空盾" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Void Shields</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff26-23a2-a262-ab8a" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d10-2aad-218b-d8f4" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="6cf7-6997-5c1a-e828" name="Void Shields" hidden="false" collective="false" import="true" defaultSelectionEntryId="f4ec-7ca3-4c37-5932">
+                <selectionEntryGroup id="6cf7-6997-5c1a-e828" name="虚空盾" hidden="false" collective="false" import="true" defaultSelectionEntryId="f4ec-7ca3-4c37-5932">
+                  <comment>Void Shields</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c957-ec35-1701-74d4" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4eea-7604-ae9e-42fa" type="min"/>
@@ -1362,9 +1404,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="360a-34ac-766d-69f2" name="Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="360a-34ac-766d-69f2" name="武器" hidden="false" collective="false" import="true">
+          <comment>Weapons</comment>
           <selectionEntryGroups>
-            <selectionEntryGroup id="7087-f431-ad06-6061" name="Arms" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="7087-f431-ad06-6061" name="手臂" hidden="false" collective="false" import="true">
+              <comment>Arms</comment>
               <modifiers>
                 <modifier type="set" field="ee72-8907-e3d9-69de" value="0.0">
                   <conditions>
@@ -1412,7 +1456,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="27cf-b4d5-20b6-9032" name="Carapace" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="27cf-b4d5-20b6-9032" name="顶盖" hidden="false" collective="false" import="true">
+              <comment>Carapace</comment>
               <modifiers>
                 <modifier type="set" field="b048-c539-2ebf-4e14" value="0.0">
                   <conditions>
@@ -1425,10 +1470,10 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54c6-0602-6717-a4a5" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="1ebf-4601-0b5e-b765" name="Apocalypse Missile Launcher" hidden="false" collective="false" import="true" targetId="54d9-e1d5-30b0-c357" type="selectionEntry"/>
+                <entryLink id="1ebf-4601-0b5e-b765" name="启示录导弹发射器" hidden="false" collective="false" import="true" targetId="54d9-e1d5-30b0-c357" type="selectionEntry"/>
                 <entryLink id="b0db-882e-0d36-f524" name="Turbo Laser Destructor (Reaver)" hidden="false" collective="false" import="true" targetId="0b27-6d01-57d3-0e9d" type="selectionEntry"/>
-                <entryLink id="73f2-7386-528b-89a6" name="Warp Missile Support Rack" hidden="false" collective="false" import="true" targetId="be6b-8894-c7d1-bdba" type="selectionEntry"/>
-                <entryLink id="c860-31b1-1c90-21a4" name="Vulcan Megabolter (Reaver)" hidden="false" collective="false" import="true" targetId="47c9-43b5-8afc-b64f" type="selectionEntry"/>
+                <entryLink id="73f2-7386-528b-89a6" name="次元导弹托架" hidden="false" collective="false" import="true" targetId="be6b-8894-c7d1-bdba" type="selectionEntry"/>
+                <entryLink id="c860-31b1-1c90-21a4" name="伏尔甘巨型爆弹 [RVR]" hidden="false" collective="false" import="true" targetId="47c9-43b5-8afc-b64f" type="selectionEntry"/>
                 <entryLink id="0c2b-34ac-a75d-59d0" name="Chasmata Pattern Turbo Laser Destructor (Reaver)" hidden="true" collective="false" import="true" targetId="08c7-5efe-0712-c420" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
@@ -1469,9 +1514,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5122-cb02-8703-ce88" name="Warlord Titan" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="5122-cb02-8703-ce88" name="战将泰坦" hidden="false" collective="false" import="true" type="model">
+      <comment>Warlord Titan</comment>
       <profiles>
-        <profile id="f4bc-0277-b973-df55" name="Warlord Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
+        <profile id="f4bc-0277-b973-df55" name="战将泰坦" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
+          <comment>Warlord Titan</comment>
           <characteristics>
             <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">4&quot;/6&quot;</characteristic>
             <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">3+</characteristic>
@@ -1488,7 +1535,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <categoryLink id="e9d5-d649-c246-8d73" name="New CategoryLink" hidden="false" targetId="7103-9316-d4a5-8caa" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="46bb-a965-6f49-c8ee" name="Structure" hidden="true" collective="false" import="true" type="upgrade">
+        <selectionEntry id="46bb-a965-6f49-c8ee" name="结构" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>Structure</comment>
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -1504,22 +1552,25 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
             <categoryLink id="c9fc-05d6-b611-241b" name="Structure" hidden="false" targetId="1c43-76ab-b5e5-6baf" primary="false"/>
           </categoryLinks>
           <selectionEntries>
-            <selectionEntry id="aa49-c623-c57b-73bb" name="Body" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="aa49-c623-c57b-73bb" name="躯干" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Body</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9c1-0776-cdf4-522b" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80f7-2e97-ac2a-86ee" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ab77-35f7-48ab-fef0" name="Body" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                <profile id="ab77-35f7-48ab-fef0" name="躯干" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
+                  <comment>Body</comment>
                   <characteristics>
-                    <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">12-13</characteristic>
-                    <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">14-15</characteristic>
-                    <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">16+</characteristic>
+                    <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">12-13</characteristic>
+                    <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">14-15</characteristic>
+                    <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">16+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="58a2-4c85-4a1a-aee9" name="Body Structure Point Damage" hidden="false" collective="false" import="true" defaultSelectionEntryId="ab1f-60d4-7ed1-615f">
+                <selectionEntryGroup id="58a2-4c85-4a1a-aee9" name="躯干结构点损伤" hidden="false" collective="false" import="true" defaultSelectionEntryId="ab1f-60d4-7ed1-615f">
+                  <comment>Body Structure Point Damage</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bf0-53a0-fa82-87e5" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a226-347f-55f1-8704" type="max"/>
@@ -1532,7 +1583,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="e111-3e7a-a1e1-1f20" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1548,7 +1599,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="7bec-c45b-c892-aef0" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1564,7 +1615,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="3bdd-3191-cc42-8ffe" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1580,7 +1631,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="f3ef-b84f-61bd-896c" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1596,7 +1647,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="3f8f-6d74-34eb-7a4e" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1612,7 +1663,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="fa6f-f698-3dc1-e001" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1628,7 +1679,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="8b5e-2ee0-f549-0bc9" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1644,7 +1695,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="0d8e-b803-2feb-b65d" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1657,29 +1708,32 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="dfd9-55f4-46af-8544" name="Body Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="1d49-39ff-979b-f7f0" type="selectionEntryGroup"/>
+                <entryLink id="dfd9-55f4-46af-8544" name="躯干致命损伤" hidden="false" collective="false" import="true" targetId="1d49-39ff-979b-f7f0" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                 <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="58ab-d5f7-afcb-2a19" name="Head" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="58ab-d5f7-afcb-2a19" name="头部" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Head</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd31-da63-0747-687b" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1e6-bafe-2cde-65d1" type="max"/>
               </constraints>
               <profiles>
-                <profile id="11b4-3e8a-4b18-745d" name="Head" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                <profile id="11b4-3e8a-4b18-745d" name="头部" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
+                  <comment>Head</comment>
                   <characteristics>
-                    <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">12-13</characteristic>
-                    <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">14-15</characteristic>
-                    <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">17+</characteristic>
+                    <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">12-13</characteristic>
+                    <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">14-15</characteristic>
+                    <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">17+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="e80f-7b39-4014-2a0a" name="Head Structure Point Damage" hidden="false" collective="false" import="true" defaultSelectionEntryId="3838-511f-208c-256c">
+                <selectionEntryGroup id="e80f-7b39-4014-2a0a" name="头部结构点损伤" hidden="false" collective="false" import="true" defaultSelectionEntryId="3838-511f-208c-256c">
+                  <comment>Head Structure Point Damage</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ecb-7880-9d24-9fe5" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92cb-d548-9ec2-ca1a" type="min"/>
@@ -1692,7 +1746,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="ad41-d91d-67ae-97a6" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1708,7 +1762,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="715d-70c9-337f-1fdf" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1724,7 +1778,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="cfa5-0605-11a6-58cb" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1740,7 +1794,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="178c-4723-58ab-373e" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1756,7 +1810,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="e7fe-1fd2-2525-809d" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1772,7 +1826,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="e22d-24a3-c07a-df6a" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1788,7 +1842,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="e78f-5c14-6742-fdd0" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1801,29 +1855,32 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="c3a4-e953-7af0-88fe" name="Head Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="9ba2-12fa-8d22-c505" type="selectionEntryGroup"/>
+                <entryLink id="c3a4-e953-7af0-88fe" name="头部致命损伤" hidden="false" collective="false" import="true" targetId="9ba2-12fa-8d22-c505" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                 <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5acc-0459-2703-dc89" name="Legs" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="5acc-0459-2703-dc89" name="腿部" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Legs</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="049b-8518-e72d-bd19" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="755c-0195-f901-caf4" type="max"/>
               </constraints>
               <profiles>
-                <profile id="4ef7-9ace-96c0-97ea" name="Legs" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                <profile id="4ef7-9ace-96c0-97ea" name="腿部" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
+                  <comment>Legs</comment>
                   <characteristics>
-                    <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">13-14</characteristic>
-                    <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">15-16</characteristic>
-                    <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">17+</characteristic>
+                    <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">13-14</characteristic>
+                    <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">15-16</characteristic>
+                    <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">17+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="2192-e522-33fc-7a0d" name="Legs Structure Point Damage" hidden="false" collective="false" import="true" defaultSelectionEntryId="c4f0-e036-8fb6-710f">
+                <selectionEntryGroup id="2192-e522-33fc-7a0d" name="腿部结构点损伤" hidden="false" collective="false" import="true" defaultSelectionEntryId="c4f0-e036-8fb6-710f">
+                  <comment>Legs Structure Point Damage</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49b4-42e7-5268-4d56" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e011-de54-df3f-2fcc" type="min"/>
@@ -1836,7 +1893,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="4543-4432-5cbd-074b" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1852,7 +1909,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="df50-618e-50cd-30d0" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1868,7 +1925,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="c00f-d942-4c28-897b" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1884,7 +1941,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="cf7e-2f15-9aa4-8cb8" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1900,7 +1957,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="9893-ec59-9eba-187d" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1916,7 +1973,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="4cc8-dbbf-2d63-302a" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1932,7 +1989,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="bfc1-c186-1e1b-39f8" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1948,7 +2005,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="4366-b0e8-1f06-9a27" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1968,19 +2025,21 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8069-3325-63b2-3029" name="Plasma Reactor" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8069-3325-63b2-3029" name="等离子反应堆" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Plasma Reactor</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c03-f95d-e7e5-5b09" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7832-31ce-dfb8-5fe3" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="b11a-fac5-3ae8-0851" name="Plasma Reactor" hidden="false" collective="false" import="true" defaultSelectionEntryId="6617-31a5-b4f8-a45e">
+                <selectionEntryGroup id="b11a-fac5-3ae8-0851" name="等离子反应堆" hidden="false" collective="false" import="true" defaultSelectionEntryId="6617-31a5-b4f8-a45e">
+                  <comment>Plasma Reactor</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a2a-0cb9-90a7-7ade" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42fc-9bb4-0ee9-561c" type="min"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="6617-31a5-b4f8-a45e" name="⦿⦾⦾⦾⦾⦾⦾ Green(1)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="6617-31a5-b4f8-a45e" name="⦿⦾⦾⦾⦾⦾⦾ 绿色(1)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30f4-cc6a-c757-c39d" type="max"/>
                       </constraints>
@@ -1989,7 +2048,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="8de5-3d7c-764f-948e" name="⦿⦿⦾⦾⦾⦾⦾ Green(2)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="8de5-3d7c-764f-948e" name="⦿⦿⦾⦾⦾⦾⦾ 绿色(2)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37bc-1b00-d218-a7c9" type="max"/>
                       </constraints>
@@ -1998,7 +2057,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="11b6-6636-0e86-ce0b" name="⦿⦿⦿⦾⦾⦾⦾ Yellow(3)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="11b6-6636-0e86-ce0b" name="⦿⦿⦿⦾⦾⦾⦾ 黄色(3)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f558-4aff-27d1-2b76" type="max"/>
                       </constraints>
@@ -2007,7 +2066,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="d8f9-32a3-89cc-5b55" name="⦿⦿⦿⦿⦾⦾⦾ Yellow(4)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="d8f9-32a3-89cc-5b55" name="⦿⦿⦿⦿⦾⦾⦾ 黄色(4)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5c5-828e-f59a-1ceb" type="max"/>
                       </constraints>
@@ -2016,7 +2075,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="287a-397a-875e-97db" name="⦿⦿⦿⦿⦿⦾⦾ Orange(5)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="287a-397a-875e-97db" name="⦿⦿⦿⦿⦿⦾⦾ 橙色(5)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e18-abb6-2053-5ad3" type="max"/>
                       </constraints>
@@ -2025,7 +2084,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="9aa4-9d6b-41ae-7eba" name="⦿⦿⦿⦿⦿⦿⦾ Orange(6)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="9aa4-9d6b-41ae-7eba" name="⦿⦿⦿⦿⦿⦿⦾ 橙色(6)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4ea-289d-6cf7-aeaf" type="max"/>
                       </constraints>
@@ -2034,7 +2093,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="ec82-402a-b5ee-775c" name="⦿⦿⦿⦿⦿⦿⦿ Red(7)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="ec82-402a-b5ee-775c" name="⦿⦿⦿⦿⦿⦿⦿ 红色(7)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4829-41c4-5ca0-1126" type="max"/>
                       </constraints>
@@ -2051,13 +2110,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4713-328f-fa65-9e84" name="Void Shields" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="4713-328f-fa65-9e84" name="虚空盾" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Void Shields</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39a8-c596-3622-7cdc" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a1d-bc5b-b1fc-1886" type="min"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="6d0b-28e5-4a63-a6b0" name="Void Shields" hidden="false" collective="false" import="true" defaultSelectionEntryId="c3db-3518-2542-a028">
+                <selectionEntryGroup id="6d0b-28e5-4a63-a6b0" name="虚空盾" hidden="false" collective="false" import="true" defaultSelectionEntryId="c3db-3518-2542-a028">
+                  <comment>Void Shields</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0287-723f-12e1-0fb2" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ade-1817-3beb-2c7d" type="max"/>
@@ -2109,9 +2170,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2c49-32dd-c032-07ff" name="Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="2c49-32dd-c032-07ff" name="武器" hidden="false" collective="false" import="true">
+          <comment>Weapons</comment>
           <selectionEntryGroups>
-            <selectionEntryGroup id="a1a4-28d9-f4b1-8620" name="Arms" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="a1a4-28d9-f4b1-8620" name="手臂" hidden="false" collective="false" import="true">
+              <comment>Arms</comment>
               <modifiers>
                 <modifier type="set" field="c052-ca12-9ada-bf1a" value="0.0">
                   <conditions>
@@ -2124,14 +2187,15 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c052-ca12-9ada-bf1a" type="min"/>
               </constraints>
               <entryLinks>
-                <entryLink id="3899-13d5-8233-f210" name="Arioch Titan Power Claw" hidden="false" collective="false" import="true" targetId="4e23-1ac3-bb9b-14b5" type="selectionEntry"/>
-                <entryLink id="02c3-1211-25b7-2063" name="Bellicosa Volcano Cannon" hidden="false" collective="false" import="true" targetId="fee8-4996-06cd-64bc" type="selectionEntry"/>
-                <entryLink id="3faa-da51-4eee-2221" name="Mori Quake Cannon" hidden="false" collective="false" import="true" targetId="1904-506f-6b2d-0843" type="selectionEntry"/>
-                <entryLink id="ad41-83a1-d41d-dd34" name="Sunfury Plasma Annihilator" hidden="false" collective="false" import="true" targetId="5960-ee8c-3107-46c4" type="selectionEntry"/>
+                <entryLink id="3899-13d5-8233-f210" name="阿里奥奇泰坦动力爪" hidden="false" collective="false" import="true" targetId="4e23-1ac3-bb9b-14b5" type="selectionEntry"/>
+                <entryLink id="02c3-1211-25b7-2063" name="贝利寇萨火山炮 [WLD]" hidden="false" collective="false" import="true" targetId="fee8-4996-06cd-64bc" type="selectionEntry"/>
+                <entryLink id="3faa-da51-4eee-2221" name="Mori Quake Cannon [WLD]" hidden="false" collective="false" import="true" targetId="1904-506f-6b2d-0843" type="selectionEntry"/>
+                <entryLink id="ad41-83a1-d41d-dd34" name="日怒等离子歼灭炮" hidden="false" collective="false" import="true" targetId="5960-ee8c-3107-46c4" type="selectionEntry"/>
                 <entryLink id="b4ae-a574-74b8-b907" name="Macro Gatling Blaster" hidden="false" collective="false" import="true" targetId="2cea-d272-fa57-5553" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="fd46-9b21-ec00-bd85" name="Carapace" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="fd46-9b21-ec00-bd85" name="顶盖" hidden="false" collective="false" import="true">
+              <comment>Carapace</comment>
               <modifiers>
                 <modifier type="set" field="6977-5166-19eb-114c" value="0.0">
                   <conditions>
@@ -2145,10 +2209,10 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
               </constraints>
               <entryLinks>
                 <entryLink id="fa6c-a6e7-3460-7b1c" name="Apocalypse Missile Launchers" hidden="false" collective="false" import="true" targetId="bd33-0564-6277-6dc1" type="selectionEntry"/>
-                <entryLink id="2035-b042-8826-fdbc" name="Paired Gatling Blasters" hidden="false" collective="false" import="true" targetId="bfdb-4953-f838-7d21" type="selectionEntry"/>
-                <entryLink id="6ec1-2cea-cca2-ad48" name="Paired Laser Blaster" hidden="false" collective="false" import="true" targetId="5fc7-120d-623b-8b5a" type="selectionEntry"/>
-                <entryLink id="86cd-7a25-7463-7bf6" name="Paired Turbo Laser Destructor (Warlord)" hidden="false" collective="false" import="true" targetId="bfee-3947-a004-3a4e" type="selectionEntry"/>
-                <entryLink id="1ece-bd9a-ec7c-6f25" name="Vulcan Megabolter Array" hidden="false" collective="false" import="true" targetId="f2ae-e883-28c4-dbcc" type="selectionEntry"/>
+                <entryLink id="2035-b042-8826-fdbc" name="一对加特林爆裂炮" hidden="false" collective="false" import="true" targetId="bfdb-4953-f838-7d21" type="selectionEntry"/>
+                <entryLink id="6ec1-2cea-cca2-ad48" name="一对激光爆裂炮" hidden="false" collective="false" import="true" targetId="5fc7-120d-623b-8b5a" type="selectionEntry"/>
+                <entryLink id="86cd-7a25-7463-7bf6" name="Paired Turbo Laser Destructor" hidden="false" collective="false" import="true" targetId="bfee-3947-a004-3a4e" type="selectionEntry"/>
+                <entryLink id="1ece-bd9a-ec7c-6f25" name="伏尔甘巨型爆弹阵列" hidden="false" collective="false" import="true" targetId="f2ae-e883-28c4-dbcc" type="selectionEntry"/>
                 <entryLink id="12f8-fb5a-890c-e131" name="Paired Chasmata Pattern Laser Blaster" hidden="true" collective="false" import="true" targetId="fe03-8e18-b108-5853" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
@@ -2171,12 +2235,12 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="0c27-288f-504a-2110" name="Ardex Defensor Cannon" hidden="false" collective="false" import="true" targetId="ebc6-2029-ceb3-f43b" type="selectionEntry"/>
+            <entryLink id="0c27-288f-504a-2110" name="阿德克斯近防炮" hidden="false" collective="false" import="true" targetId="ebc6-2029-ceb3-f43b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="4dcc-4217-0816-846e" name="Titan Legion" hidden="false" collective="false" import="true" targetId="6202-19dc-f26f-9b64" type="selectionEntry">
+        <entryLink id="4dcc-4217-0816-846e" name="泰坦军团" hidden="false" collective="false" import="true" targetId="6202-19dc-f26f-9b64" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -2201,9 +2265,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3ad7-cd10-8d6e-8c2e" name="Warhound Titan" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="3ad7-cd10-8d6e-8c2e" name="战犬泰坦" hidden="false" collective="false" import="true" type="model">
+      <comment>Warhound Titan</comment>
       <profiles>
-        <profile id="6a50-23dd-224f-f8c3" name="Warhound Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
+        <profile id="6a50-23dd-224f-f8c3" name="战犬泰坦" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
+          <comment>Warhound Titan</comment>
           <characteristics>
             <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">8&quot;/12&quot;</characteristic>
             <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">5+</characteristic>
@@ -2220,7 +2286,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <categoryLink id="e12e-1619-83e6-4a5c" name="New CategoryLink" hidden="false" targetId="223f-6e71-9e4f-939e" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="139d-39eb-08c0-175c" name="Structure" hidden="true" collective="false" import="true" type="upgrade">
+        <selectionEntry id="139d-39eb-08c0-175c" name="结构" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>Structure</comment>
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -2236,22 +2303,25 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
             <categoryLink id="b63d-d452-dd14-8f23" name="Structure" hidden="false" targetId="1c43-76ab-b5e5-6baf" primary="false"/>
           </categoryLinks>
           <selectionEntries>
-            <selectionEntry id="2e95-41ff-648a-c613" name="Body" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2e95-41ff-648a-c613" name="躯干" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Body</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb15-7874-a8cf-34d4" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="026d-3d4b-1eb4-68e8" type="max"/>
               </constraints>
               <profiles>
-                <profile id="eaa2-1b91-358d-7399" name="Body" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                <profile id="eaa2-1b91-358d-7399" name="躯干" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
+                  <comment>Body</comment>
                   <characteristics>
-                    <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">10-11</characteristic>
-                    <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">12-13</characteristic>
-                    <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">14+</characteristic>
+                    <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">10-11</characteristic>
+                    <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">12-13</characteristic>
+                    <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">14+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="065f-7fc6-d202-91fe" name="Body Structure Point Damage" hidden="false" collective="false" import="true" defaultSelectionEntryId="e5f5-7737-0ee3-12ff">
+                <selectionEntryGroup id="065f-7fc6-d202-91fe" name="躯干结构点损伤" hidden="false" collective="false" import="true" defaultSelectionEntryId="e5f5-7737-0ee3-12ff">
+                  <comment>Body Structure Point Damage</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd5b-f19a-c14f-40b3" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f77-3ef7-003e-35ed" type="min"/>
@@ -2264,7 +2334,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="26cd-5b7a-1830-1fd4" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2280,7 +2350,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="f41f-5717-8476-559c" name="⦿⦿⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2296,7 +2366,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="061a-fe71-faab-75b4" name="⦿⦿⦿⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2312,7 +2382,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="db85-b702-3f52-482f" name="⦿⦿⦿⦿⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2328,7 +2398,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="9fab-f394-a2ce-40da" name="⦿⦿⦿⦿⦿⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2344,7 +2414,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="616f-b35d-aa26-5e9d" name="⦿⦿⦿⦿⦿⦿(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2357,29 +2427,32 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="1901-4d08-c84c-1d02" name="Body Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="1d49-39ff-979b-f7f0" type="selectionEntryGroup"/>
+                <entryLink id="1901-4d08-c84c-1d02" name="躯干致命损伤" hidden="false" collective="false" import="true" targetId="1d49-39ff-979b-f7f0" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                 <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c7e9-8beb-166b-2bd2" name="Head" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="c7e9-8beb-166b-2bd2" name="头部" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Head</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac7a-a8c0-f412-1ae3" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edc4-6c4c-f398-fd23" type="max"/>
               </constraints>
               <profiles>
-                <profile id="cec8-0ec1-db35-0db3" name="Head" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                <profile id="cec8-0ec1-db35-0db3" name="头部" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
+                  <comment>Head</comment>
                   <characteristics>
-                    <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">11-13</characteristic>
-                    <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">14-15</characteristic>
-                    <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">16+</characteristic>
+                    <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">11-13</characteristic>
+                    <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">14-15</characteristic>
+                    <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">16+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="87eb-c78b-8a61-d8ee" name="Head Structure Point Damage" hidden="false" collective="false" import="true" defaultSelectionEntryId="b141-59e1-7eef-4fb7">
+                <selectionEntryGroup id="87eb-c78b-8a61-d8ee" name="头部结构点损伤" hidden="false" collective="false" import="true" defaultSelectionEntryId="b141-59e1-7eef-4fb7">
+                  <comment>Head Structure Point Damage</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1532-02f8-5e78-da0c" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a7e-6aa0-8b9d-a39b" type="min"/>
@@ -2392,7 +2465,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="93e2-0dee-abbe-7569" name="⦿⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2408,7 +2481,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="30c8-28e3-4fce-e536" name="⦿⦿⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2424,7 +2497,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="682e-6771-0271-26cd" name="⦿⦿⦿⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2440,7 +2513,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="a563-535e-bbbf-162c" name="⦿⦿⦿⦿⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2456,7 +2529,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="1207-28da-7074-fe20" name="⦿⦿⦿⦿⦿(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2469,29 +2542,32 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="b204-41f0-c812-6299" name="Head Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="9ba2-12fa-8d22-c505" type="selectionEntryGroup"/>
+                <entryLink id="b204-41f0-c812-6299" name="头部致命损伤" hidden="false" collective="false" import="true" targetId="9ba2-12fa-8d22-c505" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                 <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="973c-b73d-ae62-5394" name="Legs" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="973c-b73d-ae62-5394" name="腿部" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Legs</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4f6-b348-a0ed-7a72" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c5e-501b-5eca-d998" type="max"/>
               </constraints>
               <profiles>
-                <profile id="bb98-7439-cdca-bd3d" name="Legs" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                <profile id="bb98-7439-cdca-bd3d" name="腿部" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
+                  <comment>Legs</comment>
                   <characteristics>
-                    <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">10-12</characteristic>
-                    <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
-                    <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">15+</characteristic>
+                    <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">10-12</characteristic>
+                    <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
+                    <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">15+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="a477-774a-da4f-8827" name="Legs Structure Point Damage" hidden="false" collective="false" import="true" defaultSelectionEntryId="0ffe-6c1f-0edb-9ddb">
+                <selectionEntryGroup id="a477-774a-da4f-8827" name="腿部结构点损伤" hidden="false" collective="false" import="true" defaultSelectionEntryId="0ffe-6c1f-0edb-9ddb">
+                  <comment>Legs Structure Point Damage</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2bb-e7e3-465f-1616" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98a3-0772-b9bf-f4ee" type="min"/>
@@ -2504,7 +2580,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="2e6c-6961-c6a3-62ef" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2520,7 +2596,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="01a7-c382-dad6-bfb8" name="⦿⦿⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2536,7 +2612,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="637d-64d3-7fcf-82f6" name="⦿⦿⦿⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2552,7 +2628,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="4f5b-d157-6bbc-c01a" name="⦿⦿⦿⦿⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2568,7 +2644,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="c719-2d13-3899-1a42" name="⦿⦿⦿⦿⦿⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2584,7 +2660,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                       <profiles>
                         <profile id="3755-262c-77fc-c0a5" name="⦿⦿⦿⦿⦿⦿(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2597,26 +2673,29 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="3ce0-684a-e00e-9282" name="Legs Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="50af-0bab-a322-f02c" type="selectionEntryGroup"/>
+                <entryLink id="3ce0-684a-e00e-9282" name="腿部致命损伤" hidden="false" collective="false" import="true" targetId="50af-0bab-a322-f02c" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                 <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6749-39a0-bccd-77be" name="Plasma Reactor" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6749-39a0-bccd-77be" name="等离子反应堆" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Plasma Reactor</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17b2-6984-200e-9b80" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6772-7042-350a-29f1" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="2927-2d95-17e3-03df" name="Plasma Reactor" hidden="false" collective="false" import="true" defaultSelectionEntryId="78c9-22c6-9cc4-0984">
+                <selectionEntryGroup id="2927-2d95-17e3-03df" name="等离子反应堆" hidden="false" collective="false" import="true" defaultSelectionEntryId="78c9-22c6-9cc4-0984">
+                  <comment>Plasma Reactor</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="045c-401a-b758-a864" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d41d-418d-680d-51b7" type="min"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="78c9-22c6-9cc4-0984" name="⦿⦾⦾⦾⦾ Green(1)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="78c9-22c6-9cc4-0984" name="⦿⦾⦾⦾⦾ 绿色(1)" hidden="false" collective="false" import="true" type="upgrade">
+                      <comment>⦿⦾⦾⦾⦾ Green(1)</comment>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aada-0398-afc7-b7c3" type="max"/>
                       </constraints>
@@ -2625,7 +2704,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="cbbf-4912-ef26-b2c8" name="⦿⦿⦾⦾⦾ Green(2)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="cbbf-4912-ef26-b2c8" name="⦿⦿⦾⦾⦾ 绿色(2)" hidden="false" collective="false" import="true" type="upgrade">
+                      <comment>⦿⦿⦾⦾⦾ Green(2)</comment>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8528-7979-02ad-92db" type="max"/>
                       </constraints>
@@ -2634,7 +2714,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="6303-e42d-0e7b-5504" name="⦿⦿⦿⦾⦾ Yellow(3)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="6303-e42d-0e7b-5504" name="⦿⦿⦿⦾⦾ 黄色(3)" hidden="false" collective="false" import="true" type="upgrade">
+                      <comment>⦿⦿⦿⦾⦾ Yellow(3)</comment>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b27a-351a-a367-aa4c" type="max"/>
                       </constraints>
@@ -2643,7 +2724,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="5d9a-6b84-0e38-888b" name="⦿⦿⦿⦿⦾ Orange(4)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="5d9a-6b84-0e38-888b" name="⦿⦿⦿⦿⦾ 橙色(4)" hidden="false" collective="false" import="true" type="upgrade">
+                      <comment>⦿⦿⦿⦿⦾ Orange(4)</comment>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="594b-eb53-0b0f-328a" type="max"/>
                       </constraints>
@@ -2652,7 +2734,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="7ef3-7259-62da-5ca5" name="⦿⦿⦿⦿⦿ Red(5)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="7ef3-7259-62da-5ca5" name="⦿⦿⦿⦿⦿ 红色(5)" hidden="false" collective="false" import="true" type="upgrade">
+                      <comment>⦿⦿⦿⦿⦿ Red(5)</comment>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dfe-1122-d038-5bb8" type="max"/>
                       </constraints>
@@ -2669,34 +2752,40 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="10c3-14a9-774c-5c18" name="Void Shields" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="10c3-14a9-774c-5c18" name="虚空盾" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Void Shields</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cdc-4bf9-b3bb-0812" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26c4-bef5-68d7-3ecc" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="5c15-c1e9-f4bb-2039" name="Void Shields" hidden="false" collective="false" import="true" defaultSelectionEntryId="fd3c-2761-b1cb-ccd7">
+                <selectionEntryGroup id="5c15-c1e9-f4bb-2039" name="虚空盾" hidden="false" collective="false" import="true" defaultSelectionEntryId="fd3c-2761-b1cb-ccd7">
+                  <comment>Void Shields</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cd7-18f7-77c0-bebd" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbd0-5ec5-1081-ddd8" type="min"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="fd3c-2761-b1cb-ccd7" name="Void Shield (3+)" hidden="false" collective="false" import="true" targetId="e7f3-4f09-8dc2-5b18" type="selectionEntry">
+                    <entryLink id="fd3c-2761-b1cb-ccd7" name="虚空盾 (3+)" hidden="false" collective="false" import="true" targetId="e7f3-4f09-8dc2-5b18" type="selectionEntry">
+                      <comment>Void Shield (3+)</comment>
                       <modifiers>
                         <modifier type="append" field="name" value="⦿⦾⦾⦾"/>
                       </modifiers>
                     </entryLink>
-                    <entryLink id="d3b0-f384-3e2a-4f34" name="Void Shield (4+)" hidden="false" collective="false" import="true" targetId="c621-87a7-709b-daa0" type="selectionEntry">
+                    <entryLink id="d3b0-f384-3e2a-4f34" name="虚空盾 (4+)" hidden="false" collective="false" import="true" targetId="c621-87a7-709b-daa0" type="selectionEntry">
+                      <comment>Void Shield (4+)</comment>
                       <modifiers>
                         <modifier type="append" field="name" value="⦿⦿⦾⦾"/>
                       </modifiers>
                     </entryLink>
-                    <entryLink id="b9e5-4d2b-fb2f-b061" name="Void Shield (4+) 2" hidden="false" collective="false" import="true" targetId="9219-813c-9bc8-e118" type="selectionEntry">
+                    <entryLink id="b9e5-4d2b-fb2f-b061" name="虚空盾 (4+) 2" hidden="false" collective="false" import="true" targetId="9219-813c-9bc8-e118" type="selectionEntry">
+                      <comment>Void Shield (4+) 2</comment>
                       <modifiers>
                         <modifier type="append" field="name" value="⦿⦿⦿⦾"/>
                       </modifiers>
                     </entryLink>
-                    <entryLink id="fe5a-ad7f-493e-48a0" name="Void Shield (X)" hidden="false" collective="false" import="true" targetId="fb11-17c8-3ecb-3006" type="selectionEntry">
+                    <entryLink id="fe5a-ad7f-493e-48a0" name="虚空盾 (X)" hidden="false" collective="false" import="true" targetId="fb11-17c8-3ecb-3006" type="selectionEntry">
+                      <comment>Void Shield (X)</comment>
                       <modifiers>
                         <modifier type="append" field="name" value="⦿⦿⦿⦿"/>
                       </modifiers>
@@ -2717,9 +2806,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="f4dd-18ef-5ac0-0de0" name="Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="f4dd-18ef-5ac0-0de0" name="武器" hidden="false" collective="false" import="true">
+          <comment>Weapons</comment>
           <selectionEntryGroups>
-            <selectionEntryGroup id="dee5-7afd-4f12-6e20" name="Arms" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="dee5-7afd-4f12-6e20" name="手臂" hidden="false" collective="false" import="true">
+              <comment>Arms</comment>
               <modifiers>
                 <modifier type="set" field="05cc-de3c-d852-dfd2" value="0.0">
                   <conditions>
@@ -2732,11 +2823,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e13-803f-1d74-381b" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="dd37-25ca-a5a0-a04a" name="Inferno Gun" hidden="false" collective="false" import="true" targetId="c7aa-80e5-43d2-0cfd" type="selectionEntry"/>
-                <entryLink id="23f0-ce15-158e-d8f5" name="Plasma Blast Gun" hidden="false" collective="false" import="true" targetId="bd35-3f71-8bea-7e42" type="selectionEntry"/>
-                <entryLink id="fc86-6790-bf6c-3f0a" name="Turbo Laser Destructor (Warhound)" hidden="false" collective="false" import="true" targetId="2165-2206-85af-b273" type="selectionEntry"/>
-                <entryLink id="1524-5b2a-1e79-12e8" name="Vulcan Megabolter (Warhound)" hidden="false" collective="false" import="true" targetId="edcd-f43d-10ba-7f60" type="selectionEntry"/>
-                <entryLink id="3ee3-eda0-0fc6-d1e0" name="Chasmata Pattern Turbo Laser Destructor (Warhound)" hidden="true" collective="false" import="true" targetId="8fee-61b8-1c39-b9ee" type="selectionEntry">
+                <entryLink id="dd37-25ca-a5a0-a04a" name="地狱枪" hidden="false" collective="false" import="true" targetId="c7aa-80e5-43d2-0cfd" type="selectionEntry"/>
+                <entryLink id="23f0-ce15-158e-d8f5" name="等离子爆裂枪" hidden="false" collective="false" import="true" targetId="bd35-3f71-8bea-7e42" type="selectionEntry"/>
+                <entryLink id="fc86-6790-bf6c-3f0a" name="Turbo Laser Destructor [WHD]" hidden="false" collective="false" import="true" targetId="2165-2206-85af-b273" type="selectionEntry"/>
+                <entryLink id="1524-5b2a-1e79-12e8" name="伏尔甘巨型爆弹 [WHD]" hidden="false" collective="false" import="true" targetId="edcd-f43d-10ba-7f60" type="selectionEntry"/>
+                <entryLink id="3ee3-eda0-0fc6-d1e0" name="=Tempestus= Chasmata Turbo Laser Destructor [WHD]" hidden="true" collective="false" import="true" targetId="8fee-61b8-1c39-b9ee" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
@@ -2763,7 +2854,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink id="059f-73f9-983f-6b61" name="Ursus Claw" hidden="false" collective="false" import="true" targetId="abfb-13ba-25c8-f130" type="selectionEntry">
+                <entryLink id="059f-73f9-983f-6b61" name="熊爪" hidden="false" collective="false" import="true" targetId="abfb-13ba-25c8-f130" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -2772,14 +2863,14 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink id="6a38-658a-3b64-348d" name="Natrix Shock Lance" hidden="false" collective="false" import="true" targetId="59e1-0284-05e3-4c67" type="selectionEntry"/>
+                <entryLink id="6a38-658a-3b64-348d" name="纳特里克斯冲击长枪" hidden="false" collective="false" import="true" targetId="59e1-0284-05e3-4c67" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="5cf4-5897-342d-5a46" name="Titan Legion" hidden="false" collective="false" import="true" targetId="6202-19dc-f26f-9b64" type="selectionEntry">
+        <entryLink id="5cf4-5897-342d-5a46" name="泰坦军团" hidden="false" collective="false" import="true" targetId="6202-19dc-f26f-9b64" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -2797,19 +2888,21 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="895d-6fe2-456c-f3da" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="fcd2-9d09-2af7-36de" name="Wargear" hidden="false" collective="false" import="true" targetId="187f-a18f-cafe-4ae6" type="selectionEntryGroup"/>
+        <entryLink id="fcd2-9d09-2af7-36de" name="装备" hidden="false" collective="false" import="true" targetId="187f-a18f-cafe-4ae6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="180.0"/>
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bc4c-36af-c4cd-4594" name="Rapid-Fire Battlecannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bc4c-36af-c4cd-4594" name="速射战斗炮" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Rapid-Fire Battlecannon</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b56-743a-f0dc-899e" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5e1f-99ec-d35a-31d4" name="Rapid-Fire Battlecannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="5e1f-99ec-d35a-31d4" name="速射战斗炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Rapid-Fire Battlecannon</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">5</characteristic>
@@ -2837,12 +2930,14 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="02f3-29a7-d9a3-54ba" name="Avenger Gatling Cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="02f3-29a7-d9a3-54ba" name="复仇者加特林炮" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Avenger Gatling Cannon</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5199-0c9c-66ff-7376" type="max"/>
       </constraints>
       <profiles>
-        <profile id="1a29-07b2-853f-94e3" name="Avenger Gatling Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="1a29-07b2-853f-94e3" name="复仇者加特林炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Avenger Gatling Cannon</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">8</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">3</characteristic>
@@ -2870,12 +2965,14 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="908e-f9af-f0d1-a124" name="Thermal Cannon" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="908e-f9af-f0d1-a124" name="热能炮" hidden="false" collective="false" import="true" type="model">
+      <comment>Thermal Cannon</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c302-c3f5-b5ce-c362" type="max"/>
       </constraints>
       <profiles>
-        <profile id="9428-6182-19bb-9286" name="Thermal Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="9428-6182-19bb-9286" name="热能炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Thermal Cannon</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -2903,12 +3000,14 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5be0-b49f-fc95-f499" name="Questoris Melee Weapon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5be0-b49f-fc95-f499" name="巡游级肉搏武器" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Questoris Melee Weapon</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ea0-e862-70ac-4bf1" type="max"/>
       </constraints>
       <profiles>
-        <profile id="348c-89b0-51aa-a7e8" name="Questoris Melee Weapon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="348c-89b0-51aa-a7e8" name="巡游级肉搏武器" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Questoris Melee Weapon</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">7</characteristic>
@@ -3228,14 +3327,18 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c197-9e7c-0bb5-0889" name="Lord Scion" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="c197-9e7c-0bb5-0889" name="领主" hidden="false" collective="false" import="true" type="model">
+      <comment>Lord Scion</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fae-8413-da6d-a43b" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95e0-a28b-5140-3b29" type="min"/>
       </constraints>
       <rules>
-        <rule id="df55-7c19-a9fc-8be8" name="Lord Scion" hidden="false">
-          <description>While the Lord Scion is part of the Banner, add +2 to the result of any Command checks for it.</description>
+        <rule id="df55-7c19-a9fc-8be8" name="领主" hidden="false">
+          <comment>Lord Scion
+While the Lord Scion is part of the Banner, add +2 to the result of any Command checks for it.
+</comment>
+          <description>如果队伍包含领主, 则指令鉴定结果 +2.</description>
         </rule>
       </rules>
       <costs>
@@ -3243,18 +3346,21 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5cc8-bdd5-8c3f-5bc3" name="Scion Martial" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="5cc8-bdd5-8c3f-5bc3" name="贵族" hidden="false" collective="false" import="true" type="model">
+      <comment>Scion Martial</comment>
       <costs>
         <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="82d5-4e74-6258-8be8" name="Stormspear Rocket Pod" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="82d5-4e74-6258-8be8" name="风暴之矛火箭仓" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Stormspear Rocket Pod</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="022c-10c6-d8d2-6a7e" type="max"/>
       </constraints>
       <profiles>
-        <profile id="f3fa-201d-26ce-15d3" name="Stormspear Rocket Pod" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="f3fa-201d-26ce-15d3" name="风暴之矛火箭仓" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Stormspear Rocket Pod</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">3</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">5</characteristic>
@@ -3280,13 +3386,17 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5fef-e84f-c8eb-791b" name="Meltagun" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5fef-e84f-c8eb-791b" name="热熔枪" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Meltagun</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a030-deb2-ccf8-72c5" type="max"/>
       </constraints>
       <rules>
-        <rule id="823a-c234-4f29-c04d" name="Meltagun" hidden="false">
-          <description>When the banner is activated in the Combat phase, each Knight with a Meltagun upgrade can target an enemy unit within 3&quot;.That unit suffers a Strength 8 hit.</description>
+        <rule id="823a-c234-4f29-c04d" name="热熔枪" hidden="false">
+          <comment>Meltagun
+When the banner is activated in the Combat phase, each Knight with a Meltagun upgrade can target an enemy unit within 3&quot;.That unit suffers a Strength 8 hit.
+</comment>
+          <description>当队伍在战斗阶段被激活时, 每个装备热熔枪升级的骑士可以攻击3&quot;范围内的一个敌人. 哪个单位收到一个 S8 的命中.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -3297,7 +3407,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4e23-1ac3-bb9b-14b5" name="Arioch Titan Power Claw" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4e23-1ac3-bb9b-14b5" name="阿里奥奇泰坦动力爪" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Arioch Titan Power Claw</comment>
       <modifiers>
         <modifier type="set" field="a731-e220-2d8a-41bf" value="0.0">
           <conditions>
@@ -3306,7 +3417,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="92de-72a0-ca66-d332" name="Arioch Titan Power Claw" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="92de-72a0-ca66-d332" name="阿里奥奇泰坦动力爪" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Arioch Titan Power Claw</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">3</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">12</characteristic>
@@ -3337,9 +3449,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e89d-64cd-eb26-e165" name="Reaver Titan Power Fist" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e89d-64cd-eb26-e165" name="掠夺者泰坦动力拳" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Reaver Titan Power Fist</comment>
       <profiles>
-        <profile id="6ce8-b18f-1346-3973" name="Reaver Titan Power Fist" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="6ce8-b18f-1346-3973" name="掠夺者泰坦动力拳" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Reaver Titan Power Fist</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">9</characteristic>
@@ -3369,9 +3483,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fee8-4996-06cd-64bc" name="Bellicosa Volcano Cannon [WLD]" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="fee8-4996-06cd-64bc" name="贝利寇萨火山炮 [WLD]" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Bellicosa Volcano Cannon [WLD]</comment>
       <profiles>
-        <profile id="a82d-e28b-fcfa-38c1" name="Bellicosa Volcano Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="a82d-e28b-fcfa-38c1" name="贝利寇萨火山炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Bellicosa Volcano Cannon</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">12</characteristic>
@@ -3402,9 +3518,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="375a-7b78-8edd-71d5" name="Laser Blaster" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="375a-7b78-8edd-71d5" name="激光爆裂炮" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Laser Blaster</comment>
       <profiles>
-        <profile id="b62c-bcc4-d519-bc32" name="Laser Blaster" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="b62c-bcc4-d519-bc32" name="激光爆裂炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Laser Blaster</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">3</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -3435,9 +3553,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bfdb-4953-f838-7d21" name="Paired Gatling Blasters" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bfdb-4953-f838-7d21" name="一对加特林爆裂炮" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Paired Gatling Blasters</comment>
       <profiles>
-        <profile id="0510-f2fd-9e12-db18" name="Paired Gatling Blasters" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="0510-f2fd-9e12-db18" name="一对加特林爆裂炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Paired Gatling Blasters</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">12</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">5</characteristic>
@@ -3468,9 +3588,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0b27-6d01-57d3-0e9d" name="Turbo Laser Destructor [RVR]" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0b27-6d01-57d3-0e9d" name="涡轮激光毁灭炮 [RVR]" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Turbo Laser Destructor [RVR]</comment>
       <profiles>
-        <profile id="d790-65c0-7f6c-708f" name="Turbo Laser Destructor" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="d790-65c0-7f6c-708f" name="涡轮激光毁灭炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Turbo Laser Destructor</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -3501,9 +3623,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5960-ee8c-3107-46c4" name="Sunfury Plasma Annihilator" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5960-ee8c-3107-46c4" name="日怒等离子歼灭炮" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Sunfury Plasma Annihilator</comment>
       <profiles>
-        <profile id="349e-1d9b-a206-18f5" name="Sunfury Plasma Annihilator" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="349e-1d9b-a206-18f5" name="日怒等离子歼灭炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Sunfury Plasma Annihilator</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">4</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -3533,9 +3657,10 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="47c9-43b5-8afc-b64f" name="Vulcan Megabolter [RVR]" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="47c9-43b5-8afc-b64f" name="伏尔甘巨型爆弹 [RVR]" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="b627-6f89-9463-8a14" name="Vulcan Megabolter (Reaver)" publicationId="7236-e1d8-c886-f5fd" page="38" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="b627-6f89-9463-8a14" name="伏尔甘巨型爆弹 (掠夺者)" publicationId="7236-e1d8-c886-f5fd" page="38" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Vulcan Megabolter (Reaver)</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">6</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">4</characteristic>
@@ -3566,9 +3691,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2165-2206-85af-b273" name="Turbo Laser Destructor [WHD]" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2165-2206-85af-b273" name="涡轮激光毁灭炮 [WHD]" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Turbo Laser Destructor [WHD]</comment>
       <profiles>
-        <profile id="46f4-f06b-9149-ebca" name="Turbo Laser Destructor" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="46f4-f06b-9149-ebca" name="涡轮激光毁灭炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Turbo Laser Destructor</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -3598,9 +3725,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2cea-d272-fa57-5553" name="Macro Gatling Blaster" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2cea-d272-fa57-5553" name="宏加特林爆裂炮" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Macro Gatling Blaster</comment>
       <profiles>
-        <profile id="b708-2870-24cd-7be2" name="Macro Gatling Blaster" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="b708-2870-24cd-7be2" name="宏加特林爆裂炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Macro Gatling Blaster</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">6</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">7</characteristic>
@@ -3629,9 +3758,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="73bc-c1cd-03b3-bedf" name="Reaver Titan Chainfist" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="73bc-c1cd-03b3-bedf" name="掠夺者泰坦链锯拳" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Reaver Titan Chainfist</comment>
       <profiles>
-        <profile id="9fa2-abe8-fb2e-709e" name="Reaver Titan Chainfist" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="9fa2-abe8-fb2e-709e" name="掠夺者泰坦链锯拳" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Reaver Titan Chainfist</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">3</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -3662,9 +3793,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bd33-0564-6277-6dc1" name="Apocalypse Missile Launchers" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bd33-0564-6277-6dc1" name="启示录导弹发射器" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Apocalypse Missile Launchers</comment>
       <profiles>
-        <profile id="700d-80b3-00d0-091b" name="Apocalypse Missile Launchers" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="700d-80b3-00d0-091b" name="启示录导弹发射器" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Apocalypse Missile Launchers</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">10</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">4</characteristic>
@@ -3696,9 +3829,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8bd4-e1ff-d447-389e" name="Volcano Cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8bd4-e1ff-d447-389e" name="火山炮" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Volcano Cannon</comment>
       <profiles>
-        <profile id="ace0-55a3-8828-3d1a" name="Volcano Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="ace0-55a3-8828-3d1a" name="火山炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Volcano Cannon</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">10</characteristic>
@@ -3728,9 +3863,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1904-506f-6b2d-0843" name="Mori Quake Cannon [WLD]" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1904-506f-6b2d-0843" name="地震炮 [WLD]" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Mori Quake Cannon [WLD]</comment>
       <profiles>
-        <profile id="9b69-ddb5-1640-7409" name="Mori Quake Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="9b69-ddb5-1640-7409" name="地震炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Mori Quake Cannon</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">9</characteristic>
@@ -3761,9 +3898,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bd35-3f71-8bea-7e42" name="Plasma Blast Gun" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bd35-3f71-8bea-7e42" name="等离子爆裂枪" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Plasma Blast Gun</comment>
       <profiles>
-        <profile id="f969-ff69-e466-aa5f" name="Plasma Blast Gun" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="f969-ff69-e466-aa5f" name="等离子爆裂枪" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Plasma Blast Gun</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -3794,9 +3933,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="be6b-8894-c7d1-bdba" name="Warp Missile Support Rack" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="be6b-8894-c7d1-bdba" name="次元导弹托架" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Warp Missile Support Rack</comment>
       <profiles>
-        <profile id="daea-6b05-7a54-7156" name="Warp Missile Support Rack" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="daea-6b05-7a54-7156" name="次元导弹托架" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Warp Missile Support Rack</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">X</characteristic>
@@ -3820,16 +3961,18 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <categoryLink id="186e-5993-6e22-fecf" name="Weapon" hidden="false" targetId="8faf-9e14-9676-2327" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="38ed-3d00-a5ec-8a60" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
+        <entryLink id="38ed-3d00-a5ec-8a60" name="武器损坏" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="10.0"/>
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5fc7-120d-623b-8b5a" name="Paired Laser Blaster" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5fc7-120d-623b-8b5a" name="一对激光爆裂炮" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Paired Laser Blaster</comment>
       <profiles>
-        <profile id="2c94-2b36-0482-f108" name="Paired Laser Blaster" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="2c94-2b36-0482-f108" name="一对激光爆裂炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Paired Laser Blaster</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">6</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -3854,16 +3997,18 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <categoryLink id="0b1d-b3d5-b057-5fec" name="Arc: Corridor" hidden="false" targetId="8e5a-4544-df39-4e4c" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="3ce4-21dc-baa0-9567" name="Weapon Destroyed" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
+        <entryLink id="3ce4-21dc-baa0-9567" name="武器损坏" hidden="false" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="50.0"/>
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="54d9-e1d5-30b0-c357" name="Apocalypse Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="54d9-e1d5-30b0-c357" name="启示录导弹发射器" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Apocalypse Missile Launcher</comment>
       <profiles>
-        <profile id="531c-4242-6420-d01e" name="Apocalypse Missile Launcher" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="531c-4242-6420-d01e" name="启示录导弹发射器" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Apocalypse Missile Launcher</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">5</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">4</characteristic>
@@ -3896,9 +4041,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="087a-abff-3ffe-f488" name="Melta Cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="087a-abff-3ffe-f488" name="热熔炮" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Melta Cannon</comment>
       <profiles>
-        <profile id="d10f-9630-c104-eb62" name="Melta Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="d10f-9630-c104-eb62" name="热熔炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Melta Cannon</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">11</characteristic>
@@ -3929,9 +4076,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bfee-3947-a004-3a4e" name="Paired Turbo Laser Destructor" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bfee-3947-a004-3a4e" name="一对涡轮机光毁灭炮" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Paired Turbo Laser Destructor</comment>
       <profiles>
-        <profile id="08bc-a277-c2bc-9973" name="Paired Turbo Laser Destructor" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="08bc-a277-c2bc-9973" name="一对涡轮机光毁灭炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Paired Turbo Laser Destructor</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">4</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -3963,9 +4112,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c7aa-80e5-43d2-0cfd" name="Inferno Gun" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c7aa-80e5-43d2-0cfd" name="地狱枪" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Inferno Gun</comment>
       <profiles>
-        <profile id="9501-9bd3-1519-158a" name="Inferno Gun" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="9501-9bd3-1519-158a" name="地狱枪" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Inferno Gun</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">3</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">7</characteristic>
@@ -3995,9 +4146,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aa7a-74f4-180e-3b5e" name="Gatling Blaster" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="aa7a-74f4-180e-3b5e" name="加特林爆裂炮" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Gatling Blaster</comment>
       <profiles>
-        <profile id="7296-c9a2-e9db-34b5" name="Gatling Blasters" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="7296-c9a2-e9db-34b5" name="加特林爆裂炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Gatling Blasters</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">6</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">5</characteristic>
@@ -4027,9 +4180,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f2ae-e883-28c4-dbcc" name="Vulcan Megabolter Array" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f2ae-e883-28c4-dbcc" name="伏尔甘巨型爆弹阵列" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Vulcan Megabolter Array</comment>
       <profiles>
-        <profile id="a5ef-5826-f9cf-6c41" name="Vulcan Megabolter Array" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="a5ef-5826-f9cf-6c41" name="伏尔甘巨型爆弹阵列" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Vulcan Megabolter Array</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">12</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">4</characteristic>
@@ -4061,9 +4216,10 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="edcd-f43d-10ba-7f60" name="Vulcan Megabolter [WHD]" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="edcd-f43d-10ba-7f60" name="伏尔甘巨型爆弹 [WHD]" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="9e0d-d5fd-c251-904b" name="Vulcan Megabolter (Warhound)" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="9e0d-d5fd-c251-904b" name="伏尔甘巨型爆弹 (战犬)" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Vulcan Megabolter (Warhound)</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">6</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">4</characteristic>
@@ -4093,7 +4249,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e7f3-4f09-8dc2-5b18" name="Void Shield (3+)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e7f3-4f09-8dc2-5b18" name="虚空盾 (3+)" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Void Shield (3+)</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d84-966a-65f5-984f" type="max"/>
       </constraints>
@@ -4102,7 +4259,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c621-87a7-709b-daa0" name="Void Shield (4+)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c621-87a7-709b-daa0" name="虚空盾 (4+)" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Void Shield (4+)</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e66e-039a-2576-1143" type="max"/>
       </constraints>
@@ -4111,7 +4269,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fb11-17c8-3ecb-3006" name="Void Shield (X)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="fb11-17c8-3ecb-3006" name="虚空盾 (X)" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Void Shield (X)</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b40-26e6-b877-dca2" type="max"/>
       </constraints>
@@ -4141,14 +4300,18 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ebc6-2029-ceb3-f43b" name="Ardex Defensor Cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ebc6-2029-ceb3-f43b" name="阿德克斯近防炮" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Ardex Defensor Cannon</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9a3-e790-5e42-7cfa" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb67-6f88-ca10-e8b3" type="max"/>
       </constraints>
       <rules>
-        <rule id="4a77-f09b-b59f-6651" name="Ardex Defensor Cannon" hidden="false">
-          <description>When the Titan is activated in the Combat phase, each enemy unit that is within its Front or Rear arc, and within 6&quot;, suffers D3 Strength 5 hits.</description>
+        <rule id="4a77-f09b-b59f-6651" name="阿德克斯近防炮" hidden="false">
+          <comment>Ardex Defensor Cannon
+When the Titan is activated in the Combat phase, each enemy unit that is within its Front or Rear arc, and within 6&quot;, suffers D3 Strength 5 hits.
+</comment>
+          <description>当泰坦在战斗阶段被激活时, 其可以对6&quot;内且在前和侧向射击弧中的每个敌方单位射击, 那些单位受到D3此S5的命中.</description>
         </rule>
       </rules>
       <costs>
@@ -4156,7 +4319,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bad0-317f-20ed-813e" name="Weapon Destroyed" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bad0-317f-20ed-813e" name="武器损坏" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Weapon Destroyed</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7459-5184-5cda-9065" type="max"/>
       </constraints>
@@ -4178,7 +4342,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cecc-5283-0f3c-0325" name="Void Shield (3+) 2" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="cecc-5283-0f3c-0325" name="虚空盾 (3+) 2" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Void Shield (3+) 2</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3610-61ec-5651-6633" type="max"/>
       </constraints>
@@ -4187,7 +4352,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9219-813c-9bc8-e118" name="Void Shield (4+) 2" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9219-813c-9bc8-e118" name="虚空盾 (4+) 2" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Void Shield (4+) 2</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a882-71b1-8bfe-18ce" type="max"/>
       </constraints>
@@ -4196,7 +4362,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="787b-c4a3-7cbf-d79a" name="Void Shield (4+) 3" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="787b-c4a3-7cbf-d79a" name="虚空盾 (4+) 3" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Void Shield (4+) 3</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bea-4192-ed04-c2e6" type="max"/>
       </constraints>
@@ -4205,7 +4372,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dbfc-74f9-0c2f-9ff0" name="Void Shield (3+) 3" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="dbfc-74f9-0c2f-9ff0" name="虚空盾 (3+) 3" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Void Shield (3+) 3</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fac-2295-e545-0c9b" type="max"/>
       </constraints>
@@ -4214,7 +4382,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5ecc-ff8d-2dcc-d06c" name="Cerastus Knight Lancer" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5ecc-ff8d-2dcc-d06c" name="瑟拉斯图斯级枪骑士" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Cerastus Knight Lancer</comment>
       <categoryLinks>
         <categoryLink id="85fe-f195-5aad-ae3f" name="Agile" hidden="false" targetId="e580-b213-3f86-c2fc" primary="false"/>
         <categoryLink id="2d10-bdd4-02b9-d2db" name="Arc: 360 Degree" hidden="false" targetId="ed82-caea-5092-bf7e" primary="false"/>
@@ -4226,7 +4395,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cc7-0ce4-8569-508d" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="c540-8b6d-3daa-243c" name="Ion Gauntlet Shield Shock Blast" hidden="false" collective="false" import="true" targetId="d8a7-9b41-99fc-155f" type="selectionEntry">
+        <entryLink id="c540-8b6d-3daa-243c" name="离子臂盾冲击爆炸" hidden="false" collective="false" import="true" targetId="d8a7-9b41-99fc-155f" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e208-40e6-6bf9-5cae" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b51-6bca-002d-5ded" type="min"/>
@@ -4238,15 +4407,17 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="71a1-ef51-b47e-2983" name="Cerastus Knight" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="71a1-ef51-b47e-2983" name="瑟拉斯图斯骑士" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Cerastus Knight</comment>
       <selectionEntryGroups>
-        <selectionEntryGroup id="33c4-aa71-bc88-bf09" name="Knight Hull" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="33c4-aa71-bc88-bf09" name="骑士机体" hidden="false" collective="false" import="true">
+          <comment>Knight Hull</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3dd-6855-6769-0b63" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87f4-e696-0645-38e0" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="3f9b-7dda-849d-ccee" name="Cerastus Knight Acheron" hidden="false" collective="false" import="true" targetId="6d84-11a3-b6c4-29ac" type="selectionEntry"/>
+            <entryLink id="3f9b-7dda-849d-ccee" name="瑟拉斯图斯级冥府骑士" hidden="false" collective="false" import="true" targetId="6d84-11a3-b6c4-29ac" type="selectionEntry"/>
             <entryLink id="2895-85a1-7497-c104" name="Cerastus Knight Castigator" hidden="false" collective="false" import="true" targetId="7c6c-6bc6-32eb-e84a" type="selectionEntry"/>
             <entryLink id="4c38-5159-b94b-514d" name="Cerastus Knight Lancer" hidden="false" collective="false" import="true" targetId="5ecc-ff8d-2dcc-d06c" type="selectionEntry"/>
           </entryLinks>
@@ -4257,7 +4428,8 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6d84-11a3-b6c4-29ac" name="Cerastus Knight Acheron" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6d84-11a3-b6c4-29ac" name="瑟拉斯图斯级冥府骑士" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Cerastus Knight Acheron</comment>
       <categoryLinks>
         <categoryLink id="f9cc-6376-b735-eb83" name="Agile" hidden="false" targetId="e580-b213-3f86-c2fc" primary="false"/>
         <categoryLink id="d051-625b-2fd0-a85e" name="Arc: 360 Degree" hidden="false" targetId="ed82-caea-5092-bf7e" primary="false"/>
@@ -4281,19 +4453,20 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7c6c-6bc6-32eb-e84a" name="Cerastus Knight Castigator" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7c6c-6bc6-32eb-e84a" name="瑟拉斯图斯级惩戒者骑士" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Cerastus Knight Castigator</comment>
       <categoryLinks>
         <categoryLink id="28b6-65ba-7eb5-7323" name="Agile" hidden="false" targetId="e580-b213-3f86-c2fc" primary="false"/>
         <categoryLink id="260b-edae-c2e5-3f25" name="Arc: 360 Degree" hidden="false" targetId="ed82-caea-5092-bf7e" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="e090-7aad-2f49-a6b5" name="Castigator Pattern Bolt Cannon" hidden="false" collective="false" import="true" targetId="7093-6aaa-14f1-bf95" type="selectionEntry">
+        <entryLink id="e090-7aad-2f49-a6b5" name="惩戒者型爆弹炮" hidden="false" collective="false" import="true" targetId="7093-6aaa-14f1-bf95" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d139-e817-b7f9-89d4" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b76a-51ea-46ca-8980" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="6f47-5fd4-3215-0d1f" name="Castigator Warblade" hidden="false" collective="false" import="true" targetId="ec48-48df-5e6e-dc8e" type="selectionEntry">
+        <entryLink id="6f47-5fd4-3215-0d1f" name="惩戒者战刃" hidden="false" collective="false" import="true" targetId="ec48-48df-5e6e-dc8e" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa56-2332-9d6a-a536" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e38c-0b8a-1884-8a11" type="min"/>
@@ -4305,9 +4478,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c0ea-1d01-3f46-f5e2" name="Cerastus Shock Lance" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c0ea-1d01-3f46-f5e2" name="瑟拉斯图斯冲击长枪" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Cerastus Shock Lance</comment>
       <profiles>
-        <profile id="4dd4-10f7-c093-e3fd" name="Cerastus Shock Lance" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="4dd4-10f7-c093-e3fd" name="瑟拉斯图斯冲击长枪" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Cerastus Shock Lance</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -4335,9 +4510,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d8a7-9b41-99fc-155f" name="Ion Gauntlet Shield Shock Blast" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d8a7-9b41-99fc-155f" name="离子臂盾冲击爆炸" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Ion Gauntlet Shield Shock Blast</comment>
       <profiles>
-        <profile id="58db-d2c3-4ba4-0043" name="Ion Gauntlet Shield Shock Blast" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="58db-d2c3-4ba4-0043" name="离子臂盾冲击爆炸" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Ion Gauntlet Shield Shock Blast</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">6</characteristic>
@@ -4365,9 +4542,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7093-6aaa-14f1-bf95" name="Castigator Pattern Bolt Cannon" page="" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7093-6aaa-14f1-bf95" name="惩戒者型爆弹炮" page="" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Castigator Pattern Bolt Cannon</comment>
       <profiles>
-        <profile id="5233-9f4d-96c6-16ad" name="Castigator Pattern Bolt Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="5233-9f4d-96c6-16ad" name="惩戒者型爆弹炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Castigator Pattern Bolt Cannon</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">7</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">3</characteristic>
@@ -4395,9 +4574,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ec48-48df-5e6e-dc8e" name="Castigator Warblade" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ec48-48df-5e6e-dc8e" name="惩戒者战刃" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Castigator Warblade</comment>
       <profiles>
-        <profile id="e1a2-6208-0baf-c2b3" name="Castigator Warblade" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="e1a2-6208-0baf-c2b3" name="惩戒者战刃" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Castigator Warblade</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">7</characteristic>
@@ -4426,9 +4607,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="eae0-b30e-6e52-d2e1" name="Acheron Chainfist" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="eae0-b30e-6e52-d2e1" name="冥府链锯拳" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Acheron Chainfist</comment>
       <profiles>
-        <profile id="da51-e3a6-bb09-786a" name="Acheron Chainfist" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="da51-e3a6-bb09-786a" name="冥府链锯拳" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Acheron Chainfist</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">7</characteristic>
@@ -4456,9 +4639,11 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5531-995f-5196-d469" name="Acheron Pattern Flame Cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5531-995f-5196-d469" name="冥府型烈焰炮" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Acheron Pattern Flame Cannon</comment>
       <profiles>
-        <profile id="193e-e62d-9813-2218" name="Acheron Pattern Flame Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="193e-e62d-9813-2218" name="冥府型烈焰炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Acheron Pattern Flame Cannon</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">7</characteristic>
@@ -6066,11 +6251,11 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9273-0788-899b-12bb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="793f-ea0f-1968-7231" name="Body" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+            <profile id="793f-ea0f-1968-7231" name="Body" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
               <characteristics>
-                <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">11-13</characteristic>
-                <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">14-16</characteristic>
-                <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">17+</characteristic>
+                <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">11-13</characteristic>
+                <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">14-16</characteristic>
+                <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">17+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6084,7 +6269,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="15b6-7a4a-f9d0-2d8d" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6100,7 +6285,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="e471-7e3f-fdac-f0ef" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6116,7 +6301,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="5b0d-e9e1-12db-34eb" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6132,7 +6317,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="e441-772c-65e9-2cf7" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6148,7 +6333,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="c56d-b950-8d2e-4756" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6164,7 +6349,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="f379-664c-82ae-d0fe" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6180,7 +6365,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="a753-54e6-1c6c-258a" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6206,11 +6391,11 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eda8-8228-23a3-b52a" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c660-0895-2bc6-06b5" name="Head" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+            <profile id="c660-0895-2bc6-06b5" name="Head" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
               <characteristics>
-                <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">10-12</characteristic>
-                <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
-                <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">15+</characteristic>
+                <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">10-12</characteristic>
+                <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
+                <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">15+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6224,7 +6409,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="25bf-faf2-6eec-29ba" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6240,7 +6425,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="ee3c-9932-d9ee-9bdf" name="⦿⦿⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6256,7 +6441,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="d85b-556e-8923-c4c6" name="⦿⦿⦿⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6272,7 +6457,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="3ecf-2b43-5459-3852" name="⦿⦿⦿⦿⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6288,7 +6473,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="133c-8a63-8596-e3d0" name="⦿⦿⦿⦿⦿⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6304,7 +6489,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="dcf8-270a-7c47-f5d5" name="⦿⦿⦿⦿⦿⦿(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6330,11 +6515,11 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d57f-149c-e9ea-c2c4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fdb2-6577-7b76-2d93" name="Legs" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+            <profile id="fdb2-6577-7b76-2d93" name="Legs" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
               <characteristics>
-                <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">11-12</characteristic>
-                <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
-                <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">15+</characteristic>
+                <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">11-12</characteristic>
+                <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
+                <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">15+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6348,7 +6533,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="71f1-199d-746d-4c1f" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6364,7 +6549,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="180c-442b-e288-b4e9" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6380,7 +6565,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="095c-8d01-c6b4-ee10" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6396,7 +6581,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="3a2e-c3df-5aa0-a27e" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6412,7 +6597,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="fc47-f356-27ec-03e3" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6428,7 +6613,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="9b20-a26b-d424-a98d" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6444,7 +6629,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="7270-5b96-d159-db69" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6682,11 +6867,11 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9adb-18a9-d3ac-7f75" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a07b-9b01-d151-4f45" name="Body" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+            <profile id="a07b-9b01-d151-4f45" name="Body" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
               <characteristics>
-                <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">11-13</characteristic>
-                <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">14-16</characteristic>
-                <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">17+</characteristic>
+                <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">11-13</characteristic>
+                <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">14-16</characteristic>
+                <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">17+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6700,7 +6885,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="28e9-7b09-afef-01b7" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6716,7 +6901,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="c65f-81b5-aa11-ee43" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6732,7 +6917,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="cd09-f502-0b6a-ca4f" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6748,7 +6933,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="ae89-ce77-0e00-b7ba" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6764,7 +6949,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="63a3-ba61-bb7a-4d93" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6780,7 +6965,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="2b88-0e50-eb71-e328" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6796,7 +6981,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="1b7f-8a87-08ce-f20f" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6822,11 +7007,11 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0706-3558-075b-8d96" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1021-b6a4-63fc-34e4" name="Head" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+            <profile id="1021-b6a4-63fc-34e4" name="Head" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
               <characteristics>
-                <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">10-12</characteristic>
-                <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
-                <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">15+</characteristic>
+                <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">10-12</characteristic>
+                <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
+                <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">15+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6840,7 +7025,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="7d87-e581-462f-4cde" name="⦿⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6856,7 +7041,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="da99-9c17-2228-eede" name="⦿⦿⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6872,7 +7057,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="4e7d-75b2-a12d-44b2" name="⦿⦿⦿⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6888,7 +7073,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="a151-8ec5-b7da-9739" name="⦿⦿⦿⦿⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6904,7 +7089,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="a1b7-9a89-158e-49e9" name="⦿⦿⦿⦿⦿⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6920,7 +7105,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="a985-cdf7-a322-178f" name="⦿⦿⦿⦿⦿⦿(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6946,11 +7131,11 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0471-2660-ce71-1306" type="max"/>
           </constraints>
           <profiles>
-            <profile id="60dc-ad66-5f9e-9271" name="Legs" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+            <profile id="60dc-ad66-5f9e-9271" name="Legs" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
               <characteristics>
-                <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">11-12</characteristic>
-                <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
-                <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">15+</characteristic>
+                <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">11-12</characteristic>
+                <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">13-14</characteristic>
+                <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">15+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -6964,7 +7149,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="b82b-ed34-c5b1-9563" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6980,7 +7165,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="26c1-808b-0ea1-7112" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6996,7 +7181,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="bf3b-13f7-0183-dca0" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7012,7 +7197,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="81f6-dc90-7473-c7ce" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7028,7 +7213,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="bd2c-def9-1d79-8013" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7044,7 +7229,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="50d5-86b4-1102-7ed3" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7060,7 +7245,7 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
                   <profiles>
                     <profile id="8164-79a4-150a-e082" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7272,9 +7457,11 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c23d-64c5-b376-ad80" name="Porphyrion Twin Magna Lascannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c23d-64c5-b376-ad80" name="泊尔菲利翁双联巨型激光炮" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Porphyrion Twin Magna Lascannon</comment>
       <profiles>
-        <profile id="c070-66c3-9137-f40f" name="Porphyrion Twin Magna Lascannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="c070-66c3-9137-f40f" name="泊尔菲利翁双联巨型激光炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Porphyrion Twin Magna Lascannon</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">4</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">8</characteristic>
@@ -7303,9 +7490,11 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1d36-f2f4-4f29-5864" name="Porphyrion Ironstorm Missile Pod" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1d36-f2f4-4f29-5864" name="泊尔菲利翁钢铁风暴导弹仓" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Porphyrion Ironstorm Missile Pod</comment>
       <profiles>
-        <profile id="fdab-ab17-99be-7e1e" name="Porphyrion Ironstorm Missile Pod" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="fdab-ab17-99be-7e1e" name="泊尔菲利翁钢铁风暴导弹仓" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Porphyrion Ironstorm Missile Pod</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">6</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">4</characteristic>
@@ -7333,7 +7522,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="76aa-5e9a-0d62-87c1" name="Acastus Knight Porphyrion" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="76aa-5e9a-0d62-87c1" name="阿卡斯图斯级泊尔菲利翁骑士" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Acastus Knight Porphyrion</comment>
       <categoryLinks>
         <categoryLink id="6559-1688-b6f4-78a1" name="Agile" hidden="false" targetId="e580-b213-3f86-c2fc" primary="false"/>
         <categoryLink id="4d8b-e826-be7b-7293" name="Arc: 360 Degree" hidden="false" targetId="ed82-caea-5092-bf7e" primary="false"/>
@@ -7345,28 +7535,30 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2bc-0dec-c133-811e" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="b0fe-58fd-274d-6ac6" name="Porphyrion Ironstorm Missile Pod" hidden="false" collective="false" import="true" targetId="1d36-f2f4-4f29-5864" type="selectionEntry">
+        <entryLink id="b0fe-58fd-274d-6ac6" name="泊尔菲利翁钢铁风暴导弹仓" hidden="false" collective="false" import="true" targetId="1d36-f2f4-4f29-5864" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="368c-330f-1d9d-2f9f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cdf-8f33-a959-6f54" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="fd47-c688-fe2d-3467" name="Acastus Hull Weapon" hidden="false" collective="false" import="true" targetId="e060-52c1-1d31-a331" type="selectionEntryGroup"/>
+        <entryLink id="fd47-c688-fe2d-3467" name="阿卡斯图斯机体武器" hidden="false" collective="false" import="true" targetId="e060-52c1-1d31-a331" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="35.0"/>
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="69b3-e7ac-9cec-ad72" name="Acastus Knight Scion Martial" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="69b3-e7ac-9cec-ad72" name="阿卡斯图斯骑士贵族" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Acastus Knight Scion Martial</comment>
       <selectionEntryGroups>
-        <selectionEntryGroup id="72a7-b423-1f4f-896d" name="Knight Hull" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="72a7-b423-1f4f-896d" name="骑士机体" hidden="false" collective="false" import="true">
+          <comment>Knight Hull</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f9e-5f64-05e9-6b25" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d056-b40b-a1bc-43fb" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="793e-5fcb-118c-f908" name="Acastus Knight Porhpyrion" hidden="false" collective="false" import="true" targetId="76aa-5e9a-0d62-87c1" type="selectionEntry"/>
+            <entryLink id="793e-5fcb-118c-f908" name="阿卡斯图斯级泊尔菲利翁骑士" hidden="false" collective="false" import="true" targetId="76aa-5e9a-0d62-87c1" type="selectionEntry"/>
             <entryLink id="7353-9144-2106-3591" name="Acastus Knight Asterius" hidden="false" collective="false" import="true" targetId="2dee-7316-3a42-5507" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -7376,12 +7568,14 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a2a3-d4b5-189a-5f63" name="Acastus Twin Lascannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a2a3-d4b5-189a-5f63" name="阿卡斯图斯双联激光炮" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Acastus Twin Lascannon</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca46-ab9b-6551-5fe6" type="max"/>
       </constraints>
       <profiles>
-        <profile id="bc38-ad23-543a-7903" name="Acastus Twin Lascannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="bc38-ad23-543a-7903" name="阿卡斯图斯双联激光炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Acastus Twin Lascannon</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">6</characteristic>
@@ -7407,13 +7601,16 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="abac-6fdb-0228-d12a" name="Acastus Twin Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="abac-6fdb-0228-d12a" name="阿卡斯图斯双联自动炮" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Acastus Twin Autocannon</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cad-1d7b-ac96-7751" type="max"/>
       </constraints>
       <rules>
-        <rule id="6c77-790b-9669-0008" name="Acastus Twin Autocannon" page="" hidden="false">
-          <description>When the Banner is activated in the Combat phase, each Knight with twin autocannon can target an enemy unit within 6&quot;. That unit suffers a Strength 4 hit</description>
+        <rule id="6c77-790b-9669-0008" name="阿卡斯图斯双联自动炮" page="" hidden="false">
+          <comment>Acastus Twin Autocannon
+When the Banner is activated in the Combat phase, each Knight with twin autocannon can target an enemy unit within 6&quot;. That unit suffers a Strength 4 hit</comment>
+          <description>当队伍在战斗阶段被激活时, 每个装备双联自动炮的骑士可以攻击6&quot;范围内的一个敌人. 哪个单位收到一个 S4 的命中.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -7424,9 +7621,11 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="93c8-d5c9-575d-d1ac" name="Asterius Twin Conversion Beam Cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="93c8-d5c9-575d-d1ac" name="阿斯特流斯双联转换光线炮" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Asterius Twin Conversion Beam Cannon</comment>
       <profiles>
-        <profile id="f7f4-7de3-b45c-21f7" name="Asterius Twin Conversion Beam Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="f7f4-7de3-b45c-21f7" name="阿斯特流斯双联转换光线炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Asterius Twin Conversion Beam Cannon</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">4</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">9</characteristic>
@@ -7455,9 +7654,11 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5893-d4c8-461e-ea79" name="Asterius Karacnos Mortar Battery" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5893-d4c8-461e-ea79" name="阿斯特流斯卡拉克诺斯迫击炮阵列" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Asterius Karacnos Mortar Battery</comment>
       <profiles>
-        <profile id="8abb-9507-2164-dcff" name="Asterius Karacnos Mortar Battery" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="8abb-9507-2164-dcff" name="阿斯特流斯卡拉克诺斯迫击炮阵列" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Asterius Karacnos Mortar Battery</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">6</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">4</characteristic>
@@ -7485,25 +7686,26 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2dee-7316-3a42-5507" name="Acastus Knight Asterius" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2dee-7316-3a42-5507" name="阿卡斯图斯级阿斯特流斯骑士" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Acastus Knight Asterius</comment>
       <categoryLinks>
         <categoryLink id="bf56-58f3-1547-e5d9" name="Agile" hidden="false" targetId="e580-b213-3f86-c2fc" primary="false"/>
         <categoryLink id="b9ca-01e0-3b09-566f" name="Arc: 360 Degree" hidden="false" targetId="ed82-caea-5092-bf7e" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="df5d-9150-bc98-b375" name="Asterius Twin Conversion Beam Cannon" hidden="false" collective="false" import="true" targetId="93c8-d5c9-575d-d1ac" type="selectionEntry">
+        <entryLink id="df5d-9150-bc98-b375" name="阿斯特流斯双联转换光线炮" hidden="false" collective="false" import="true" targetId="93c8-d5c9-575d-d1ac" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87da-39d1-af6e-9897" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a14-33bf-eefa-1d98" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="e76c-8e08-b7fd-b82c" name="Asterius Karacnos Mortar Battery" hidden="false" collective="false" import="true" targetId="5893-d4c8-461e-ea79" type="selectionEntry">
+        <entryLink id="e76c-8e08-b7fd-b82c" name="阿斯特流斯卡拉克诺斯迫击炮阵列" hidden="false" collective="false" import="true" targetId="5893-d4c8-461e-ea79" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b1f-7cd6-59da-f4cc" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6fe-e9ae-dff4-5038" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="7bc2-34b3-b54b-e8c0" name="Acastus Hull Weapon" hidden="false" collective="false" import="true" targetId="e060-52c1-1d31-a331" type="selectionEntryGroup"/>
+        <entryLink id="7bc2-34b3-b54b-e8c0" name="阿卡斯图斯机体武器" hidden="false" collective="false" import="true" targetId="e060-52c1-1d31-a331" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="50.0"/>
@@ -7938,7 +8140,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="43fb-83e1-2c6b-100c" name="Loyalist" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="43fb-83e1-2c6b-100c" name="忠诚" hidden="false" collective="false" import="true" type="unit">
+      <comment>Loyalist</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1569-473a-20ca-0868" type="max"/>
       </constraints>
@@ -7950,7 +8153,8 @@ The Dauntless player may reveal this Stratagem when one of their Titans suffers 
         <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d634-d27a-fd9c-3f8f" name="Traitor" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d634-d27a-fd9c-3f8f" name="反叛" hidden="false" collective="false" import="true" type="unit">
+      <comment>Traitor</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cf9-b0c8-f280-b8be" type="max"/>
       </constraints>
@@ -8034,7 +8238,7 @@ If a player&apos;s battlegroup contains any Squadrons (see page 45), they can ch
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91a8-16ce-be56-df7e" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="77cf-648d-5060-1857" name="Acastus Knight" hidden="false" collective="false" import="true" targetId="67a4-f743-3594-f541" type="selectionEntry">
+            <entryLink id="77cf-648d-5060-1857" name="阿卡斯图斯骑士" hidden="false" collective="false" import="true" targetId="67a4-f743-3594-f541" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="a731-e220-2d8a-41bf" value="0.0"/>
               </modifiers>
@@ -8054,17 +8258,17 @@ If a player&apos;s battlegroup contains any Squadrons (see page 45), they can ch
                 <modifier type="set" field="a731-e220-2d8a-41bf" value="0.0"/>
               </modifiers>
             </entryLink>
-            <entryLink id="1097-d625-df16-f139" name="Warhound Titan" hidden="false" collective="false" import="true" targetId="3ad7-cd10-8d6e-8c2e" type="selectionEntry">
+            <entryLink id="1097-d625-df16-f139" name="战犬泰坦" hidden="false" collective="false" import="true" targetId="3ad7-cd10-8d6e-8c2e" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="a731-e220-2d8a-41bf" value="0.0"/>
               </modifiers>
             </entryLink>
-            <entryLink id="e9f5-3227-c482-9785" name="Warlord Titan" hidden="false" collective="false" import="true" targetId="5122-cb02-8703-ce88" type="selectionEntry">
+            <entryLink id="e9f5-3227-c482-9785" name="战将泰坦" hidden="false" collective="false" import="true" targetId="5122-cb02-8703-ce88" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="a731-e220-2d8a-41bf" value="0.0"/>
               </modifiers>
             </entryLink>
-            <entryLink id="a913-17d7-83b7-e321" name="Warbringer Nemesis Titan" hidden="false" collective="false" import="true" targetId="d2b6-f342-ccdb-b9cc" type="selectionEntry">
+            <entryLink id="a913-17d7-83b7-e321" name="战神天罚泰坦" hidden="false" collective="false" import="true" targetId="d2b6-f342-ccdb-b9cc" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="a731-e220-2d8a-41bf" value="0.0"/>
               </modifiers>
@@ -8281,12 +8485,14 @@ If a player&apos;s battlegroup contains any Squadrons (see page 45), they can ch
         <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0e1f-c7a0-8a50-0e5e" name="Macro Cannon Battery" publicationId="975a-00f4-pubN65537" page="64" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="0e1f-c7a0-8a50-0e5e" name="宏炮阵列" publicationId="975a-00f4-pubN65537" page="64" hidden="false" collective="false" import="true" type="unit">
+      <comment>Macro Cannon Battery</comment>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e68-aa1b-6b3c-c622" type="max"/>
       </constraints>
       <profiles>
-        <profile id="4345-5ac7-9cc6-1311" name="Macro Cannon Battery" publicationId="975a-00f4-pubN65537" page="65" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="4345-5ac7-9cc6-1311" name="宏炮阵列" publicationId="975a-00f4-pubN65537" page="65" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Macro Cannon Battery</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">10</characteristic>
@@ -8301,7 +8507,8 @@ If a player&apos;s battlegroup contains any Squadrons (see page 45), they can ch
             <characteristic name="Critically Disabled Roll" typeId="2a6c-74d9-5a61-04bf"/>
           </characteristics>
         </profile>
-        <profile id="b0b5-6887-7d40-3259" name="Macro Cannon Battery" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
+        <profile id="b0b5-6887-7d40-3259" name="宏炮阵列" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
+          <comment>Macro Cannon Battery</comment>
           <characteristics>
             <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007"/>
             <characteristic name="Command" typeId="e94d-33bd-da82-fd4d"/>
@@ -8314,8 +8521,11 @@ If a player&apos;s battlegroup contains any Squadrons (see page 45), they can ch
         </profile>
       </profiles>
       <rules>
-        <rule id="06ea-eb68-3868-211c" name="Macro Cannon Battery" publicationId="975a-00f4-pubN65537" page="64" hidden="false">
-          <description>In the &apos;Enact Stratagems&apos; step of the Strategy phase, the owning player can make an attack with the battery&apos;s macro cannon, using the profile that follows. The battery has a Ballistic Skill/ Weapon Skill of 4+ and a 360°firing arc.</description>
+        <rule id="06ea-eb68-3868-211c" name="宏炮阵列" publicationId="975a-00f4-pubN65537" page="64" hidden="false">
+          <comment>Macro Cannon Battery
+In the &apos;Enact Stratagems&apos; step of the Strategy phase, the owning player can make an attack with the battery&apos;s macro cannon, using the profile that follows. The battery has a Ballistic Skill/ Weapon Skill of 4+ and a 360°firing arc.
+</comment>
+          <description>在战略阶段的“制定战略”步骤时, 己方玩家可以发射阵列中的宏炮. 阵列拥有 BS/WS 4+ 和 360 度的射击弧.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -8476,9 +8686,11 @@ is reduced by D3.</description>
         <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d2b6-f342-ccdb-b9cc" name="Warbringer Nemesis Titan" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="d2b6-f342-ccdb-b9cc" name="战神天罚泰坦" hidden="false" collective="false" import="true" type="model">
+      <comment>Warbringer Nemesis Titan</comment>
       <profiles>
-        <profile id="c503-4384-cbe7-b407" name="Warbringer Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
+        <profile id="c503-4384-cbe7-b407" name="战神泰坦" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
+          <comment>Warbringer Titan</comment>
           <characteristics>
             <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">5&quot;/7&quot;</characteristic>
             <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">4+</characteristic>
@@ -8495,7 +8707,8 @@ is reduced by D3.</description>
         <categoryLink id="e5dd-4763-2ead-cde7" name="Titan" hidden="false" targetId="3f71-3a59-3b75-4ecf" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c2af-b052-95b6-51e6" name="Structure" hidden="true" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c2af-b052-95b6-51e6" name="结构" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>Structure</comment>
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -8511,22 +8724,25 @@ is reduced by D3.</description>
             <categoryLink id="b9e0-3d0d-247c-bb72" name="Structure" hidden="false" targetId="1c43-76ab-b5e5-6baf" primary="false"/>
           </categoryLinks>
           <selectionEntries>
-            <selectionEntry id="fd4f-5d94-5aa8-27c2" name="Body" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="fd4f-5d94-5aa8-27c2" name="躯干" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Body</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="114e-7393-f932-eda6" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="582e-b150-bdcf-d922" type="max"/>
               </constraints>
               <profiles>
-                <profile id="a67c-6fdc-f9fa-2b28" name="Body" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                <profile id="a67c-6fdc-f9fa-2b28" name="躯干" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
+                  <comment>Body</comment>
                   <characteristics>
-                    <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">11-12</characteristic>
-                    <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-15</characteristic>
-                    <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">16+</characteristic>
+                    <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">11-12</characteristic>
+                    <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">13-15</characteristic>
+                    <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">16+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="8b72-fb8a-c9f8-cf36" name="Body Structure Point Damage" hidden="false" collective="false" import="true" defaultSelectionEntryId="b781-4eaa-2fd9-35a7">
+                <selectionEntryGroup id="8b72-fb8a-c9f8-cf36" name="躯干结构点损伤" hidden="false" collective="false" import="true" defaultSelectionEntryId="b781-4eaa-2fd9-35a7">
+                  <comment>Body Structure Point Damage</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7de-98d8-4c46-f108" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0e2-8bdc-61d1-2743" type="max"/>
@@ -8539,7 +8755,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="8f0d-9d50-1e3f-f31a" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8555,7 +8771,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="9318-bf70-c4cc-f7dc" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8571,7 +8787,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="1f28-087a-4f31-64d9" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8587,7 +8803,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="8759-5dc3-2e02-4eb6" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8603,7 +8819,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="f4c0-cc3f-707f-f335" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8619,7 +8835,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="c149-0ca7-b4c6-4d94" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8635,7 +8851,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="07ac-4f8e-3931-f153" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8651,7 +8867,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="03c2-cf08-f131-cddf" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8664,29 +8880,32 @@ is reduced by D3.</description>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="b929-09a8-a6b6-b314" name="Body Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="1d49-39ff-979b-f7f0" type="selectionEntryGroup"/>
+                <entryLink id="b929-09a8-a6b6-b314" name="躯干致命损伤" hidden="false" collective="false" import="true" targetId="1d49-39ff-979b-f7f0" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                 <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="82dc-67ca-cf74-1dd3" name="Head" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="82dc-67ca-cf74-1dd3" name="头部" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Head</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3df9-ffd3-7f66-65fd" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6029-5532-59c5-f60b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="cacc-d9ad-dc26-2133" name="Head" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                <profile id="cacc-d9ad-dc26-2133" name="头部" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
+                  <comment>Head</comment>
                   <characteristics>
-                    <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">12-14</characteristic>
-                    <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">15-16</characteristic>
-                    <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">17+</characteristic>
+                    <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">12-14</characteristic>
+                    <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">15-16</characteristic>
+                    <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">17+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="539c-4c72-38c3-0d92" name="Head Structure Point Damage" hidden="false" collective="false" import="true" defaultSelectionEntryId="d431-b0c6-22ed-9875">
+                <selectionEntryGroup id="539c-4c72-38c3-0d92" name="头部结构点损伤" hidden="false" collective="false" import="true" defaultSelectionEntryId="d431-b0c6-22ed-9875">
+                  <comment>Head Structure Point Damage</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5867-dacf-730b-cfef" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50db-7ba1-1e5b-36f0" type="min"/>
@@ -8699,7 +8918,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="60db-c357-90a4-dfbd" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8715,7 +8934,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="5548-94a3-5f5c-0a6f" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8731,7 +8950,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="1ddd-3e42-5dfc-e9fd" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8747,7 +8966,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="334a-a25d-c30d-0a9b" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8763,7 +8982,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="3e0f-07c4-8f0e-4221" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8779,7 +8998,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="954c-f0b1-3369-1327" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8795,7 +9014,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="ec31-5566-8650-846a" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8815,22 +9034,25 @@ is reduced by D3.</description>
                 <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b696-bc87-f5a1-c18d" name="Legs" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b696-bc87-f5a1-c18d" name="腿部" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Legs</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c50-e6ff-e4a7-d365" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8b3-dbaf-a59f-b2f0" type="max"/>
               </constraints>
               <profiles>
-                <profile id="1a8c-a155-1c73-1a1a" name="Legs" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                <profile id="1a8c-a155-1c73-1a1a" name="腿部" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
+                  <comment>Legs</comment>
                   <characteristics>
-                    <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">11-13</characteristic>
-                    <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">14-15</characteristic>
-                    <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">16+</characteristic>
+                    <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">11-13</characteristic>
+                    <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">14-15</characteristic>
+                    <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">16+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="b809-175a-a4e2-a1ba" name="Legs Structure Point Damage" hidden="false" collective="false" import="true" defaultSelectionEntryId="3dbd-c844-fa6e-ad7c">
+                <selectionEntryGroup id="b809-175a-a4e2-a1ba" name="腿部结构点损伤" hidden="false" collective="false" import="true" defaultSelectionEntryId="3dbd-c844-fa6e-ad7c">
+                  <comment>Legs Structure Point Damage</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30a9-fe4b-0a13-15ff" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bcf-1eed-927e-6232" type="min"/>
@@ -8843,7 +9065,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="11bb-9be0-fefd-fa7d" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8859,7 +9081,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="21dc-3f9d-7cb8-20b7" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8875,7 +9097,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="9029-429a-9646-0563" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8891,7 +9113,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="0a9f-b88e-7661-337f" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8907,7 +9129,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="aab4-f28d-0296-7c38" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8923,7 +9145,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="d8f9-a72f-3bb2-959e" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8939,7 +9161,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="d4d2-a31a-4ae6-9f2d" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8955,7 +9177,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="8247-525e-ec90-c985" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -8975,19 +9197,21 @@ is reduced by D3.</description>
                 <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f00d-9db0-a884-8037" name="Plasma Reactor" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f00d-9db0-a884-8037" name="等离子反应堆" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Plasma Reactor</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e49-9d9a-08ab-7c9b" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="315a-82fc-2a70-cdb4" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="e87c-0b2f-0050-0e5e" name="Plasma Reactor" hidden="false" collective="false" import="true" defaultSelectionEntryId="826d-1036-bfa1-56db">
+                <selectionEntryGroup id="e87c-0b2f-0050-0e5e" name="等离子反应堆" hidden="false" collective="false" import="true" defaultSelectionEntryId="826d-1036-bfa1-56db">
+                  <comment>Plasma Reactor</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1507-6add-cce1-e0d4" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9999-3b7a-0914-47e3" type="min"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="826d-1036-bfa1-56db" name="⦿⦾⦾⦾⦾⦾⦾ Green(1)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="826d-1036-bfa1-56db" name="⦿⦾⦾⦾⦾⦾⦾ 绿色(1)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9f5-4c0b-53a7-887f" type="max"/>
                       </constraints>
@@ -8996,7 +9220,7 @@ is reduced by D3.</description>
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="5f24-6841-f1fd-7886" name="⦿⦿⦾⦾⦾⦾⦾ Green(2)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="5f24-6841-f1fd-7886" name="⦿⦿⦾⦾⦾⦾⦾ 绿色(2)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d3f-9918-0e65-eca3" type="max"/>
                       </constraints>
@@ -9005,7 +9229,7 @@ is reduced by D3.</description>
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="64c7-2968-16e9-cfd7" name="⦿⦿⦿⦾⦾⦾⦾ Yellow(3)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="64c7-2968-16e9-cfd7" name="⦿⦿⦿⦾⦾⦾⦾ 黄色(3)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b57-8602-7b90-5f4c" type="max"/>
                       </constraints>
@@ -9014,7 +9238,7 @@ is reduced by D3.</description>
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="9a8e-9326-be35-9136" name="⦿⦿⦿⦿⦾⦾⦾ Yellow(4)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="9a8e-9326-be35-9136" name="⦿⦿⦿⦿⦾⦾⦾ 黄色(4)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d3c-d90d-2189-1eda" type="max"/>
                       </constraints>
@@ -9023,7 +9247,7 @@ is reduced by D3.</description>
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="23a4-6d5e-dd6b-6091" name="⦿⦿⦿⦿⦿⦾⦾ Orange(5)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="23a4-6d5e-dd6b-6091" name="⦿⦿⦿⦿⦿⦾⦾ 橙色(5)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4c0-55e1-4e26-c82c" type="max"/>
                       </constraints>
@@ -9032,7 +9256,7 @@ is reduced by D3.</description>
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="787c-d1d6-2a19-919c" name="⦿⦿⦿⦿⦿⦿⦾ Orange(6)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="787c-d1d6-2a19-919c" name="⦿⦿⦿⦿⦿⦿⦾ 橙色(6)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bebf-62a2-6195-b51e" type="max"/>
                       </constraints>
@@ -9041,7 +9265,7 @@ is reduced by D3.</description>
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="eea5-36d3-569c-204d" name="⦿⦿⦿⦿⦿⦿⦿ Red(7)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="eea5-36d3-569c-204d" name="⦿⦿⦿⦿⦿⦿⦿ 红色(7)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3115-6bb1-b876-3dd8" type="max"/>
                       </constraints>
@@ -9058,19 +9282,21 @@ is reduced by D3.</description>
                 <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="a7c7-5df8-99a0-4540" name="Void Shields" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a7c7-5df8-99a0-4540" name="虚空盾" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Void Shields</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e8a-6a74-9811-3685" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dd5-3eed-e7fa-b79d" type="min"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="8c70-6b9d-32dd-d557" name="Void Shields" hidden="false" collective="false" import="true" defaultSelectionEntryId="be3e-1ec4-316f-a2f5">
+                <selectionEntryGroup id="8c70-6b9d-32dd-d557" name="虚空盾" hidden="false" collective="false" import="true" defaultSelectionEntryId="be3e-1ec4-316f-a2f5">
+                  <comment>Void Shields</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="879c-c16f-ef92-64a0" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0eae-31e4-b6b6-06fd" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="be3e-1ec4-316f-a2f5" name="Void Shield (3+)" hidden="false" collective="false" import="true" targetId="e7f3-4f09-8dc2-5b18" type="selectionEntry">
+                    <entryLink id="be3e-1ec4-316f-a2f5" name="虚空盾 (3+)" hidden="false" collective="false" import="true" targetId="e7f3-4f09-8dc2-5b18" type="selectionEntry">
                       <modifiers>
                         <modifier type="append" field="name" value="⦿⦾⦾⦾⦾⦾"/>
                       </modifiers>
@@ -9116,9 +9342,11 @@ is reduced by D3.</description>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="91e8-4476-60da-5d84" name="Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="91e8-4476-60da-5d84" name="武器" hidden="false" collective="false" import="true">
+          <comment>Weapons</comment>
           <selectionEntryGroups>
-            <selectionEntryGroup id="2d68-4ed5-5963-c242" name="Arms" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="2d68-4ed5-5963-c242" name="手臂" hidden="false" collective="false" import="true">
+              <comment>Arms</comment>
               <modifiers>
                 <modifier type="set" field="669d-fbda-784b-dc74" value="0.0">
                   <conditions>
@@ -9131,11 +9359,11 @@ is reduced by D3.</description>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="273d-1884-3231-57f4" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="f0ed-bcd9-1501-2b20" name="Gatling Blaster" hidden="false" collective="false" import="true" targetId="aa7a-74f4-180e-3b5e" type="selectionEntry"/>
-                <entryLink id="6e33-48f6-2013-3b3f" name="Laser Blaster" hidden="false" collective="false" import="true" targetId="375a-7b78-8edd-71d5" type="selectionEntry"/>
-                <entryLink id="9bad-1aff-1896-7087" name="Melta Cannon" hidden="false" collective="false" import="true" targetId="087a-abff-3ffe-f488" type="selectionEntry"/>
-                <entryLink id="7513-a417-fe47-e267" name="Volcano Cannon" hidden="false" collective="false" import="true" targetId="8bd4-e1ff-d447-389e" type="selectionEntry"/>
-                <entryLink id="2021-8c59-2b52-27b9" name="Chasmata Pattern Laser Blaster" hidden="true" collective="false" import="true" targetId="01e4-e3f5-4396-d5c4" type="selectionEntry">
+                <entryLink id="f0ed-bcd9-1501-2b20" name="加特林爆裂炮" hidden="false" collective="false" import="true" targetId="aa7a-74f4-180e-3b5e" type="selectionEntry"/>
+                <entryLink id="6e33-48f6-2013-3b3f" name="激光爆裂炮" hidden="false" collective="false" import="true" targetId="375a-7b78-8edd-71d5" type="selectionEntry"/>
+                <entryLink id="9bad-1aff-1896-7087" name="热熔炮" hidden="false" collective="false" import="true" targetId="087a-abff-3ffe-f488" type="selectionEntry"/>
+                <entryLink id="7513-a417-fe47-e267" name="火山炮" hidden="false" collective="false" import="true" targetId="8bd4-e1ff-d447-389e" type="selectionEntry"/>
+                <entryLink id="2021-8c59-2b52-27b9" name="=Tempestus= Chasmata Laser Blaster" hidden="true" collective="false" import="true" targetId="01e4-e3f5-4396-d5c4" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
@@ -9164,7 +9392,8 @@ is reduced by D3.</description>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="52a3-9f9b-284a-8ab7" name="Carapace" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="52a3-9f9b-284a-8ab7" name="顶盖" hidden="false" collective="false" import="true">
+              <comment>Carapace</comment>
               <modifiers>
                 <modifier type="set" field="8ab5-2c78-fc94-a471" value="0.0">
                   <conditions>
@@ -9177,18 +9406,18 @@ is reduced by D3.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab3f-6a86-e945-7fda" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="060e-316f-b376-d504" name="Bellicosa Volcano Cannon (Warbringer)" hidden="false" collective="false" import="true" targetId="02fe-12bb-3cc6-2dcf" type="selectionEntry"/>
-                <entryLink id="d65c-716e-feb9-e21a" name="Mori Quake Cannon (Warmonger)" hidden="false" collective="false" import="true" targetId="304a-a91b-5b0f-116e" type="selectionEntry"/>
+                <entryLink id="060e-316f-b376-d504" name="贝利寇萨火山炮 [WBG]" hidden="false" collective="false" import="true" targetId="02fe-12bb-3cc6-2dcf" type="selectionEntry"/>
+                <entryLink id="d65c-716e-feb9-e21a" name="地震炮 [WBG]" hidden="false" collective="false" import="true" targetId="304a-a91b-5b0f-116e" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="379c-f4c2-ebc1-313e" name="Ardex Defensor Cannon" hidden="false" collective="false" import="true" targetId="ebc6-2029-ceb3-f43b" type="selectionEntry"/>
+            <entryLink id="379c-f4c2-ebc1-313e" name="阿德克斯近防炮" hidden="false" collective="false" import="true" targetId="ebc6-2029-ceb3-f43b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="df1f-33ef-d3c2-f669" name="Titan Legion" hidden="false" collective="false" import="true" targetId="6202-19dc-f26f-9b64" type="selectionEntry">
+        <entryLink id="df1f-33ef-d3c2-f669" name="泰坦军团" hidden="false" collective="false" import="true" targetId="6202-19dc-f26f-9b64" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -9206,16 +9435,18 @@ is reduced by D3.</description>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0a2-bcaf-7f29-9ee3" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="fc7a-b856-2fe3-566f" name="Wargear" hidden="false" collective="false" import="true" targetId="187f-a18f-cafe-4ae6" type="selectionEntryGroup"/>
+        <entryLink id="fc7a-b856-2fe3-566f" name="装备" hidden="false" collective="false" import="true" targetId="187f-a18f-cafe-4ae6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="325.0"/>
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="02fe-12bb-3cc6-2dcf" name="Bellicosa Volcano Cannon [WBG]" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="02fe-12bb-3cc6-2dcf" name="贝利寇萨火山炮 [WBG]" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Bellicosa Volcano Cannon [WBG]</comment>
       <profiles>
-        <profile id="98aa-359a-a806-1c29" name="Bellicosa Volcano Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="98aa-359a-a806-1c29" name="贝利寇萨火山炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Bellicosa Volcano Cannon</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">12</characteristic>
@@ -9246,9 +9477,11 @@ is reduced by D3.</description>
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="304a-a91b-5b0f-116e" name="Mori Quake Cannon [WBG]" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="304a-a91b-5b0f-116e" name="地震炮 [WBG]" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Mori Quake Cannon [WBG]</comment>
       <profiles>
-        <profile id="a6bd-b87c-7168-6a4f" name="Mori Quake Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="a6bd-b87c-7168-6a4f" name="地震炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Mori Quake Cannon</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">9</characteristic>
@@ -9279,13 +9512,15 @@ is reduced by D3.</description>
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9570-2851-584c-62e9" name="Questoris Knight Lord Scion" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="9570-2851-584c-62e9" name="巡游骑士领主" hidden="false" collective="false" import="true" type="model">
+      <comment>Questoris Knight Lord Scion</comment>
       <categoryLinks>
         <categoryLink id="fb14-0a63-faa9-a52a" name="Agile" hidden="false" targetId="e580-b213-3f86-c2fc" primary="false"/>
         <categoryLink id="e8ef-1423-ad7c-bbd8" name="Knight" hidden="false" targetId="184a-ded9-ae1a-e357" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6e43-6b1b-8d69-8fb3" name="Arms" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6e43-6b1b-8d69-8fb3" name="手臂" hidden="false" collective="false" import="true">
+          <comment>Arms</comment>
           <modifiers>
             <modifier type="set" field="99a0-8949-d4a9-39a2" value="0.0">
               <conditions>
@@ -9300,13 +9535,14 @@ is reduced by D3.</description>
           <entryLinks>
             <entryLink id="a2e2-8861-796c-f301" name="Avenger Gatling Cannon" hidden="false" collective="false" import="true" targetId="02f3-29a7-d9a3-54ba" type="selectionEntry"/>
             <entryLink id="a436-ad46-7044-5602" name="Questoris Melee Weapon" hidden="false" collective="false" import="true" targetId="5be0-b49f-fc95-f499" type="selectionEntry"/>
-            <entryLink id="583b-120a-3d8f-7319" name="Rapid-Fire Battlecannon" hidden="false" collective="false" import="true" targetId="bc4c-36af-c4cd-4594" type="selectionEntry"/>
+            <entryLink id="583b-120a-3d8f-7319" name="速射战斗炮" hidden="false" collective="false" import="true" targetId="bc4c-36af-c4cd-4594" type="selectionEntry"/>
             <entryLink id="0602-729f-5874-3aa9" name="Thermal Cannon" hidden="false" collective="false" import="true" targetId="908e-f9af-f0d1-a124" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="245a-f4e8-0ab7-849f" name="Upgrades" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="245a-f4e8-0ab7-849f" name="升级" hidden="false" collective="false" import="true">
+          <comment>Upgrades</comment>
           <entryLinks>
-            <entryLink id="7d38-ed67-08ee-d92c" name="Stormspear Rocket Pod" hidden="false" collective="false" import="true" targetId="82d5-4e74-6258-8be8" type="selectionEntry"/>
+            <entryLink id="7d38-ed67-08ee-d92c" name="风暴之矛火箭仓" hidden="false" collective="false" import="true" targetId="82d5-4e74-6258-8be8" type="selectionEntry"/>
             <entryLink id="8c2b-77ed-a66c-a7a5" name="Meltagun" hidden="false" collective="false" import="true" targetId="5fef-e84f-c8eb-791b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
@@ -9316,13 +9552,15 @@ is reduced by D3.</description>
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="73a9-ef96-145a-a25e" name="Questoris Knight" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="73a9-ef96-145a-a25e" name="巡游骑士" hidden="false" collective="false" import="true" type="model">
+      <comment>Questoris Knight</comment>
       <categoryLinks>
         <categoryLink id="e803-9e81-05da-a0c9" name="Agile" hidden="false" targetId="e580-b213-3f86-c2fc" primary="false"/>
         <categoryLink id="c10b-22e5-2848-2ebd" name="Knight" hidden="false" targetId="184a-ded9-ae1a-e357" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b533-0f7c-68e9-edc2" name="Arms" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b533-0f7c-68e9-edc2" name="手臂" hidden="false" collective="false" import="true">
+          <comment>Arms</comment>
           <modifiers>
             <modifier type="set" field="066c-b802-af42-d4b9" value="0.0">
               <conditions>
@@ -9335,13 +9573,14 @@ is reduced by D3.</description>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9aa6-1b1f-d696-b080" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="5385-987b-8053-a6b3" name="Avenger Gatling Cannon" hidden="false" collective="false" import="true" targetId="02f3-29a7-d9a3-54ba" type="selectionEntry"/>
+            <entryLink id="5385-987b-8053-a6b3" name="复仇者加特林炮" hidden="false" collective="false" import="true" targetId="02f3-29a7-d9a3-54ba" type="selectionEntry"/>
             <entryLink id="3b47-f764-2eae-cf5c" name="Questoris Melee Weapon" hidden="false" collective="false" import="true" targetId="5be0-b49f-fc95-f499" type="selectionEntry"/>
             <entryLink id="cbdb-ff90-b067-c4af" name="Rapid-Fire Battlecannon" hidden="false" collective="false" import="true" targetId="bc4c-36af-c4cd-4594" type="selectionEntry"/>
             <entryLink id="b949-0d6c-a742-9e1a" name="Thermal Cannon" hidden="false" collective="false" import="true" targetId="908e-f9af-f0d1-a124" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="0de7-1508-1fe8-9738" name="Upgrades" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="0de7-1508-1fe8-9738" name="升级" hidden="false" collective="false" import="true">
+          <comment>Upgrades</comment>
           <entryLinks>
             <entryLink id="5dad-1dd6-368b-60a5" name="Stormspear Rocket Pod" hidden="false" collective="false" import="true" targetId="82d5-4e74-6258-8be8" type="selectionEntry"/>
             <entryLink id="72b7-84bd-6d72-19f0" name="Meltagun" hidden="false" collective="false" import="true" targetId="5fef-e84f-c8eb-791b" type="selectionEntry"/>
@@ -9353,13 +9592,15 @@ is reduced by D3.</description>
         <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2f87-1543-1c08-5dcf" name="Questoris Knight Scion Martial" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="2f87-1543-1c08-5dcf" name="巡游骑士贵族" hidden="false" collective="false" import="true" type="model">
+      <comment>Questoris Knight Scion Martial</comment>
       <categoryLinks>
         <categoryLink id="d8b2-148f-8c91-d5ba" name="Agile" hidden="false" targetId="e580-b213-3f86-c2fc" primary="false"/>
         <categoryLink id="66e0-a560-760a-0589" name="Knight" hidden="false" targetId="184a-ded9-ae1a-e357" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9076-e9cf-5dcd-8b8b" name="Arms" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9076-e9cf-5dcd-8b8b" name="手臂" hidden="false" collective="false" import="true">
+          <comment>Arms</comment>
           <modifiers>
             <modifier type="set" field="8f3e-1a25-9306-e34d" value="0.0">
               <conditions>
@@ -9378,7 +9619,8 @@ is reduced by D3.</description>
             <entryLink id="7492-c5d6-eaf7-ca64" name="Thermal Cannon" hidden="false" collective="false" import="true" targetId="908e-f9af-f0d1-a124" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="b041-c8fc-1ba1-b71c" name="Upgrades" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b041-c8fc-1ba1-b71c" name="升级" hidden="false" collective="false" import="true">
+          <comment>Upgrades</comment>
           <entryLinks>
             <entryLink id="4be7-0086-5123-cf33" name="Stormspear Rocket Pod" hidden="false" collective="false" import="true" targetId="82d5-4e74-6258-8be8" type="selectionEntry"/>
             <entryLink id="1876-bb8a-0ccd-70e1" name="Meltagun" hidden="false" collective="false" import="true" targetId="5fef-e84f-c8eb-791b" type="selectionEntry"/>
@@ -9390,9 +9632,11 @@ is reduced by D3.</description>
         <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="812b-786b-9435-cd20" name="Questoris Knight Banner" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="812b-786b-9435-cd20" name="巡游骑士Banner" hidden="false" collective="false" import="true" type="unit">
+      <comment>Questoris Knight Banner</comment>
       <profiles>
-        <profile id="cd29-3032-7b80-a74d" name="Questoris Knight" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
+        <profile id="cd29-3032-7b80-a74d" name="巡游骑士" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
+          <comment>Questoris Knight</comment>
           <characteristics>
             <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">10&quot;</characteristic>
             <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">6 (4 with Lord Scion)</characteristic>
@@ -9403,7 +9647,8 @@ is reduced by D3.</description>
             <characteristic name="Scale" typeId="5359-4d2b-082b-546a">3 (Grandis)</characteristic>
           </characteristics>
         </profile>
-        <profile id="6ab4-7179-abb3-348c" name="1 Questoris Support Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
+        <profile id="6ab4-7179-abb3-348c" name="1 巡游骑士Banner离子盾" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
+          <comment>1 Questoris Support Banner Ion Shields</comment>
           <characteristics>
             <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">1</characteristic>
             <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">5+</characteristic>
@@ -9413,7 +9658,8 @@ is reduced by D3.</description>
             <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
           </characteristics>
         </profile>
-        <profile id="ccef-22b6-9408-67e9" name="2-3 Questoris Support Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
+        <profile id="ccef-22b6-9408-67e9" name="2-3 巡游骑士Banner离子盾" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
+          <comment>2-3 Questoris Support Banner Ion Shields</comment>
           <characteristics>
             <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">2</characteristic>
             <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">4+</characteristic>
@@ -9423,7 +9669,8 @@ is reduced by D3.</description>
             <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
           </characteristics>
         </profile>
-        <profile id="bc98-ffb7-65c1-a975" name="4+ Questoris Support Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
+        <profile id="bc98-ffb7-65c1-a975" name="4+ 巡游骑士Banner离子盾" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
+          <comment>4+ Questoris Support Banner Ion Shields</comment>
           <characteristics>
             <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">4+</characteristic>
             <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">3+</characteristic>
@@ -9433,11 +9680,12 @@ is reduced by D3.</description>
             <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
           </characteristics>
         </profile>
-        <profile id="eeb0-3698-eef3-875a" name="Questoris Support Banner Location Table" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+        <profile id="eeb0-3698-eef3-875a" name="巡游骑士Banner损伤表" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
+          <comment>Questoris Support Banner Location Table</comment>
           <characteristics>
-            <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">9-12</characteristic>
-            <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-15</characteristic>
-            <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">16+</characteristic>
+            <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">9-12</characteristic>
+            <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">13-15</characteristic>
+            <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">16+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9447,7 +9695,8 @@ is reduced by D3.</description>
         <categoryLink id="c58e-22a5-8294-f8ec" name="Knight" hidden="false" targetId="184a-ded9-ae1a-e357" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d48d-406a-7a52-5616" name="Structure" hidden="true" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d48d-406a-7a52-5616" name="结构" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>Structure</comment>
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -9463,7 +9712,8 @@ is reduced by D3.</description>
             <categoryLink id="0382-db03-db89-dc30" name="Structure" hidden="false" targetId="1c43-76ab-b5e5-6baf" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="5e0e-b82a-6656-0fa1" name="Questoris Structure Point" hidden="false" collective="false" import="true" defaultSelectionEntryId="c946-0901-871d-7b2d">
+            <selectionEntryGroup id="5e0e-b82a-6656-0fa1" name="巡游级结构点数" hidden="false" collective="false" import="true" defaultSelectionEntryId="c946-0901-871d-7b2d">
+              <comment>Questoris Structure Point</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c3d-dcd5-19f5-41a8" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5a0-a084-8b71-9469" type="min"/>
@@ -9509,7 +9759,7 @@ is reduced by D3.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4b2-9420-fc91-97c5" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="be8e-e238-af50-a42b" name="Questoris Knight Scion Martial" hidden="false" collective="false" import="true" targetId="2f87-1543-1c08-5dcf" type="selectionEntry">
+        <entryLink id="be8e-e238-af50-a42b" name="巡游骑士贵族" hidden="false" collective="false" import="true" targetId="2f87-1543-1c08-5dcf" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7a9-0ac6-4501-e53f" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7f5-dd6f-f885-41bb" type="min"/>
@@ -9521,9 +9771,11 @@ is reduced by D3.</description>
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3900-cfb6-52f2-c83c" name="Cerastus Knight Banner" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3900-cfb6-52f2-c83c" name="瑟拉斯图斯骑士Banner" hidden="false" collective="false" import="true" type="unit">
+      <comment>Cerastus Knight Banner</comment>
       <profiles>
-        <profile id="c8ca-e8a8-d4c8-eea0" name="Cerastus Knight" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
+        <profile id="c8ca-e8a8-d4c8-eea0" name="瑟拉斯图斯骑士" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
+          <comment>Cerastus Knight</comment>
           <characteristics>
             <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">12&quot;</characteristic>
             <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">5 (3 with Lord Scion)</characteristic>
@@ -9534,7 +9786,8 @@ is reduced by D3.</description>
             <characteristic name="Scale" typeId="5359-4d2b-082b-546a">4 (Grandis)</characteristic>
           </characteristics>
         </profile>
-        <profile id="c7df-476b-a3d8-04d6" name="1 Cerastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
+        <profile id="c7df-476b-a3d8-04d6" name="1 瑟拉斯图斯骑士Banner离子盾" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
+          <comment>1 Cerastus Knight Banner Ion Shields</comment>
           <characteristics>
             <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">1</characteristic>
             <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">5+</characteristic>
@@ -9544,7 +9797,8 @@ is reduced by D3.</description>
             <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
           </characteristics>
         </profile>
-        <profile id="93dc-58d1-9e8d-16e9" name="2 Cerastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
+        <profile id="93dc-58d1-9e8d-16e9" name="2 瑟拉斯图斯骑士Banner离子盾" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
+          <comment>2 Cerastus Knight Banner Ion Shields</comment>
           <characteristics>
             <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">2</characteristic>
             <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">4+</characteristic>
@@ -9554,7 +9808,8 @@ is reduced by D3.</description>
             <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
           </characteristics>
         </profile>
-        <profile id="1761-df48-4769-c8a1" name="3+ Cerastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
+        <profile id="1761-df48-4769-c8a1" name="3+ 瑟拉斯图斯骑士Banner离子盾" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
+          <comment>3+ Cerastus Knight Banner Ion Shields</comment>
           <characteristics>
             <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">3+</characteristic>
             <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">3+</characteristic>
@@ -9564,17 +9819,20 @@ is reduced by D3.</description>
             <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
           </characteristics>
         </profile>
-        <profile id="907d-a6b8-dd1e-816e" name="Cerastus Knight Banner Location Table" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+        <profile id="907d-a6b8-dd1e-816e" name="瑟拉斯图斯骑士Banner损伤表" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
+          <comment>Cerastus Knight Banner Location Table</comment>
           <characteristics>
-            <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">9-12</characteristic>
-            <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">13-15</characteristic>
-            <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">16+</characteristic>
+            <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">9-12</characteristic>
+            <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">13-15</characteristic>
+            <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">16+</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="ed83-0d2d-7bbe-479e" name="Knight Lancer Ion Gauntlet Shield" hidden="false">
-          <description>If the Banner contains one or more Cerastus Knight Lancers, improve the Banner&apos;s Ion Shield save roll by 1</description>
+        <rule id="ed83-0d2d-7bbe-479e" name="枪骑士离子臂盾" hidden="false">
+          <comment>Knight Lancer Ion Gauntlet Shield
+If the Banner contains one or more Cerastus Knight Lancers, improve the Banner&apos;s Ion Shield save roll by 1</comment>
+          <description>如果Banner 中包含一个或更多的瑟拉斯图斯枪骑士, Banner的离子盾保护骰+1.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -9583,7 +9841,8 @@ is reduced by D3.</description>
         <categoryLink id="f23c-e700-3731-4a85" name="Knight" hidden="false" targetId="184a-ded9-ae1a-e357" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="f6ac-4700-4294-8f61" name="Structure" hidden="true" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f6ac-4700-4294-8f61" name="结构" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>Structure</comment>
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -9599,7 +9858,8 @@ is reduced by D3.</description>
             <categoryLink id="31ae-a5f5-f841-0687" name="Structure" hidden="false" targetId="1c43-76ab-b5e5-6baf" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="48f3-6c02-8773-28a4" name="Cerastus Structure Point" hidden="false" collective="false" import="true" defaultSelectionEntryId="5acb-caad-2f9a-3c77">
+            <selectionEntryGroup id="48f3-6c02-8773-28a4" name="瑟拉斯图斯结构点数" hidden="false" collective="false" import="true" defaultSelectionEntryId="5acb-caad-2f9a-3c77">
+              <comment>Cerastus Structure Point</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8649-3261-4611-4211" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f510-fe9e-cb04-a073" type="min"/>
@@ -9645,13 +9905,13 @@ is reduced by D3.</description>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="fb37-5a63-8e4b-45de" name="Cerastus Knight Lord Scion" hidden="false" collective="false" import="true" targetId="7d97-998e-da08-a298" type="selectionEntry">
+        <entryLink id="fb37-5a63-8e4b-45de" name="瑟拉斯图斯骑士领主" hidden="false" collective="false" import="true" targetId="7d97-998e-da08-a298" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2d1-65f1-f526-1f6a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d0b-56c9-3008-d54b" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="d347-4977-be77-635e" name="Cerastus Knight Scion Martial" hidden="false" collective="false" import="true" targetId="8f63-919a-9591-ecd2" type="selectionEntry">
+        <entryLink id="d347-4977-be77-635e" name="瑟拉斯图斯骑士贵族" hidden="false" collective="false" import="true" targetId="8f63-919a-9591-ecd2" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8491-0b11-f59f-6105" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2b6-ea4d-534a-4489" type="min"/>
@@ -9663,17 +9923,19 @@ is reduced by D3.</description>
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7d97-998e-da08-a298" name="Cerastus Knight Lord Scion" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7d97-998e-da08-a298" name="瑟拉斯图斯骑士领主" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Cerastus Knight Lord Scion</comment>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3c76-7de8-7ad6-7681" name="Knight Hull" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="3c76-7de8-7ad6-7681" name="骑士机体" hidden="false" collective="false" import="true">
+          <comment>Knight Hull</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8aea-c6d7-e221-0781" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2115-1b22-9fa8-62f5" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="1d50-244f-2c4a-d063" name="Cerastus Knight Acheron" hidden="false" collective="false" import="true" targetId="6d84-11a3-b6c4-29ac" type="selectionEntry"/>
-            <entryLink id="54dd-da5d-c4ed-dbd2" name="Cerastus Knight Castigator" hidden="false" collective="false" import="true" targetId="7c6c-6bc6-32eb-e84a" type="selectionEntry"/>
-            <entryLink id="697b-e89f-105c-2a4a" name="Cerastus Knight Lancer" hidden="false" collective="false" import="true" targetId="5ecc-ff8d-2dcc-d06c" type="selectionEntry"/>
+            <entryLink id="1d50-244f-2c4a-d063" name="瑟拉斯图斯级冥府骑士" hidden="false" collective="false" import="true" targetId="6d84-11a3-b6c4-29ac" type="selectionEntry"/>
+            <entryLink id="54dd-da5d-c4ed-dbd2" name="瑟拉斯图斯级惩戒者骑士" hidden="false" collective="false" import="true" targetId="7c6c-6bc6-32eb-e84a" type="selectionEntry"/>
+            <entryLink id="697b-e89f-105c-2a4a" name="瑟拉斯图斯级枪骑士" hidden="false" collective="false" import="true" targetId="5ecc-ff8d-2dcc-d06c" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -9682,15 +9944,17 @@ is reduced by D3.</description>
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8f63-919a-9591-ecd2" name="Cerastus Knight Scion Martial" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8f63-919a-9591-ecd2" name="瑟拉斯图斯骑士贵族" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Cerastus Knight Scion Martial</comment>
       <selectionEntryGroups>
-        <selectionEntryGroup id="323d-05e9-d28c-6d12" name="Knight Hull" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="323d-05e9-d28c-6d12" name="骑士机体" hidden="false" collective="false" import="true">
+          <comment>Knight Hull</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14a4-9100-5808-6d1a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7493-60f0-5e25-4f0f" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="cc58-0ba1-67a3-aab5" name="Cerastus Knight Acheron" hidden="false" collective="false" import="true" targetId="6d84-11a3-b6c4-29ac" type="selectionEntry"/>
+            <entryLink id="cc58-0ba1-67a3-aab5" name="瑟拉斯图斯级冥府骑士" hidden="false" collective="false" import="true" targetId="6d84-11a3-b6c4-29ac" type="selectionEntry"/>
             <entryLink id="135c-87a4-773f-eb85" name="Cerastus Knight Castigator" hidden="false" collective="false" import="true" targetId="7c6c-6bc6-32eb-e84a" type="selectionEntry"/>
             <entryLink id="d06d-c78c-32d6-2b12" name="Cerastus Knight Lancer" hidden="false" collective="false" import="true" targetId="5ecc-ff8d-2dcc-d06c" type="selectionEntry"/>
           </entryLinks>
@@ -9701,16 +9965,18 @@ is reduced by D3.</description>
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7448-fdbe-6fda-c7f6" name="Acastus Knight Lord Scion" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7448-fdbe-6fda-c7f6" name="阿卡斯图斯骑士领主" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Acastus Knight Lord Scion</comment>
       <selectionEntryGroups>
-        <selectionEntryGroup id="d88a-edca-de81-e71a" name="Knight Hull" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="d88a-edca-de81-e71a" name="骑士机体" hidden="false" collective="false" import="true">
+          <comment>Knight Hull</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe67-5c0b-c1cb-6085" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c43f-7db6-59e3-66c2" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="da9c-6b24-1899-466a" name="Acastus Knight Porhpyrion" hidden="false" collective="false" import="true" targetId="76aa-5e9a-0d62-87c1" type="selectionEntry"/>
-            <entryLink id="4d4d-f6df-c9aa-161c" name="Acastus Knight Asterius" hidden="false" collective="false" import="true" targetId="2dee-7316-3a42-5507" type="selectionEntry"/>
+            <entryLink id="da9c-6b24-1899-466a" name="阿卡斯图斯级泊尔菲利翁骑士" hidden="false" collective="false" import="true" targetId="76aa-5e9a-0d62-87c1" type="selectionEntry"/>
+            <entryLink id="4d4d-f6df-c9aa-161c" name="阿卡斯图斯级阿斯特流斯骑士" hidden="false" collective="false" import="true" targetId="2dee-7316-3a42-5507" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -9719,16 +9985,18 @@ is reduced by D3.</description>
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="67a4-f743-3594-f541" name="Acastus Knight" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="67a4-f743-3594-f541" name="阿卡斯图斯骑士" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Acastus Knight</comment>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5bcd-6521-cb63-daa7" name="Knight Hull" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5bcd-6521-cb63-daa7" name="骑士机体" hidden="false" collective="false" import="true">
+          <comment>Knight Hull</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b76-ec14-0b6b-e1f3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32a4-abe3-1bb6-4a2e" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="32df-b93e-dde1-2706" name="Acastus Knight Porhpyrion" hidden="false" collective="false" import="true" targetId="76aa-5e9a-0d62-87c1" type="selectionEntry"/>
-            <entryLink id="7885-c4e2-0e63-3140" name="Acastus Knight Asterius" hidden="false" collective="false" import="true" targetId="2dee-7316-3a42-5507" type="selectionEntry"/>
+            <entryLink id="32df-b93e-dde1-2706" name="阿卡斯图斯级泊尔菲利翁骑士" hidden="false" collective="false" import="true" targetId="76aa-5e9a-0d62-87c1" type="selectionEntry"/>
+            <entryLink id="7885-c4e2-0e63-3140" name="阿卡斯图斯级阿斯特流斯骑士" hidden="false" collective="false" import="true" targetId="2dee-7316-3a42-5507" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -9737,9 +10005,11 @@ is reduced by D3.</description>
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3b77-15d2-9ca8-5cf7" name="Acastus Knight Banner" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3b77-15d2-9ca8-5cf7" name="阿卡斯图斯骑士Banner" hidden="false" collective="false" import="true" type="unit">
+      <comment>Acastus Knight Banner</comment>
       <profiles>
-        <profile id="0842-8600-a01c-ad38" name="Acastus Knight" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
+        <profile id="0842-8600-a01c-ad38" name="阿卡斯图斯骑士" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
+          <comment>Acastus Knight</comment>
           <characteristics>
             <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">7&quot;</characteristic>
             <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">5 (3 with Lord Scion)</characteristic>
@@ -9750,7 +10020,8 @@ is reduced by D3.</description>
             <characteristic name="Scale" typeId="5359-4d2b-082b-546a">5 (Grandis)</characteristic>
           </characteristics>
         </profile>
-        <profile id="62f0-ae02-aff9-8c0d" name="1 Acastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
+        <profile id="62f0-ae02-aff9-8c0d" name="1 阿卡斯图斯骑士Banner离子盾" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
+          <comment>1 Acastus Knight Banner Ion Shields</comment>
           <characteristics>
             <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">1</characteristic>
             <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">5+</characteristic>
@@ -9760,7 +10031,8 @@ is reduced by D3.</description>
             <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
           </characteristics>
         </profile>
-        <profile id="d39b-b1d9-2b45-1910" name="2-3 Acastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
+        <profile id="d39b-b1d9-2b45-1910" name="2-3 阿卡斯图斯骑士Banner离子盾" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
+          <comment>2-3 Acastus Knight Banner Ion Shields</comment>
           <characteristics>
             <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">2-3</characteristic>
             <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">4+</characteristic>
@@ -9770,7 +10042,8 @@ is reduced by D3.</description>
             <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
           </characteristics>
         </profile>
-        <profile id="faef-c4b7-b375-4a09" name="4+ Acastus Knight Banner Ion Shields" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
+        <profile id="faef-c4b7-b375-4a09" name="4+ 阿卡斯图斯骑士Banner离子盾" hidden="false" typeId="fcf7-bbb7-c944-2eb2" typeName="离子盾">
+          <comment>4+ Acastus Knight Banner Ion Shields</comment>
           <characteristics>
             <characteristic name="Knights in Banner" typeId="4788-fa46-8c0e-2db8">4+</characteristic>
             <characteristic name="Attack Strength 1-6" typeId="da0b-4753-babc-ff5c">3+</characteristic>
@@ -9780,20 +10053,25 @@ is reduced by D3.</description>
             <characteristic name="Attack Strength 10+" typeId="ec4f-9282-64c7-c7b4"/>
           </characteristics>
         </profile>
-        <profile id="12d5-624c-c777-479a" name="Acastus Knight Banner Location Table" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+        <profile id="12d5-624c-c777-479a" name="阿卡斯图斯骑士Banner损伤表" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
+          <comment>Acastus Knight Banner Location Table</comment>
           <characteristics>
-            <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">10-14</characteristic>
-            <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">15-16</characteristic>
-            <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">17+</characteristic>
+            <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">10-14</characteristic>
+            <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">15-16</characteristic>
+            <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">17+</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <rules>
-        <rule id="5fc8-3571-bc88-ce38" name="Acastus Knight Artillery" hidden="false">
-          <description>If an Acastus Knight Banner is issued First Fire or Split Fire orders during the Strategy phase, their BS is increased to 3+ until the End phase</description>
+        <rule id="5fc8-3571-bc88-ce38" name="阿卡斯图斯骑士火炮" hidden="false">
+          <comment>Acastus Knight Artillery
+If an Acastus Knight Banner is issued First Fire or Split Fire orders during the Strategy phase, their BS is increased to 3+ until the End phase</comment>
+          <description>如果在战略阶段想一个阿卡斯图斯骑士Banner发出 First Fire 或 Split Fire 命令. 则其直到结束阶段 BS 变为 3+.</description>
         </rule>
-        <rule id="3ef4-e452-b5b7-159a" name="Auxilliary Knight Banner" publicationId="25e8-c9ce-9330-c53b" page="5" hidden="false">
-          <description>A Battlegroup can include a maximum of one Acastus Knight Banner per maniple as reinforcements. A Knight Household Force can include a maximum of one Auxiliary Knight Banner per Lance as reinforcements. No Knight Banner within a Lance may be an Auxiliary Knight Banner</description>
+        <rule id="3ef4-e452-b5b7-159a" name="辅助骑士Banner" publicationId="25e8-c9ce-9330-c53b" page="5" hidden="false">
+          <comment>Auxilliary Knight Banner
+A Battlegroup can include a maximum of one Acastus Knight Banner per maniple as reinforcements. A Knight Household Force can include a maximum of one Auxiliary Knight Banner per Lance as reinforcements. No Knight Banner within a Lance may be an Auxiliary Knight Banner</comment>
+          <description>一个战斗群中的每个分队可以包含至多一个阿卡斯图斯骑士Banner作为支援. 一个骑士家族军队的每个矛尖可以包含至多一个辅助骑士Banner作为支援. 矛尖中的骑士Banner不能成为辅助骑士Banner.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -9802,7 +10080,8 @@ is reduced by D3.</description>
         <categoryLink id="108a-4a65-bea8-c57e" name="Knight" hidden="false" targetId="184a-ded9-ae1a-e357" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="f1c4-1d42-a7d3-9287" name="Structure" hidden="true" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f1c4-1d42-a7d3-9287" name="结构" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>Structure</comment>
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -9818,7 +10097,8 @@ is reduced by D3.</description>
             <categoryLink id="0434-fabb-5e41-4289" name="Structure" hidden="false" targetId="1c43-76ab-b5e5-6baf" primary="false"/>
           </categoryLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="af9c-d02f-895d-6c7d" name="Acastus Structure Point" hidden="false" collective="false" import="true" defaultSelectionEntryId="9694-ce3c-bb4d-6635">
+            <selectionEntryGroup id="af9c-d02f-895d-6c7d" name="阿卡斯图斯级结构点数" hidden="false" collective="false" import="true" defaultSelectionEntryId="9694-ce3c-bb4d-6635">
+              <comment>Acastus Structure Point</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6580-66e1-8b0d-8077" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4602-64cd-fc39-9975" type="min"/>
@@ -9876,13 +10156,13 @@ is reduced by D3.</description>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="a220-9945-dec5-1453" name="Acastus Knight Lord Scion" hidden="false" collective="false" import="true" targetId="7448-fdbe-6fda-c7f6" type="selectionEntry">
+        <entryLink id="a220-9945-dec5-1453" name="阿卡斯图斯骑士领主" hidden="false" collective="false" import="true" targetId="7448-fdbe-6fda-c7f6" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a45-376f-5b80-540f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24c8-62b5-db9c-c499" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="dc51-c463-c333-395e" name="Acastus Knight Scion Martial" hidden="false" collective="false" import="true" targetId="69b3-e7ac-9cec-ad72" type="selectionEntry">
+        <entryLink id="dc51-c463-c333-395e" name="阿卡斯图斯骑士贵族" hidden="false" collective="false" import="true" targetId="69b3-e7ac-9cec-ad72" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c7c-9e5c-c69d-5ea7" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee64-9e86-51df-d75d" type="min"/>
@@ -10040,11 +10320,11 @@ is reduced by D3.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3816-6a7c-fc5b-8b2e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cbf2-bb38-24a3-7885" name="Body" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+            <profile id="cbf2-bb38-24a3-7885" name="Body" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
               <characteristics>
-                <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">12-13</characteristic>
-                <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">14-15</characteristic>
-                <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">16+</characteristic>
+                <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">12-13</characteristic>
+                <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">14-15</characteristic>
+                <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">16+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10062,7 +10342,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="18f6-c472-397e-0854" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10078,7 +10358,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="c79f-31ee-6511-cb4f" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10094,7 +10374,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="336b-fbf5-c386-fe60" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10110,7 +10390,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="1a85-6a51-cb13-3300" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10126,7 +10406,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="e648-b137-4cc8-651d" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10142,7 +10422,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="7766-a4ab-a56c-1a19" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10158,7 +10438,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="7a32-3387-762f-33f3" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10174,7 +10454,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="14c6-3b74-6188-9331" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10200,11 +10480,11 @@ is reduced by D3.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2552-06db-6ce5-2830" type="max"/>
           </constraints>
           <profiles>
-            <profile id="e36f-8ed0-63b3-1081" name="Head" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+            <profile id="e36f-8ed0-63b3-1081" name="Head" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
               <characteristics>
-                <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">12-13</characteristic>
-                <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">14-15</characteristic>
-                <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">17+</characteristic>
+                <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">12-13</characteristic>
+                <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">14-15</characteristic>
+                <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">17+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10222,7 +10502,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="f2fc-687d-b25c-a679" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10238,7 +10518,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="c1de-75fe-3e1e-3498" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10254,7 +10534,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="8475-6878-5c64-33b1" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10270,7 +10550,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="c645-aca3-8456-91e5" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10286,7 +10566,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="2177-ee48-44ec-8026" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10302,7 +10582,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="6ce9-245a-eeba-6187" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10318,7 +10598,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="9c97-87d7-b9f1-c8b9" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10344,11 +10624,11 @@ is reduced by D3.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="998b-990e-eeb2-3cd1" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f4a2-764b-987b-80fc" name="Legs" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+            <profile id="f4a2-764b-987b-80fc" name="Legs" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
               <characteristics>
-                <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">13-14</characteristic>
-                <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">15-16</characteristic>
-                <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">17+</characteristic>
+                <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">13-14</characteristic>
+                <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">15-16</characteristic>
+                <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">17+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -10366,7 +10646,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="5a32-c58a-785b-7899" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10382,7 +10662,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="c2f0-0f7e-e2b0-792c" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10398,7 +10678,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="ca09-2ee3-f48a-7b8c" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10414,7 +10694,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="0e55-2d09-cc12-791c" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10430,7 +10710,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="7b60-0882-db49-5fb9" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10446,7 +10726,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="2a81-db9f-783b-8369" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10462,7 +10742,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="34cd-f478-6b1c-bca5" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10478,7 +10758,7 @@ is reduced by D3.</description>
                   <profiles>
                     <profile id="be88-93dc-1213-afe3" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                       <characteristics>
-                        <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                        <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10995,9 +11275,11 @@ is reduced by D3.</description>
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="abfb-13ba-25c8-f130" name="Ursus Claw" publicationId="3265-f408-cc9b-bfa3" page="92" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="abfb-13ba-25c8-f130" name="熊爪" publicationId="3265-f408-cc9b-bfa3" page="92" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Ursus Claw</comment>
       <profiles>
-        <profile id="132d-d0fa-bf94-b735" name="Ursus Claw" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="132d-d0fa-bf94-b735" name="熊爪" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Ursus Claw</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">3</characteristic>
@@ -11027,9 +11309,11 @@ is reduced by D3.</description>
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="59e1-0284-05e3-4c67" name="Natrix Shock Lance" publicationId="3265-f408-cc9b-bfa3" page="92" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="59e1-0284-05e3-4c67" name="纳特里克斯冲击长枪" publicationId="3265-f408-cc9b-bfa3" page="92" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Natrix Shock Lance</comment>
       <profiles>
-        <profile id="81fc-8687-8042-f611" name="Natrix Shock Lance" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="81fc-8687-8042-f611" name="纳特里克斯冲击长枪" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Natrix Shock Lance</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">4</characteristic>
@@ -11095,9 +11379,11 @@ is reduced by D3.</description>
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dfeb-83af-7b26-622a" name="Warlord-Sinister Titan" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="dfeb-83af-7b26-622a" name="恶将泰坦" hidden="false" collective="false" import="true" type="model">
+      <comment>Warlord-Sinister Titan</comment>
       <profiles>
-        <profile id="df2d-8558-dfda-51eb" name="Warlord-Sinister Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
+        <profile id="df2d-8558-dfda-51eb" name="恶将泰坦" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="引擎">
+          <comment>Warlord-Sinister Titan</comment>
           <characteristics>
             <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">4&quot;/6&quot;</characteristic>
             <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">3+</characteristic>
@@ -11115,7 +11401,8 @@ is reduced by D3.</description>
         <categoryLink id="d7dd-e3aa-4ba1-e5a6" name="WarlordTitan" hidden="false" targetId="7103-9316-d4a5-8caa" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="54d2-8732-7748-4ad6" name="Structure" hidden="true" collective="false" import="true" type="upgrade">
+        <selectionEntry id="54d2-8732-7748-4ad6" name="结构" hidden="true" collective="false" import="true" type="upgrade">
+          <comment>Structure</comment>
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -11131,22 +11418,25 @@ is reduced by D3.</description>
             <categoryLink id="ced9-b70c-4d19-3e69" name="Structure" hidden="false" targetId="1c43-76ab-b5e5-6baf" primary="false"/>
           </categoryLinks>
           <selectionEntries>
-            <selectionEntry id="a1be-00eb-5111-49dd" name="Body" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a1be-00eb-5111-49dd" name="躯干" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Body</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="578f-f22b-c1e3-cf7c" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2b1-6bbf-f055-e2a0" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c8e7-1911-2b3f-cd8c" name="Body" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                <profile id="c8e7-1911-2b3f-cd8c" name="躯干" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
+                  <comment>Body</comment>
                   <characteristics>
-                    <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">12-13</characteristic>
-                    <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">14-15</characteristic>
-                    <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">16+</characteristic>
+                    <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">12-13</characteristic>
+                    <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">14-15</characteristic>
+                    <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">16+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="29a9-5508-520e-9cad" name="Body Structure Point Damage" hidden="false" collective="false" import="true" defaultSelectionEntryId="0573-9763-6188-dd14">
+                <selectionEntryGroup id="29a9-5508-520e-9cad" name="躯干结构点损伤" hidden="false" collective="false" import="true" defaultSelectionEntryId="0573-9763-6188-dd14">
+                  <comment>Body Structure Point Damage</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bebb-bcd8-5d27-2133" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c7b-efb0-6414-33d1" type="max"/>
@@ -11159,7 +11449,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="a28f-fcaa-2ba7-b161" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11175,7 +11465,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="051d-4742-4319-9003" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11191,7 +11481,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="9ff9-09b7-8055-4d03" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11207,7 +11497,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="53b8-b1cd-c196-b366" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11223,7 +11513,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="19bd-7409-6ae8-ff72" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11239,7 +11529,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="9426-7f33-51e9-6cb5" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11255,7 +11545,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="5b83-dee1-3e27-65bf" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11271,7 +11561,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="4696-d127-3ce7-198e" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11284,20 +11574,22 @@ is reduced by D3.</description>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="90da-54b7-ba57-3793" name="Body Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="1d49-39ff-979b-f7f0" type="selectionEntryGroup"/>
+                <entryLink id="90da-54b7-ba57-3793" name="躯干致命损伤" hidden="false" collective="false" import="true" targetId="1d49-39ff-979b-f7f0" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                 <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="eea1-9c78-1458-2a12" name="Void Shields" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="eea1-9c78-1458-2a12" name="虚空盾" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Void Shields</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fda5-327c-ce60-7e3e" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bee-4b73-c08a-a6a9" type="min"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="44fe-a9cf-7bfc-599a" name="Void Shields" hidden="false" collective="false" import="true" defaultSelectionEntryId="e32c-b0a1-ca43-3cd0">
+                <selectionEntryGroup id="44fe-a9cf-7bfc-599a" name="虚空盾" hidden="false" collective="false" import="true" defaultSelectionEntryId="e32c-b0a1-ca43-3cd0">
+                  <comment>Void Shields</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e12-4e84-fe25-cf71" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d81-c01a-f2b5-11fc" type="max"/>
@@ -11341,22 +11633,25 @@ is reduced by D3.</description>
                 <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="b1b5-d079-a218-a6a1" name="Legs" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="b1b5-d079-a218-a6a1" name="腿部" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Legs</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e513-b783-5ca5-54db" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d74c-867e-344f-9ef1" type="max"/>
               </constraints>
               <profiles>
-                <profile id="dbf7-d399-a610-4573" name="Legs" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                <profile id="dbf7-d399-a610-4573" name="腿部" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
+                  <comment>Legs</comment>
                   <characteristics>
-                    <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">13-14</characteristic>
-                    <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">15-16</characteristic>
-                    <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">17+</characteristic>
+                    <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">13-14</characteristic>
+                    <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">15-16</characteristic>
+                    <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">17+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="3386-7018-d1d9-1b61" name="Legs Structure Point Damage" hidden="false" collective="false" import="true" defaultSelectionEntryId="dd2f-95d0-51d7-e3c3">
+                <selectionEntryGroup id="3386-7018-d1d9-1b61" name="腿部结构点损伤" hidden="false" collective="false" import="true" defaultSelectionEntryId="dd2f-95d0-51d7-e3c3">
+                  <comment>Legs Structure Point Damage</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d8c-930c-df66-83cc" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42ed-6ed5-17eb-a5b9" type="min"/>
@@ -11369,7 +11664,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="4fb1-b6cb-e795-b221" name="⦿⦾⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11385,7 +11680,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="ccd5-3720-241d-f815" name="⦿⦿⦾⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11401,7 +11696,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="ccbb-2388-3df9-afe5" name="⦿⦿⦿⦾⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11417,7 +11712,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="8d05-e9c9-1842-80a1" name="⦿⦿⦿⦿⦾⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11433,7 +11728,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="4421-c9f5-6333-d330" name="⦿⦿⦿⦿⦿⦾⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11449,7 +11744,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="bf99-aa10-1061-4763" name="⦿⦿⦿⦿⦿⦿⦾⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11465,7 +11760,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="88cd-9cec-d500-507f" name="⦿⦿⦿⦿⦿⦿⦿⦾(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11481,7 +11776,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="a4fe-c33a-ed1a-8934" name="⦿⦿⦿⦿⦿⦿⦿⦿(8)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11494,29 +11789,32 @@ is reduced by D3.</description>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
-                <entryLink id="2427-820a-054e-8ed5" name="Legs Manifold Critical Damage" hidden="false" collective="false" import="true" targetId="50af-0bab-a322-f02c" type="selectionEntryGroup"/>
+                <entryLink id="2427-820a-054e-8ed5" name="腿部致命损伤" hidden="false" collective="false" import="true" targetId="50af-0bab-a322-f02c" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
                 <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
                 <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ae63-2269-22cc-5562" name="Head" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="ae63-2269-22cc-5562" name="头部" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Head</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccf0-704a-7587-2146" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfaf-db49-1b11-9ec6" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c9e6-c038-8f21-5f88" name="Head" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="Location Table">
+                <profile id="c9e6-c038-8f21-5f88" name="头部" hidden="false" typeId="b72e-0b77-ebb5-507d" typeName="损伤表">
+                  <comment>Head</comment>
                   <characteristics>
-                    <characteristic name="Direct" typeId="c665-cd89-936b-f2e5">12-13</characteristic>
-                    <characteristic name="Devastating" typeId="d16c-dca6-9e62-f9aa">14-15</characteristic>
-                    <characteristic name="Critical" typeId="d300-246c-10d9-f5b2">17+</characteristic>
+                    <characteristic name="擦伤" typeId="c665-cd89-936b-f2e5">12-13</characteristic>
+                    <characteristic name="严重损伤" typeId="d16c-dca6-9e62-f9aa">14-15</characteristic>
+                    <characteristic name="致命损伤" typeId="d300-246c-10d9-f5b2">17+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <selectionEntryGroups>
-                <selectionEntryGroup id="5a56-2379-3e7b-1da7" name="Head Structure Point Damage" hidden="false" collective="false" import="true" defaultSelectionEntryId="f5b7-b2ab-6f49-86be">
+                <selectionEntryGroup id="5a56-2379-3e7b-1da7" name="头部结构点损伤" hidden="false" collective="false" import="true" defaultSelectionEntryId="f5b7-b2ab-6f49-86be">
+                  <comment>Head Structure Point Damage</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adca-b7cc-df73-38d2" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3a6-6947-9a13-40f0" type="min"/>
@@ -11529,7 +11827,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="bea1-da46-926d-4e8c" name="⦿⦾⦾⦾⦾⦾⦾(1)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11545,7 +11843,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="8b91-d150-0743-0490" name="⦿⦿⦾⦾⦾⦾⦾(2)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11561,7 +11859,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="20d2-eba1-067e-68aa" name="⦿⦿⦿⦾⦾⦾⦾(3)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2"/>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11577,7 +11875,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="df71-7b20-1b05-cf07" name="⦿⦿⦿⦿⦾⦾⦾(4)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11593,7 +11891,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="3de4-ab12-e8ee-d181" name="⦿⦿⦿⦿⦿⦾⦾(5)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11609,7 +11907,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="9108-bfdc-e6f5-c003" name="⦿⦿⦿⦿⦿⦿⦾(6)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11625,7 +11923,7 @@ is reduced by D3.</description>
                       <profiles>
                         <profile id="5981-3c8f-1ab8-948b" name="⦿⦿⦿⦿⦿⦿⦿(7)" hidden="false" typeId="e539-8a16-c912-c6c5" typeName="结构点数">
                           <characteristics>
-                            <characteristic name="Modifer" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
+                            <characteristic name="修正" typeId="1e91-6224-ebeb-fec2">+3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -11645,19 +11943,21 @@ is reduced by D3.</description>
                 <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e617-d040-2766-c00c" name="Plasma Reactor" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e617-d040-2766-c00c" name="等离子反应堆" hidden="false" collective="false" import="true" type="upgrade">
+              <comment>Plasma Reactor</comment>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e43c-9f0e-1c52-9243" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18cd-29bf-9173-024a" type="max"/>
               </constraints>
               <selectionEntryGroups>
-                <selectionEntryGroup id="f452-7f33-5b85-ea95" name="Plasma Reactor" hidden="false" collective="false" import="true" defaultSelectionEntryId="d29f-5742-6760-fc7f">
+                <selectionEntryGroup id="f452-7f33-5b85-ea95" name="等离子反应堆" hidden="false" collective="false" import="true" defaultSelectionEntryId="d29f-5742-6760-fc7f">
+                  <comment>Plasma Reactor</comment>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a963-8816-9c39-f01e" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d668-375d-22a6-c04c" type="min"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="d29f-5742-6760-fc7f" name="⦿⦾⦾⦾⦾⦾⦾ Green(1)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="d29f-5742-6760-fc7f" name="⦿⦾⦾⦾⦾⦾⦾ 绿色(1)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="212c-a0be-2de9-cb78" type="max"/>
                       </constraints>
@@ -11666,7 +11966,7 @@ is reduced by D3.</description>
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="2714-4aac-8906-9936" name="⦿⦿⦾⦾⦾⦾⦾ Green(2)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="2714-4aac-8906-9936" name="⦿⦿⦾⦾⦾⦾⦾ 绿色(2)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6690-22de-bb42-1dbe" type="max"/>
                       </constraints>
@@ -11675,7 +11975,7 @@ is reduced by D3.</description>
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="d8b2-6ae9-776d-2963" name="⦿⦿⦿⦾⦾⦾⦾ Yellow(3)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="d8b2-6ae9-776d-2963" name="⦿⦿⦿⦾⦾⦾⦾ 黄色(3)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ecd-7c49-d9b7-eaf9" type="max"/>
                       </constraints>
@@ -11684,7 +11984,7 @@ is reduced by D3.</description>
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="7cef-c83e-0042-c8ee" name="⦿⦿⦿⦿⦾⦾⦾ Yellow(4)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="7cef-c83e-0042-c8ee" name="⦿⦿⦿⦿⦾⦾⦾ 黄色(4)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df3f-478a-150a-7b46" type="max"/>
                       </constraints>
@@ -11693,7 +11993,7 @@ is reduced by D3.</description>
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="0a40-4904-79c5-c070" name="⦿⦿⦿⦿⦿⦾⦾ Orange(5)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="0a40-4904-79c5-c070" name="⦿⦿⦿⦿⦿⦾⦾ 橙色(5)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb5f-b4be-64a7-d413" type="max"/>
                       </constraints>
@@ -11702,7 +12002,7 @@ is reduced by D3.</description>
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="e8e1-ff6f-d95e-2b4b" name="⦿⦿⦿⦿⦿⦿⦾ Orange(6)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="e8e1-ff6f-d95e-2b4b" name="⦿⦿⦿⦿⦿⦿⦾ 橙色(6)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df82-e85d-77f3-f826" type="max"/>
                       </constraints>
@@ -11711,7 +12011,7 @@ is reduced by D3.</description>
                         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="7624-ae68-026a-8bfe" name="⦿⦿⦿⦿⦿⦿⦿ Red(7)" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="7624-ae68-026a-8bfe" name="⦿⦿⦿⦿⦿⦿⦿ 红色(7)" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e35-2ffa-d574-f8ac" type="max"/>
                       </constraints>
@@ -11736,9 +12036,11 @@ is reduced by D3.</description>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="25b0-37d3-2ac2-2a2a" name="Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="25b0-37d3-2ac2-2a2a" name="武器" hidden="false" collective="false" import="true">
+          <comment>Weapons</comment>
           <selectionEntryGroups>
-            <selectionEntryGroup id="397b-afe8-38ba-4186" name="Arm A" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="397b-afe8-38ba-4186" name="手臂 A" hidden="false" collective="false" import="true">
+              <comment>Arm A</comment>
               <modifiers>
                 <modifier type="set" field="e727-e9f7-8353-89a5" value="0.0">
                   <conditions>
@@ -11758,7 +12060,8 @@ is reduced by D3.</description>
                 <entryLink id="06a5-628c-5f03-7997" name="Macro Gatling Blaster" hidden="false" collective="false" import="true" targetId="2cea-d272-fa57-5553" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="8003-d38f-5fe8-19b0" name="Carapace" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="8003-d38f-5fe8-19b0" name="顶盖" hidden="false" collective="false" import="true">
+              <comment>Carapace</comment>
               <modifiers>
                 <modifier type="set" field="c557-c1a2-e4cb-95d1" value="0.0">
                   <conditions>
@@ -11796,9 +12099,11 @@ is reduced by D3.</description>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="2ef2-a185-9def-9e73" name="Arm B" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="2ef2-a185-9def-9e73" name="手臂 B" hidden="false" collective="false" import="true">
+              <comment>Arm B</comment>
               <entryLinks>
-                <entryLink id="cfc1-f569-5c24-317b" name="Sinistraamanus Tenebrae" hidden="false" collective="false" import="true" targetId="fdb3-1081-0f93-7b0c" type="selectionEntry">
+                <entryLink id="cfc1-f569-5c24-317b" name="恶煞生物炮" hidden="false" collective="false" import="true" targetId="fdb3-1081-0f93-7b0c" type="selectionEntry">
+                  <comment>Sinistraamanus Tenebrae</comment>
                   <modifiers>
                     <modifier type="set" field="c64c-2d4c-9e9e-c222" value="0.0">
                       <conditions>
@@ -11815,21 +12120,23 @@ is reduced by D3.</description>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="f01e-288d-b358-dddc" name="Ardex Defensor Cannon" hidden="false" collective="false" import="true" targetId="ebc6-2029-ceb3-f43b" type="selectionEntry"/>
+            <entryLink id="f01e-288d-b358-dddc" name="阿德克斯近防炮" hidden="false" collective="false" import="true" targetId="ebc6-2029-ceb3-f43b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="e567-79a0-2397-8b15" name="Wargear" hidden="false" collective="false" import="true" targetId="187f-a18f-cafe-4ae6" type="selectionEntryGroup"/>
+        <entryLink id="e567-79a0-2397-8b15" name="装备" hidden="false" collective="false" import="true" targetId="187f-a18f-cafe-4ae6" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="685.0"/>
         <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fdb3-1081-0f93-7b0c" name="Sinistraamanus Tenebrae" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="fdb3-1081-0f93-7b0c" name="恶煞生物炮" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>Sinistraamanus Tenebrae</comment>
       <profiles>
-        <profile id="ccf8-e211-f916-44f9" name="Sinistraamanus Tenebrae" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+        <profile id="ccf8-e211-f916-44f9" name="恶煞生物炮" hidden="false" typeId="b054-6896-e395-0e91" typeName="武器">
+          <comment>Sinistraamanus Tenebrae</comment>
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">3</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">10</characteristic>
@@ -12856,43 +13163,47 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="50af-0bab-a322-f02c" name="Legs Manifold Critical Damage" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="50af-0bab-a322-f02c" name="腿部致命损伤" hidden="false" collective="false" import="true">
+      <comment>Legs Manifold Critical Damage</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="437b-c391-1f5f-8959" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a25-4d22-ad23-5b80" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="8a17-7a12-7607-5131" name="1 Yellow Manifold Critical Damage" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8a17-7a12-7607-5131" name="1 黄色致命损伤" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>1 Yellow Manifold Critical Damage</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5413-d4f3-a4c9-1b45" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="57b5-9fdd-732d-eb8f" name="Stabilizers Damaged" hidden="false" targetId="17b3-c01c-7edc-82da" type="rule"/>
+            <infoLink id="57b5-9fdd-732d-eb8f" name="稳定器损伤" hidden="false" targetId="17b3-c01c-7edc-82da" type="rule"/>
           </infoLinks>
           <costs>
             <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
             <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8f94-127b-43d6-ac8a" name="3 Red Manifold Critical Damage" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8f94-127b-43d6-ac8a" name="3 红色致命损伤" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>3 Red Manifold Critical Damage</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2424-0d14-3574-1c8c" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="d8a9-4440-3e2e-7e1c" name="Immobilized" hidden="false" targetId="e8db-6948-589e-2c80" type="rule"/>
+            <infoLink id="d8a9-4440-3e2e-7e1c" name="不可移动" hidden="false" targetId="e8db-6948-589e-2c80" type="rule"/>
           </infoLinks>
           <costs>
             <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
             <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a24a-5f46-842d-37c9" name="2 Orange Manifold Critical Damage" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a24a-5f46-842d-37c9" name="2 橙色致命损伤" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>2 Orange Manifold Critical Damage</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d96-83a1-3f26-8615" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="d7cf-21af-8e1f-d17a" name="Stabilizers Damaged" hidden="false" targetId="17b3-c01c-7edc-82da" type="rule"/>
-            <infoLink id="6c0d-2733-171e-8aca" name="Locomotors Seized" hidden="false" targetId="933b-ea98-5684-890f" type="rule"/>
+            <infoLink id="d7cf-21af-8e1f-d17a" name="稳定器损伤" hidden="false" targetId="17b3-c01c-7edc-82da" type="rule"/>
+            <infoLink id="6c0d-2733-171e-8aca" name="运行受限" hidden="false" targetId="933b-ea98-5684-890f" type="rule"/>
           </infoLinks>
           <costs>
             <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
@@ -12901,13 +13212,15 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="1d49-39ff-979b-f7f0" name="Body Manifold Critical Damage" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="1d49-39ff-979b-f7f0" name="躯干致命损伤" hidden="false" collective="false" import="true">
+      <comment>Body Manifold Critical Damage</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7dc-9821-6283-78e6" type="max"/>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b728-848d-51c3-5848" type="min"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="9e12-5e6a-0b22-56dc" name="1 Yellow Manifold Critical Damage" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9e12-5e6a-0b22-56dc" name="1 黄色致命损伤" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>1 Yellow Manifold Critical Damage</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c88-34a6-4eb8-b126" type="max"/>
           </constraints>
@@ -12919,25 +13232,27 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
             <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="dbe4-d602-cd6a-ed74" name="3 Red Manifold Critical Damage" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="dbe4-d602-cd6a-ed74" name="3 红色致命损伤" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>3 Red Manifold Critical Damage</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0427-3a7f-0962-eeba" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="de9e-6f9a-1e8f-5fe3" name="Reactor Leak (2)" hidden="false" targetId="8243-0a90-7bc9-88ac" type="rule"/>
-            <infoLink id="b71a-b9cd-a82f-7b71" name="VSG Burnout" hidden="false" targetId="a064-e684-d8a9-c65e" type="rule"/>
+            <infoLink id="b71a-b9cd-a82f-7b71" name="虚空盾发生器烧毁" hidden="false" targetId="a064-e684-d8a9-c65e" type="rule"/>
           </infoLinks>
           <costs>
             <cost name=" 点数" typeId="a731-e220-2d8a-41bf" value="0.0"/>
             <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3f8f-21b5-9196-914e" name="2 Orange Manifold Critical Damage" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3f8f-21b5-9196-914e" name="2 橙色致命损伤" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>2 Orange Manifold Critical Damage</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c45-fbd0-37a1-7497" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="4de3-036f-a420-42ad" name="Reactor Leak (1)" hidden="false" targetId="9d86-911d-7d60-3acc" type="rule"/>
+            <infoLink id="4de3-036f-a420-42ad" name="反应堆泄漏 (1)" hidden="false" targetId="9d86-911d-7d60-3acc" type="rule"/>
             <infoLink id="c6b6-f608-2a1b-da05" name="VSG Burnout" hidden="false" targetId="a064-e684-d8a9-c65e" type="rule"/>
           </infoLinks>
           <costs>
@@ -12947,13 +13262,15 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="9ba2-12fa-8d22-c505" name="Head Manifold Critical Damage" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="9ba2-12fa-8d22-c505" name="头部致命损伤" hidden="false" collective="false" import="true">
+      <comment>Head Manifold Critical Damage</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36fe-b6d4-fc17-8758" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc23-0212-d54d-a48f" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="2aab-7530-eac7-1b38" name="1 Yellow Manifold Critical Damage" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2aab-7530-eac7-1b38" name="1 黄色致命损伤" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>1 Yellow Manifold Critical Damage</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="047a-2b02-c207-4dec" type="max"/>
           </constraints>
@@ -12965,12 +13282,13 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
             <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a8b4-d852-71dc-d2f0" name="3 Red Manifold Critical Damage" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="a8b4-d852-71dc-d2f0" name="3 红色致命损伤" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>3 Red Manifold Critical Damage</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0125-ddc2-e691-1a41" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="36fc-1991-6c88-6632" name="Moderati Wounded" hidden="false" targetId="8ca3-6877-6b64-00ef" type="rule"/>
+            <infoLink id="36fc-1991-6c88-6632" name="武器协调系统受损" hidden="false" targetId="8ca3-6877-6b64-00ef" type="rule"/>
             <infoLink id="3ada-d545-d743-4de8" name="Princeps Wounded" hidden="false" targetId="f645-3cac-dca4-6c01" type="rule"/>
           </infoLinks>
           <costs>
@@ -12978,7 +13296,8 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
             <cost name=" 战略点数" typeId="efbf-52f7-fd08-f329" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="57ca-22ab-6d17-bf18" name="2 Orange Manifold Critical Damage" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="57ca-22ab-6d17-bf18" name="2 橙色致命损伤" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>2 Orange Manifold Critical Damage</comment>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb83-53bd-220c-5858" type="max"/>
           </constraints>
@@ -13068,7 +13387,7 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba89-617c-4c13-df06" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="57d8-eb61-62ff-370a" name="=Vulvcanum= Twinned Machine Spirits" hidden="true" collective="false" import="true" targetId="f9a9-0ee9-960e-960b" type="selectionEntry">
+        <entryLink id="57d8-eb61-62ff-370a" name="=Vulcanum= Twinned Machine Spirits" hidden="true" collective="false" import="true" targetId="f9a9-0ee9-960e-960b" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -13338,13 +13657,14 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="e060-52c1-1d31-a331" name="Acastus Hull Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="c750-04b1-5a96-6e07">
+    <selectionEntryGroup id="e060-52c1-1d31-a331" name="阿卡斯图斯机体武器" hidden="false" collective="false" import="true" defaultSelectionEntryId="c750-04b1-5a96-6e07">
+      <comment>Acastus Hull Weapon</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d314-4f47-50ee-231e" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a335-733f-c91e-960a" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="c750-04b1-5a96-6e07" name="Acastus Twin Autocannon" hidden="false" collective="false" import="true" targetId="abac-6fdb-0228-d12a" type="selectionEntry"/>
+        <entryLink id="c750-04b1-5a96-6e07" name="阿卡斯图斯双联自动炮" hidden="false" collective="false" import="true" targetId="abac-6fdb-0228-d12a" type="selectionEntry"/>
         <entryLink id="3ea6-1bed-f54a-c10f" name="Acastus Twin Lascannon" hidden="false" collective="false" import="true" targetId="a2a3-d4b5-189a-5f63" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
@@ -13365,32 +13685,55 @@ When the Titan arrives, it may be placed anywhere on the battlefield that is 1&q
     <rule id="26e1-ebdc-e470-dd28" name="Strength (STR)" hidden="false">
       <description>A weapon’s Strength is a measure of its ability to punch through a target’s armour. The higher a weapon’s Strength, the more likely its attack will inflict damage on a successful hit.</description>
     </rule>
-    <rule id="c11a-edbe-0a11-00c8" name="MIU Feedback" hidden="false">
-      <description>The Mind Impulse Unit has been hit, disrupting the crew&apos;s interface to the manifold. Any command Checks made for the Titan have a -2 modifier.</description>
+    <rule id="c11a-edbe-0a11-00c8" name="意识驱动单元杂音" hidden="false">
+      <comment>MIU Feedback
+The Mind Impulse Unit has been hit, disrupting the crew&apos;s interface to the manifold. Any command Checks made for the Titan have a -2 modifier.</comment>
+      <description>意识驱动单元被命中, 使机组成员与机体的连接受到干扰. 对泰坦的任何命令鉴定获得 -2 修正值.</description>
     </rule>
-    <rule id="8ca3-6877-6b64-00ef" name="Moderati Wounded" hidden="false">
-      <description>The Moderatii overseeing the gunnery crews have been hit. Any Hit rolls made for the Titan have a -1 modifier.</description>
+    <rule id="8ca3-6877-6b64-00ef" name="武器协调系统受损" hidden="false">
+      <comment>Moderati Wounded
+The Moderatii overseeing the gunnery crews have been hit. Any Hit rolls made for the Titan have a -1 modifier.</comment>
+      <description>武器操作协调系统被击中, 泰坦的任何命中骰获得 -1 修正值.</description>
     </rule>
-    <rule id="f645-3cac-dca4-6c01" name="Princeps Wounded" hidden="false">
-      <description>The attack has grievously wounded the Princeps, who is at risk of passing out. At the start of each Strategy phase, roll a D6. On a roll of 1, the Titan takes Shutodown orders. In addition, the Titan automatically fails Command checks it makes. </description>
+    <rule id="f645-3cac-dca4-6c01" name="机长受伤" hidden="false">
+      <comment>Princeps Wounded
+The attack has grievously wounded the Princeps, who is at risk of passing out. At the start of each Strategy phase, roll a D6. On a roll of 1, the Titan takes Shutodown orders. In addition, the Titan automatically fails Command checks it makes. </comment>
+      <description>攻击使得机长受到损伤, 有晕倒的风险. 在每个战略阶段开始时投掷D6. 若结果为1则泰坦接受到关机指令. 此外, 泰坦会自动使得命令鉴定失败.</description>
     </rule>
-    <rule id="9d86-911d-7d60-3acc" name="Reactor Leak (1)" hidden="false">
-      <description>The Titan&apos;s reactor containment fields are failing. In each End phase, advance the Titan&apos;s Reactor Status marker a number of times as shown in the brackets.</description>
+    <rule id="9d86-911d-7d60-3acc" name="反应堆泄漏 (1)" hidden="false">
+      <comment>Reactor Leak (1)
+The Titan&apos;s reactor containment fields are failing. In each End phase, advance the Titan&apos;s Reactor Status marker a number of times as shown in the brackets.</comment>
+      <description>泰坦反应堆安全壳已失效. 在每个结束阶段, 使泰坦的反应堆状态前进括号中所示的次数.</description>
     </rule>
-    <rule id="8243-0a90-7bc9-88ac" name="Reactor Leak (2)" hidden="false">
-      <description>The Titan&apos;s reactor containment fields are failing. In each End phase, advance the Titan&apos;s Reactor Status marker a number of times as shown in the brackets.</description>
+    <rule id="8243-0a90-7bc9-88ac" name="反应堆泄漏 (2)" hidden="false">
+      <comment>Reactor Leak (2)
+The Titan&apos;s reactor containment fields are failing. In each End phase, advance the Titan&apos;s Reactor Status marker a number of times as shown in the brackets.
+</comment>
+      <description>泰坦反应堆安全壳已失效. 在每个结束阶段, 使泰坦的反应堆状态前进括号中所示的次数.</description>
     </rule>
-    <rule id="a064-e684-d8a9-c65e" name="VSG Burnout" hidden="false">
-      <description>The Titan&apos;s void shield generators have burned out -  its void shields collapse immediately. The Titan cannot use &apos;Raise Shields&apos; Repair actions until this damage has been repaired.</description>
+    <rule id="a064-e684-d8a9-c65e" name="虚空盾发生器烧毁" hidden="false">
+      <comment>VSG Burnout
+The Titan&apos;s void shield generators have burned out -  its void shields collapse immediately. The Titan cannot use &apos;Raise Shields&apos; Repair actions until this damage has been repaired.
+</comment>
+      <description>泰坦虚空盾发生器已烧毁 - 虚空盾立场崩塌. 在损伤被修复之前, 泰坦不能使用 &quot;升起护盾&quot;.</description>
     </rule>
-    <rule id="17b3-c01c-7edc-82da" name="Stabilizers Damaged" hidden="false">
-      <description>The Titan staggers as its stabilizers struggle to keep it upright. In each End phase, roll a D6 for the Titan. On a 1-3, it turns 45 degrees to the left. On a 4-6, it turns 45 degrees to the right.</description>
+    <rule id="17b3-c01c-7edc-82da" name="稳定器损伤" hidden="false">
+      <comment>Stabilizers Damaged
+The Titan staggers as its stabilizers struggle to keep it upright. In each End phase, roll a D6 for the Titan. On a 1-3, it turns 45 degrees to the left. On a 4-6, it turns 45 degrees to the right.
+</comment>
+      <description>泰坦因稳定器损伤难以保持直立而摇摇欲坠. 在每个结束阶段, 为泰坦投掷D6, 若结果为1-3则泰坦向左旋转45度, 若结果为4-6则泰坦向右旋转45度.</description>
     </rule>
-    <rule id="933b-ea98-5684-890f" name="Locomotors Seized" hidden="false">
-      <description>Massive gears within the Titan&apos;s legs grind as it tries to move. The Titan&apos;s Speed and Manoeuver characteristics (both the normal and boosted values) are halved, rounding down. If this reduces a normal value to 0, the Titan must push the reactor to use the boosted value it it wishes to move/turn. </description>
+    <rule id="933b-ea98-5684-890f" name="运行受限" hidden="false">
+      <comment>Locomotors Seized
+Massive gears within the Titan&apos;s legs grind as it tries to move. The Titan&apos;s Speed and Manoeuver characteristics (both the normal and boosted values) are halved, rounding down. If this reduces a normal value to 0, the Titan must push the reactor to use the boosted value it it wishes to move/turn. </comment>
+      <description>泰坦腿上的巨大齿轮在它试图移动时被磨碎. 泰坦的速度和机动性数值(正常值和增强值)减半, 四舍五入. 如果这使得正常值降低到了0, 泰坦试图移动/转向的动作必须使用增强值.
+</description>
     </rule>
-    <rule id="e8db-6948-589e-2c80" name="Immobilized" hidden="false">
-      <description>The Titan&apos;s legs and toros are frozen in place. It cannot move or make any turns.</description>
+    <rule id="e8db-6948-589e-2c80" name="不可移动" hidden="false">
+      <comment>Immobilized
+The Titan&apos;s legs and toros are frozen in place. It cannot move or make any turns.
+</comment>
+      <description>泰坦的腿和脚趾被冻结.  它不能移动或转弯.</description>
     </rule>
   </sharedRules>
 </gameSystem>
