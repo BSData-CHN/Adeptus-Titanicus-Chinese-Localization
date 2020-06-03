@@ -46,7 +46,18 @@
       </characteristicTypes>
     </profileType>
     <profileType id="b054-6896-e395-0e91" name="武器">
-      <comment>Weapon</comment>
+      <comment>Weapon
+Dice
+Strength
+Short Range
+Short Accuracy
+Long Range
+Long Accuracy
+Disabled Roll
+X Value
+Limited
+Trait
+Critically Disabled Roll</comment>
       <characteristicTypes>
         <characteristicType id="fff8-b599-3d0a-2555" name="Dice"/>
         <characteristicType id="2761-1395-aa4e-73bd" name="Strength"/>
@@ -414,7 +425,7 @@ Knights have a 360 Degree Front Fire Arc</comment>
       <comment>WarlordTitan</comment>
     </categoryEntry>
     <categoryEntry id="dd70-1324-743e-7dfe" name="Gryphonicus-Reaver-Replace-Warlord" hidden="false"/>
-    <categoryEntry id="2841-67b5-15d0-8908" name="联军" hidden="false">
+    <categoryEntry id="2841-67b5-15d0-8908" name="势力" hidden="false">
       <comment>Allegiance</comment>
     </categoryEntry>
     <categoryEntry id="0b8b-755a-cabc-6d70" name="Battlefield Assets" publicationId="975a-00f4-pubN65537" page="65" hidden="false">
@@ -604,12 +615,12 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="9992-64af-f770-acd6" name="Reaver Titan" hidden="false" collective="false" import="true" targetId="9ff1-81bc-203d-620c" type="selectionEntry">
+    <entryLink id="9992-64af-f770-acd6" name="掠夺者泰坦" hidden="false" collective="false" import="true" targetId="9ff1-81bc-203d-620c" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="0237-b896-cf2d-fd8c" name="New CategoryLink" hidden="false" targetId="3f71-3a59-3b75-4ecf" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="667a-5227-d5ef-a3be" name="Warlord Titan" hidden="false" collective="false" import="true" targetId="5122-cb02-8703-ce88" type="selectionEntry">
+    <entryLink id="667a-5227-d5ef-a3be" name="战将泰坦" hidden="false" collective="false" import="true" targetId="5122-cb02-8703-ce88" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="fd7f-32e2-ba13-32eb" name="New CategoryLink" hidden="false" targetId="3f71-3a59-3b75-4ecf" primary="true"/>
       </categoryLinks>
@@ -732,7 +743,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
         <categoryLink id="c7b6-19f8-a5be-cf3e" name="New CategoryLink" hidden="false" targetId="b539-a35c-fe3f-9c34" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a8fa-2809-75a8-6e64" name="Loyalist" hidden="false" collective="false" import="true" targetId="43fb-83e1-2c6b-100c" type="selectionEntry"/>
+    <entryLink id="a8fa-2809-75a8-6e64" name="忠诚" hidden="false" collective="false" import="true" targetId="43fb-83e1-2c6b-100c" type="selectionEntry"/>
     <entryLink id="7da7-ab94-74dc-4f0b" name="反叛" hidden="false" collective="false" import="true" targetId="d634-d27a-fd9c-3f8f" type="selectionEntry"/>
     <entryLink id="a1bd-5e44-b104-e557" name="Noble Sacrifice" hidden="false" collective="false" import="true" targetId="b450-3a86-ecdf-39fc" type="selectionEntry"/>
     <entryLink id="6455-c5b2-c05a-ea5e" name="Outflank" hidden="false" collective="false" import="true" targetId="8d52-2df6-feda-18f8" type="selectionEntry"/>
@@ -746,22 +757,22 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
     <entryLink id="25e1-31f1-f29f-5b32" name="Apocalypse Missile Strongpoint" hidden="false" collective="false" import="true" targetId="2aaf-da08-f744-14f6" type="selectionEntry"/>
     <entryLink id="9562-ac8d-0e47-78b4" name="Plasma Generator" hidden="false" collective="false" import="true" targetId="43a6-b634-7e41-d6c9" type="selectionEntry"/>
     <entryLink id="00f9-13d0-2a6f-f152" name="Communications Relay" hidden="false" collective="false" import="true" targetId="2ce9-9861-420c-d8e8" type="selectionEntry"/>
-    <entryLink id="317a-6c79-0415-2f60" name="Macro Cannon Battery" hidden="false" collective="false" import="true" targetId="0e1f-c7a0-8a50-0e5e" type="selectionEntry"/>
+    <entryLink id="317a-6c79-0415-2f60" name="宏炮阵列" hidden="false" collective="false" import="true" targetId="0e1f-c7a0-8a50-0e5e" type="selectionEntry"/>
     <entryLink id="d91d-3b38-7ded-3de9" name="Void Shield Relay" hidden="false" collective="false" import="true" targetId="2cb4-be64-ab48-66fb" type="selectionEntry"/>
     <entryLink id="0842-f564-d817-f9be" name="Arcus Battleline Maniple" hidden="false" collective="false" import="true" targetId="ff4b-fa85-f846-e378" type="selectionEntry"/>
     <entryLink id="9320-eb20-eb33-deca" name="Ruptura Battleline Maniple" hidden="false" collective="false" import="true" targetId="719e-13a7-d3cd-19bc" type="selectionEntry"/>
-    <entryLink id="aebf-4a76-813a-494e" name="Warhound Titan" hidden="false" collective="false" import="true" targetId="3ad7-cd10-8d6e-8c2e" type="selectionEntry">
+    <entryLink id="aebf-4a76-813a-494e" name="战犬泰坦" hidden="false" collective="false" import="true" targetId="3ad7-cd10-8d6e-8c2e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a24d-4887-5c00-01a9" name="New CategoryLink" hidden="false" targetId="3f71-3a59-3b75-4ecf" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b717-38fc-1536-f293" name="Warbringer Nemesis Titan" hidden="false" collective="false" import="true" targetId="d2b6-f342-ccdb-b9cc" type="selectionEntry">
+    <entryLink id="b717-38fc-1536-f293" name="战神天罚泰坦" hidden="false" collective="false" import="true" targetId="d2b6-f342-ccdb-b9cc" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="adde-353e-0207-cfb6" name="New CategoryLink" hidden="false" targetId="3f71-3a59-3b75-4ecf" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="cf4c-ca4b-995f-ecfc" name="Questoris Knight Banner" hidden="false" collective="false" import="true" targetId="812b-786b-9435-cd20" type="selectionEntry"/>
-    <entryLink id="80c3-58d3-fca2-394f" name="Warlord-Sinister Titan" hidden="false" collective="false" import="true" targetId="dfeb-83af-7b26-622a" type="selectionEntry">
+    <entryLink id="cf4c-ca4b-995f-ecfc" name="巡游骑士Banner" hidden="false" collective="false" import="true" targetId="812b-786b-9435-cd20" type="selectionEntry"/>
+    <entryLink id="80c3-58d3-fca2-394f" name="恶将泰坦" hidden="false" collective="false" import="true" targetId="dfeb-83af-7b26-622a" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="3542-a0f1-8d51-4ad7" name="New CategoryLink" hidden="false" targetId="3f71-3a59-3b75-4ecf" primary="true"/>
       </categoryLinks>
@@ -3054,7 +3065,7 @@ If the Destroying Terrain special rule is in use, the terrain takes hits as norm
             </modifier>
           </modifiers>
           <entryLinks>
-            <entryLink id="f702-1c9a-19d8-0d38" name="Replace 1 Warhound with a Reaver" hidden="false" collective="false" import="true" targetId="c07c-f050-45e2-1376" type="selectionEntry">
+            <entryLink id="f702-1c9a-19d8-0d38" name="=Gryphonicus= Warhound replacement Reaver" hidden="false" collective="false" import="true" targetId="c07c-f050-45e2-1376" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="name" value="Reaver Titan (Additional)"/>
               </modifiers>
